@@ -1,0 +1,511 @@
+{
+  "collected_at_utc": "2026-10-12T22:53:21.847964+00:00",
+  "scope_alias": "reopen_after_cancellation_then_official_repair",
+  "prior_bootstrap_error_events": [
+    {
+      "timestamp_utc": "2026-10-12T22:40:43.738000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "error failed to read metadata for install at [redacted] riot [redacted] riot client from [redacted] data riot [redacted] metadata riot client [redacted] update failed to open [redacted] data riot [redacted] metadata riot client riot client [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:40:43.836000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "error update failed failed [redacted] to [redacted] executable file [redacted] could not be found in [redacted] riot [redacted] riot client riot client services [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [
+        "RiotClientServices.exe"
+      ],
+      "public_enum_fields": []
+    }
+  ],
+  "post_repair_public_component": {
+    "collected_at_utc": "2026-10-12T22:53:22.642299+00:00",
+    "component": "RiotClientServices.exe",
+    "bytes": 76543296,
+    "sha256_first": "cb802225b8db5322026a20672c3f91957fc0d638d5aba71430b243671d7b0090",
+    "file_versions": [
+      "141.0.4.5083"
+    ],
+    "machine": 34404,
+    "sha256_second": "cb802225b8db5322026a20672c3f91957fc0d638d5aba71430b243671d7b0090",
+    "stable_hash": true,
+    "public_metadata_file_presence": [],
+    "metadata_method": "Presence/size only; no configuration contents or authentication read"
+  },
+  "post_repair_recent_events": [
+    {
+      "timestamp_utc": "2026-10-12T22:51:41.954000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch status [redacted] install [redacted] live starting at state [redacted] to [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:51:41.954000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] patch state install [redacted] live [redacted] states unknown out of [redacted] because mismatch [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:51:41.961000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] writing [redacted] riot [redacted] live for [redacted] live",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:51:41.969000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] on [redacted] of [redacted] not initialized",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:51:41.979000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "error [redacted] http response to [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:51:42.111000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "error [redacted] failed [redacted] is [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:51:42.118000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] riot client [redacted] state for [redacted] updating [redacted] status manager",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:51:42.138000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch loading manifest [redacted] data riot [redacted] metadata [redacted] live [redacted] live [redacted] manifest for [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:51:42.183000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch creating update [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:51:42.248000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] completed in [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:51:42.311000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch delete install [redacted] deleting install [redacted] live",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:51:42.334000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch loading manifest [redacted] data riot [redacted] metadata [redacted] live [redacted] live [redacted] manifest for [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:51:42.470000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch creating update [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:51:42.975000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] completed in [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:51:42.986000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch delete install [redacted] deleting install [redacted] live",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:51:43.671000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] game client [redacted] with client [redacted] content [redacted] league_of_legends content [redacted] and [redacted] are [redacted] content [redacted] content [redacted] content [redacted] riotclient metadata permissions denied [redacted] game reason [redacted] game reason [redacted] game reason [redacted] permissions [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] content [redacted] riotclient [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:51:43.715000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] game client [redacted] with client [redacted] content [redacted] league_of_legends content [redacted] content [redacted] content [redacted] riotclient metadata permissions denied [redacted] game reason [redacted] game reason [redacted] game reason [redacted] permissions [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] content [redacted] riotclient [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:51:43.716000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] game client [redacted] with client [redacted] content [redacted] content [redacted] of [redacted] in [redacted] content [redacted] content [redacted] content [redacted] riotclient metadata permissions denied [redacted] game reason [redacted] game reason [redacted] game reason [redacted] permissions [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] content [redacted] riotclient [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:51:43.779000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] game client [redacted] with client [redacted] content [redacted] content [redacted] for the [redacted] content [redacted] content [redacted] content [redacted] riotclient metadata permissions denied [redacted] game reason [redacted] game reason [redacted] game reason [redacted] permissions [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] content [redacted] riotclient [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:51:43.781000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] game client [redacted] with client [redacted] content [redacted] league_of_legends content [redacted] this is [redacted] content [redacted] content [redacted] content [redacted] riotclient metadata permissions denied [redacted] game reason [redacted] game reason [redacted] game reason [redacted] permissions [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] content [redacted] riotclient [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:51:45.291000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] service [redacted] offset [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:52:10.530000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] game client [redacted] with client [redacted] league_of_legends section game [redacted] riotclient metadata permissions denied [redacted] game reason [redacted] game reason [redacted] game reason [redacted] permissions [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] content [redacted] riotclient [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:52:10.531000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] game client [redacted] with client [redacted] league_of_legends section game [redacted] riotclient metadata permissions denied [redacted] game reason [redacted] game reason [redacted] game reason [redacted] permissions [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] content [redacted] riotclient [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:52:10.532000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] game client [redacted] with client [redacted] league_of_legends riotclient metadata permissions denied [redacted] game reason [redacted] game reason [redacted] game reason [redacted] permissions [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] content [redacted] riotclient [redacted] league_of_legends [redacted] live [redacted] league_of_legends [redacted] live [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:52:10.574000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] game client [redacted] with client [redacted] live [redacted] league_of_legends riotclient metadata permissions denied [redacted] game reason [redacted] game reason [redacted] game reason [redacted] permissions [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] content [redacted] riotclient [redacted] league_of_legends [redacted] live",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:52:11.095000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status [redacted] service status [redacted] for riot client [redacted] live [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:52:11.095000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:52:11.136000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status no [redacted] for [redacted] riotclient and [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:52:11.136000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status no [redacted] for [redacted] riotclient and [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:52:11.137000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status [redacted] service status [redacted] for league_of_legends [redacted] live [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:52:11.275000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] game client [redacted] with client [redacted] live [redacted] state update [redacted] league_of_legends riotclient metadata permissions denied [redacted] game reason [redacted] game reason [redacted] game reason [redacted] permissions [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] content [redacted] riotclient [redacted] league_of_legends [redacted] live",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:52:11.392000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] game client [redacted] with client [redacted] live [redacted] state update [redacted] league_of_legends riotclient metadata permissions denied [redacted] game reason [redacted] game reason [redacted] game reason [redacted] permissions [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] content [redacted] riotclient [redacted] league_of_legends [redacted] live",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:52:11.600000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] game client [redacted] with client [redacted] live [redacted] league_of_legends [redacted] content [redacted] riotclient metadata permissions denied [redacted] game reason [redacted] game reason [redacted] game reason [redacted] permissions [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] content [redacted] riotclient [redacted] league_of_legends [redacted] live [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:52:12.268000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] game client [redacted] with client [redacted] live [redacted] game [redacted] state update [redacted] league_of_legends [redacted] content [redacted] league_of_legends content [redacted] the [redacted] content [redacted] content [redacted] game [redacted] riotclient metadata permissions denied [redacted] game reason [redacted] game reason [redacted] game reason [redacted] permissions [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] content [redacted] riotclient [redacted] league_of_legends [redacted] live [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:52:12.269000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] game client [redacted] with client [redacted] live [redacted] game [redacted] state update [redacted] league_of_legends [redacted] content [redacted] league_of_legends content [redacted] from the [redacted] content [redacted] content [redacted] game [redacted] riotclient metadata permissions denied [redacted] game reason [redacted] game reason [redacted] game reason [redacted] permissions [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] content [redacted] riotclient [redacted] league_of_legends [redacted] live [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:52:12.275000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] game client [redacted] with client [redacted] live [redacted] game [redacted] state update [redacted] league_of_legends [redacted] content [redacted] league_of_legends content [redacted] is league of legends [redacted] by [redacted] content [redacted] content [redacted] game [redacted] riotclient metadata permissions denied [redacted] game reason [redacted] game reason [redacted] game reason [redacted] permissions [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] content [redacted] riotclient [redacted] league_of_legends [redacted] live [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:52:12.278000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] game client [redacted] with client [redacted] live [redacted] game [redacted] state update [redacted] league_of_legends [redacted] content [redacted] league_of_legends content [redacted] content [redacted] content [redacted] game [redacted] riotclient metadata permissions denied [redacted] game reason [redacted] game reason [redacted] game reason [redacted] permissions [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] content [redacted] riotclient [redacted] league_of_legends [redacted] live [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T22:52:29.976000+00:00",
+      "source": "riot_general_recent_log",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] game client [redacted] with client [redacted] live [redacted] complete [redacted] league_of_legends [redacted] content [redacted] riotclient metadata permissions denied [redacted] game reason [redacted] game reason [redacted] game reason [redacted] permissions [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] content [redacted] riotclient [redacted] league_of_legends [redacted] live [redacted]",
+      "public_hex_codes": [],
+      "public_numeric_error_fields": [],
+      "public_symbolic_errors": [],
+      "public_basename_mentions": [],
+      "public_enum_fields": []
+    }
+  ],
+  "timing_anchors": [
+    {
+      "source": "riot_general_recent_log",
+      "anchor_utc": "2026-10-12T22:51:32.074000+00:00",
+      "basis": "naive_clock_inferred_from_mtime",
+      "difference_seconds": 0.609615
+    },
+    {
+      "source": "riot_general_recent_log",
+      "anchor_utc": "2026-10-12T22:51:29.696000+00:00",
+      "basis": "naive_clock_inferred_from_mtime",
+      "difference_seconds": 0.001772
+    },
+    {
+      "source": "riot_general_recent_log",
+      "anchor_utc": "2026-10-12T22:50:52.433000+00:00",
+      "basis": "naive_clock_inferred_from_mtime",
+      "difference_seconds": 0.693615
+    },
+    {
+      "source": "riot_general_recent_log",
+      "anchor_utc": "2026-10-12T22:50:46.441000+00:00",
+      "basis": "naive_clock_inferred_from_mtime",
+      "difference_seconds": 0.00216
+    }
+  ],
+  "read_summary": {
+    "files_read": 8,
+    "lines_examined": 4563,
+    "auth_or_identity_context_lines_excluded": 173
+  },
+  "recovery_observation_from_parent": {
+    "official_installer_repair_performed": true,
+    "normal_wrapper_units_active": true,
+    "native_ui_opened_loading_without_previous_couldnt_update_dialog": true,
+    "asar_sha256_reported": "c59631b545fb11ccde204c901cb73bd9a7ba273e51e95cbf5f7ac51e606a7e60",
+    "provenance": "UI/state and ASAR observations supplied by the parent task, not independently inspected by this collector"
+  },
+  "conclusion": {
+    "prior_observed_failure": "Launcher failed to read/open Riot Client installation metadata and then reported an update failure mentioning RiotClientServices.exe",
+    "public_basename_of_failed_metadata_file_identified": false,
+    "specific_expected_packaging_structure_identified": false,
+    "new_terminal_bootstrap_error_identified_in_preserved_post_repair_sample": false,
+    "repair_recovery_scope": "Native UI reopened as reported; client metadata validity, game launch and Vanguard acceptance were not independently validated"
+  },
+  "privacy_policy": "Closed vocabulary, fixed public code/name allowlists; unknown words and identifiers removed. Auth/identity-context lines excluded. No raw lines, log filenames, account names, emails, tokens, URLs, account paths, process arguments, auth configuration or lockfile values exported.",
+  "limits": "Latest technical events in the last 30 minutes. Relative timestamps use an explicit start header or clock interpretation checked within two seconds of mtime. Redaction can hide decisive information. File-basename mentions do not imply that file is absent. No UI actions, guest writes, starts or stops. Public metadata-path probes were limited fixed presence/size checks; an empty result does not establish absence of all metadata. State-payload enum mentions do not establish active permission errors."
+}

@@ -487,8 +487,8 @@
     },
     {
       "path": "work/lol-client/read-patcher-state.py",
-      "source_sha256": "f9d188ab4b71528e6eb585e81ab4ea677623c5d5d81e568ca74a0329926e563b",
-      "published_sha256": "f9d188ab4b71528e6eb585e81ab4ea677623c5d5d81e568ca74a0329926e563b",
+      "source_sha256": "8096d906b984ddb0d93c05df36abf98c29ee13382782e8c8c4292d10fdfcf3f7",
+      "published_sha256": "8096d906b984ddb0d93c05df36abf98c29ee13382782e8c8c4292d10fdfcf3f7",
       "sanitized_or_normalized": false
     },
     {
@@ -652,6 +652,84 @@
       "source_sha256": "4636f65d2f003e8b93f20a6283f89db0f5cd5148d161960229e1f4f278549da4",
       "published_sha256": "afbb2daf85a2cd5417c273bdf8c5c52bdd07bf167b0a676b5a68df0507479ba2",
       "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/PROXIMOS_PASSOS.md",
+      "source_sha256": "e36309905d83b16b8cf6d70b188e7df587bdb12be5f0ccd7e16edb800bc61947",
+      "published_sha256": "e36309905d83b16b8cf6d70b188e7df587bdb12be5f0ccd7e16edb800bc61947",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "outputs/avaliacao-rea.md",
+      "source_sha256": "9b7d14dc0cf144639cd8fab5b2a6f9731838ec4c08e1d9b0b4e477fee16318ba",
+      "published_sha256": "9b7d14dc0cf144639cd8fab5b2a6f9731838ec4c08e1d9b0b4e477fee16318ba",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "outputs/lol-arch-lab/retomada-download.md",
+      "source_sha256": "3fec70487ff35dcd0e0946d126fd6bd652e5df709f938a52fbdfa5d9ae2bf4d3",
+      "published_sha256": "3fec70487ff35dcd0e0946d126fd6bd652e5df709f938a52fbdfa5d9ae2bf4d3",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "outputs/lol-arch-lab/contrato-patcher-apos-reparo.json",
+      "source_sha256": "c8e179fc760f7552b4274953a14b3b9c11f31d556d3f0d2dba8153c6d262cdee",
+      "published_sha256": "3ac724e1cc54830dc38e185d68443134b98dd1002443e3d03bc90628fd43caba",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/estado-patcher-antes-reparo-jogo.json",
+      "source_sha256": "161b6457a32eca21197d99f42164656471f012386580a6636733a97532ddae6a",
+      "published_sha256": "33c8808cbd8e1f33d94fa2ddca9d47681c9691b7a2dc8640fdcd8f6bf144fac6",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/estado-patcher-apos-reparo-jogo.json",
+      "source_sha256": "9fe1e8da4db8142bda5782d65c67019221fe187264d0c68869913ac9326e0bff",
+      "published_sha256": "ee202eafb0517e95ce1b2064857f1c2cfb0f98ccee66f4d2827b6efecb8d54f8",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/estado-patcher-progresso-retomada.json",
+      "source_sha256": "9494d4f12c282051f6885278bf377259f9f71dc026dd15a25457007538556675",
+      "published_sha256": "2911d866ad011073b88b44c97690c421a001666764fb81b096e6c3f879ecbf17",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/estado-patcher-retomada-final.json",
+      "source_sha256": "91505f2195f291211ac6468c17fba8a702542ba0a4ee09042440926dc62569b7",
+      "published_sha256": "13be0b2a2ff11b850e3ab144cbe53bfff7e92fe1119ce2454421571ed1a4a620",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/erro-reabertura-apos-cancelar.md",
+      "source_sha256": "dcdb353f8a9ebbb76a56a1b16e7a5a035d47cb79f104914bedc2dc902e77c59b",
+      "published_sha256": "5a306b4be5da264cc0a43dc4d179456206a2950fd197cdacb95b590b9f418e03",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/erro-reabertura-apos-cancelar.json",
+      "source_sha256": "e39ba0b10a947ace37812bd6f6ed268b6bc396d956e893ed7131813e9898fe0e",
+      "published_sha256": "40e2863f9a6b8994da58f96adad5ea1ca77db6d0500c9d81e91486632d19a163",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "work/lol-client/inspect-repaired-contract.py",
+      "source_sha256": "a19222df04c8536296572e7e4fcdbb0fa3b6969acd73df4f01ba3bbdcfaab506",
+      "published_sha256": "a19222df04c8536296572e7e4fcdbb0fa3b6969acd73df4f01ba3bbdcfaab506",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "outputs/lol-arch-lab/estado-patcher-atual.json",
+      "source_sha256": "5dc263f34135e0ecda9e549086c78727d75e5e11eb1b7770b9d4710c8b10a1ca",
+      "published_sha256": "4393d41f333023bf8b24a6956137ea1a1741cf64bdf13ca9c92beda84d66d7b3",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/estado-patcher-apos-regiao.json",
+      "source_sha256": "ebc9827d32664cb1f631067a07dd59d57775f7a8806b2f1d80931360a547626d",
+      "published_sha256": "fddc3d86e6fd5d3077361964c9874b7dd01106558da490affaef46ae3864a8f3",
+      "sanitized_or_normalized": true
     }
   ],
   "excluded_individual_files": [
@@ -725,5 +803,9 @@
     "vendor",
     "vm"
   ],
-  "original_source_unchanged": true
+  "original_source_unchanged": false,
+  "continuation_date": "2026-10-12",
+  "updated_authorial_sources": [
+    "work/lol-client/read-patcher-state.py"
+  ]
 }

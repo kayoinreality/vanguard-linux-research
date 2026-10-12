@@ -10,10 +10,10 @@ Arquivo do estudo de engenharia reversa e compatibilidade entre Riot Vanguard, L
 | Driver `vgk.sys` | Análise estática da entrada e de duas janelas de código, com desassemblagem e limites documentados |
 | ArchGuard Lab 0.1 | Serviço original em espaço de usuário; comunicação por socket Unix e integridade de arquivo próprio; 18 testes de integração registrados |
 | Riot Client no Arch | Login observado com interface original em Electron Linux e serviço Windows pelo Wine |
-| Instalação e lançamento do LoL | Evidências de download, migração e estado do patcher; último diagnóstico registra `launchable=false`, sem causa conclusiva |
+| Instalação e lançamento do LoL | Lançador reparado; avanço de bytes confirmado; `Play` solicitou região Brasil/português, seguida de atualização; abertura do jogo ainda pendente |
 | Partida e integração com Vanguard | Compatibilidade ainda não demonstrada; nenhum substituto do Vanguard ou bypass implementado |
 
-Os estados, versões e resultados refletem as coletas datadas. Não representam uma nova validação de execução feita durante a publicação.
+Os estados, versões e resultados refletem as coletas datadas. Os testes do ArchGuard e os inventários iniciais são históricos; a retomada do lançador e do download tem novas evidências de 12/10/2026.
 
 ## Começar a leitura
 
@@ -22,9 +22,21 @@ Os estados, versões e resultados refletem as coletas datadas. Não representam 
 - [Análise do driver](outputs/analise-driver-vgk.md) e [rotina chamada](outputs/vgk-callee-estatico.md)
 - [Viabilidade da interface nativa](outputs/viabilidade-ui-nativa.md)
 - [Cliente Riot, instalação e limites](outputs/lol-arch-lab/README.md)
-- [Último diagnóstico de atualização e lançamento](outputs/lol-arch-lab/diagnostico-atualizacao-launch.md)
+- [Diagnóstico histórico de atualização e lançamento](outputs/lol-arch-lab/diagnostico-atualizacao-launch.md)
+- [Retomada e progresso da atualização](outputs/lol-arch-lab/retomada-download.md)
+- [Contrato estático do GET do Patcher, progresso e CA local](outputs/patcher-get-contrato-estatico.md)
 - [ArchGuard Lab: código, protocolo e testes](outputs/archguard-lab/README.md)
 - [Laboratório Arch/Hyper-V](outputs/arch-lab/LEIA-ME.md)
+- [Próximos passos e critérios de conclusão](outputs/PROXIMOS_PASSOS.md)
+- [Avaliação do REA para análise estática do ASAR e do driver](outputs/avaliacao-rea.md)
+
+## Retomar o estudo
+
+Os fontes do ArchGuard continuam em `outputs/archguard-lab/`; esta etapa não os duplica ou reorganiza. Seu instalador atual exige Arch em Hyper-V e uma conta de laboratório genérica chamada `lab`. A abertura da interface Riot com Electron Linux manteve o backend Windows sob Wine. O jogo ainda não foi validado de ponta a ponta e nenhum substituto do Vanguard foi implementado.
+
+A retomada reparou o lançador preservando os volumes. As consultas GET confirmaram avanço de bytes em etapas de atualização; `Play` mostrou a escolha de região, e Brasil/português foram aplicados. A coleta seguinte mostrou atualização em andamento. A conclusão da instalação, a abertura do jogo e a partida exigem evidências separadas. Consulte a [evidência da retomada](outputs/lol-arch-lab/retomada-download.md) e os [critérios de continuação](outputs/PROXIMOS_PASSOS.md).
+
+O REA foi avaliado por leitura de documentação e código. O piloto proposto começa pela análise estática do ASAR e segue para cópias do driver com Ghidra; nenhuma instalação ou execução do REA foi realizada nesta etapa.
 
 ## Organização
 

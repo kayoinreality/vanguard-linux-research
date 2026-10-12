@@ -1,6 +1,10 @@
 # Registro da publicação
 
-Publicado a partir do material local existente em 12 de outubro de 2026. Os arquivos originais permanecem no ambiente privado, sem alterações.
+A publicação inicial foi preparada a partir do material local existente em 12 de outubro de 2026. Os arquivos privados mantidos fora do repositório estão descritos abaixo.
+
+## Continuação em 12/10/2026
+
+A retomada acrescenta evidências sanitizadas de reparo do lançador e avanço da atualização, uma avaliação do REA por leitura de fontes primárias e critérios de continuação. O coletor autoral de estado foi atualizado para reconhecer o ASAR obtido no reparo oficial e exportar campos públicos adicionais. O manifesto reflete os arquivos incluídos nesta continuação; não houve alteração do protótipo ArchGuard.
 
 ## Material preservado
 
