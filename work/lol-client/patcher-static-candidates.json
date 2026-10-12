@@ -1,0 +1,1047 @@
+{
+  "inspected_at_utc": "2026-10-12T14:22:21.862250+00:00",
+  "archive_sha256": "5d346edfd1c69648643b2633ac75430db4722ad974b80521ff909759f26b88a6",
+  "archive_bytes": 154483710,
+  "scope": "Static public bundled JS only; no process arguments, auth configuration, lockfiles, private logs, API requests or UI changes.",
+  "files": {
+    "dist/main/main.js": {
+      "bytes": 2351415,
+      "sha256": "b66407055f0904fb1d559b485e08e35b4d42d1395122047863e5cb653c91c805",
+      "endpoint_literals": [],
+      "related_identifier_names": [
+        "StartupPerfPhases",
+        "__patched",
+        "_cancellationPhase",
+        "_dispatch",
+        "_handlePaused",
+        "_patchEventEmitter",
+        "_patchOperation",
+        "_paused",
+        "_reason",
+        "_reconnectInProgress",
+        "beginPhase",
+        "collectPhases",
+        "dispatch",
+        "dispatchEvent",
+        "dispatchRequest",
+        "dispatching",
+        "endPhase",
+        "enphase",
+        "hasRequiredDispatchRequest",
+        "in_progress",
+        "onDownloadProgress",
+        "onUploadProgress",
+        "proppatch",
+        "rejectionReason",
+        "requireDispatchRequest",
+        "setPauseOnExceptions",
+        "timingPhases"
+      ],
+      "patcher_contexts": [],
+      "public_auth_contract_contexts": [
+        {
+          "public_term": "Authorization",
+          "character_offset": 788431,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "Authorization",
+          "character_offset": 809836,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "Authorization",
+          "character_offset": 837965,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "Authorization",
+          "character_offset": 986719,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "Authorization",
+          "character_offset": 1500639,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "Basic ",
+          "character_offset": 788446,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "Basic ",
+          "character_offset": 809853,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "Basic ",
+          "character_offset": 824105,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "Basic ",
+          "character_offset": 837980,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "Basic ",
+          "character_offset": 986736,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "base64",
+          "character_offset": 34258,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "base64",
+          "character_offset": 34397,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "base64",
+          "character_offset": 35044,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "base64",
+          "character_offset": 35109,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "base64",
+          "character_offset": 38721,
+          "context": "[third-party source excerpt omitted from public archive]"
+        }
+      ]
+    },
+    "dist/renderer/renderer.js": {
+      "bytes": 11240852,
+      "sha256": "1538c502d3a67e8b8181801f2b5f406b0ee7a2c2833761a5bca749d3cb5e13e1",
+      "endpoint_literals": [
+        {
+          "path_literal": "/product-localization/v1/products/${Ke}/patchlines/${Qe}/translations/${this.clientLocale}",
+          "character_offset": 422958,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/patch-proxy/v1/patch-states/products/${Ke}/patchlines/${Qe}",
+          "character_offset": 608452,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/patch-proxy/v1/priority-patch-jobs/products/${Ke}/patchlines/${Qe}",
+          "character_offset": 608562,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/patch-proxy/v1/patch-jobs/all",
+          "character_offset": 608671,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/rnet-product-registry/v4/priority-patch-requests/products/${Ke}/patchlines/${Qe}",
+          "character_offset": 610264,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/patch-proxy/v1/patch-states/products/${Ge}/patchlines/${Ke.id}",
+          "character_offset": 614242,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/data-store/v1/install-settings/patch-notes",
+          "character_offset": 788612,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/rnet-product-registry/v4/products/${Ge}/patchlines/${Ke}",
+          "character_offset": 1018452,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/patch-proxy/v1/active-updates",
+          "character_offset": 1021587,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/data-store/v1/install-settings/last-selected-patchlines",
+          "character_offset": 1024169,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/patch-proxy/v2/patch-states/refresh",
+          "character_offset": 1026556,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/patch-proxy/v2/patch-states/products/${Ge}/patchlines/${Ke}",
+          "character_offset": 1026636,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/patch-proxy/v2/priority-patch/products/${Ge}/patchlines/${Ke}",
+          "character_offset": 1026742,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/patch-proxy/v2/patch-jobs/products/${Ge}/patchlines/${Ke}",
+          "character_offset": 1026846,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/rnet-product-registry/v4/patch-requests/products/${Ge}/patchlines/${Ke}/retry-dependencies",
+          "character_offset": 6068632,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/rnet-product-registry/v4/products/${Ge}/patchlines/${Ke}/shortcut",
+          "character_offset": 6080859,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/rnet-product-registry/v4/products/${wt.product_id}/patchlines/${wt.patchline_id}/shortcut",
+          "character_offset": 6081682,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/rnet-product-registry/v4/products/${kt}/patchlines/${Nt}",
+          "character_offset": 6082259,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/client-config/v1/config/patcher.patch.scd_private_content_url_patterns?type=public",
+          "character_offset": 6097058,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/product-launcher/v1/products/${Ge}/patchlines/${Ke}/rogue-process/${yt}/${pt}",
+          "character_offset": 6146506,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/data-store/v1/system-settings/app/disable_patching",
+          "character_offset": 6148214,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/rnet-product-registry/v1/move-install-requests/products/${this.props.productId}/patchlines/${this.props.patchlineId}",
+          "character_offset": 6170703,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/rnet-product-registry/v1/move-install-states/products/${this.props.productId}/patchlines/${this.props.patchlineId}",
+          "character_offset": 6172124,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/product-launcher/v1/compat-mode/products/${Ge}/patchlines/${Ke}",
+          "character_offset": 6177137,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/product-launcher/v1/products/${applyPathParameter(Ge)}/patchlines/${applyPathParameter(Ke)}/eligibility",
+          "character_offset": 6177253,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/product-launcher/v1/products/${Ke}/patchlines/${Qe}?clickWallMs=${tn}",
+          "character_offset": 6181119,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/rnet-product-registry/v1/verify-install/products/${Ke}/patchlines/${Qe}",
+          "character_offset": 6181618,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/product-launcher/v1/products/${Ke}/patchlines/${Qe}?clickWallMs=${yn}",
+          "character_offset": 6184759,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/product-launcher/v1/products/${Ke}/patchlines/${Qe}",
+          "character_offset": 6187921,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/products/${Ke}/patchlines/${Qe}",
+          "character_offset": 6189682,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/products/${rt}/patchlines/${lt}",
+          "character_offset": 6369456,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/products/${Ke.productId}/patchlines/${Ke.patchlineId}",
+          "character_offset": 6375277,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/download/",
+          "character_offset": 7505231,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/pbe-download/",
+          "character_offset": 7505257,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/products/arcane/patchlines/([^/]+)",
+          "character_offset": 8623270,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/products/([^/]+)/patchlines/([^/]+)",
+          "character_offset": 8623334,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/products/${it.aliasProduct.id}/patchlines/${ut}",
+          "character_offset": 8625507,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/products/${it}/patchlines/${rt}",
+          "character_offset": 8631292,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/products/${Ge}/patchlines/${it}",
+          "character_offset": 9294977,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/rnet-product-registry/v4/products/${ProductId.TeamfightTacticsGameHub}/patchlines/${Ke}/shortcut",
+          "character_offset": 9307606,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/riot-status/v1/riotclient?patchlineId=${this.props.patchlineOverride}",
+          "character_offset": 9350152,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/riot-status/v1/products/${tt}/patchlines/${nt}/deployments/${rt}",
+          "character_offset": 9351516,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/data-store/v1/system-settings/patchline_status_override",
+          "character_offset": 9353997,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/products/${Qe}/patchlines/${Ke}",
+          "character_offset": 9423173,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/data-store/v1/system-settings/build/patchline-visible-name",
+          "character_offset": 9678531,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/product-localization/v1/products/${Je}/patchlines/${tt}/translations/${nt}",
+          "character_offset": 9681103,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/product-localization/v1/products/${Qe}/patchlines/${Ze}/translations/${Ke}",
+          "character_offset": 9681359,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/patch/v1/installs/${Ge}/status/patch",
+          "character_offset": 10054573,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/rnet-product-registry/v4/products/${Qe}/patchlines/${Ze}/shortcut",
+          "character_offset": 10062824,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/patch-proxy/v2/install-states",
+          "character_offset": 10076788,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/client-feature-flags/v1/flags/use_patch_proxy_v2/enabled",
+          "character_offset": 10077222,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/products/:productId/patchlines/:patchlineId",
+          "character_offset": 10098848,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/products/${Ke}/patchlines",
+          "character_offset": 10322431,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/products/${Ke}/patchlines/${Ze}",
+          "character_offset": 10322504,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/patch",
+          "character_offset": 10357467,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/products/${Ke}/patchlines/${rt}",
+          "character_offset": 10404371,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/external-message-handler/v1/patch-request",
+          "character_offset": 10578338,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/products/${Ze.productId}/patchlines/${Ze.patchlineId}",
+          "character_offset": 10578745,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/products/${Ze.productId}/patchlines/${it}",
+          "character_offset": 10578846,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/rnet-product-registry/v4/products/${Je.productId}/patchlines/${Je.patchlineId}",
+          "character_offset": 10580514,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/products/${on}/patchlines/${un}",
+          "character_offset": 10582433,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/products/${gn}/patchlines/${un}",
+          "character_offset": 10583194,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "path_literal": "/products/${Je.productId}/patchlines/${Je.patchlineId}",
+          "character_offset": 10583897,
+          "context": "[third-party source excerpt omitted from public archive]"
+        }
+      ],
+      "related_identifier_names": [
+        "$var$dispatchUpdate",
+        "$var$handleAndDispatchCustomEvent",
+        "AccountPausedAge",
+        "AccountPausedModal",
+        "AccountPausedModal$1",
+        "AccountPausedParent",
+        "ActionDispatcherContext",
+        "BonusRewardsProgressContentSchema",
+        "BonusRewardsProgressContentSchema$1",
+        "BugReportProgressModal",
+        "BugReportProgressModal$1",
+        "CarouselProgressBar",
+        "CarouselProgressNavigation",
+        "ChunkingPatcherProgressDataFromPhase",
+        "ChunkingPatcherStateFromCombinedState",
+        "CircularProgress",
+        "CorruptPatchPlan",
+        "FloatingRewardsBonusProgression",
+        "GameStorePurchaseResetReason",
+        "HelmetDispatcher",
+        "InProgress",
+        "LcClassicLevelProgression",
+        "LcClassicLevelProgressionActionSchema",
+        "LcClassicLevelProgressionActionSchema$1",
+        "LcGameflowPhase",
+        "LinearProgress",
+        "ModalProgressBar",
+        "ModalProgressSection",
+        "ModalProgressText",
+        "PermissionDeniedReason",
+        "ReactCurrentDispatcher",
+        "RewardsBonusProgression",
+        "RewardsBonusProgressionBladeSchema",
+        "RewardsBonusProgressionBladeSchema$1",
+        "RewardsBonusProgressionBladeTypeValues",
+        "RewardsBonusProgressionBladeTypeValues$1",
+        "RewardsBonusProgressionBladeTypes",
+        "RewardsBonusProgressionBladeTypes$1",
+        "RewardsBonusProgressionBladeTypesSchema",
+        "RewardsBonusProgressionBladeTypesSchema$1",
+        "RewardsBonusProgressionContent",
+        "RewardsBonusProgressionContractSchema",
+        "RewardsBonusProgressionContractSchema$1",
+        "RichTextPatchNotesBlade",
+        "ScrollProgress",
+        "SetProgress",
+        "StartupPerfPhases",
+        "StructuredPatchNotes",
+        "StructuredPatchNotesBladeContractSchema",
+        "StructuredPatchNotesBladeContractSchema$1",
+        "StructuredPatchNotesBladeSchema",
+        "StructuredPatchNotesBladeSchema$1",
+        "StructuredPatchNotesBladeTypeValues",
+        "StructuredPatchNotesBladeTypeValues$1",
+        "StructuredPatchNotesBladeTypes",
+        "StructuredPatchNotesBladeTypes$1",
+        "StructuredPatchNotesBladeTypesSchema",
+        "StructuredPatchNotesBladeTypesSchema$1",
+        "StructuredPatchNotesBladesContractSchema",
+        "StructuredPatchNotesLayout",
+        "SvgIconPause",
+        "UnableToPause",
+        "_CarouselProgressBar",
+        "_CarouselProgressNavigation",
+        "_PatchNotesRichTextBlade",
+        "_PatchNotesToCContainer",
+        "_Progress",
+        "_RewardsBonusProgression",
+        "_RewardsBonusProgressionContent",
+        "_StructuredPatchNotes",
+        "__scopeProgress",
+        "_onpause",
+        "_pause",
+        "_paused",
+        "_reconnectInProgress",
+        "_workInProgressVersionPrimary",
+        "accountPaused",
+        "accountPausedModal",
+        "advanceIfPaused",
+        "aliasPatchlineId",
+        "allowPatchLineSelection",
+        "animationPatchlineId",
+        "animationThemePatchlineId",
+        "appRouterInvalidPatchRequest",
+        "auth_in_progress",
+        "beginPhase",
+        "birthingPatchlineId",
+        "bonusProgressMessage",
+        "bonusRewardsProgress",
+        "buildPatchProxyV2PatchJobsURI",
+        "buildPatchProxyV2PatchStatesRefreshURI",
+        "buildPatchProxyV2PatchStatesURI",
+        "buildPatchProxyV2PriorityPatchURI",
+        "collectPhases",
+        "combined_patch_state",
+        "computedPatchlineId",
+        "connectionInProgress",
+        "copyIdsForReasons",
+        "createDisabledReason",
+        "createProgressContext",
+        "createProgressScope",
+        "ctaButtonInfiniteProgressLarge",
+        "ctaButtonInfiniteProgressSmall",
+        "currentDispatcherRef",
+        "currentPatchline",
+        "currentPhase",
+        "currentProgress",
+        "debugInProgressModal",
+        "defaultPatchline",
+        "deletePatchJobs",
+        "denialReason",
+        "despatch",
+        "despatched",
+        "despatches",
+        "determineDefaultSelectedPatchline",
+        "determinePatchlineAndUpdate",
+        "disable_patching",
+        "disabledPatchingSetting",
+        "disabledReason",
+        "disabledReasonId",
+        "dispatch",
+        "dispatchAction",
+        "dispatchDiscreteCustomEvent",
+        "dispatchDiscreteCustomEvent$1",
+        "dispatchEvent",
+        "dispatchRiotBarHeaderChanged",
+        "dispatchRouteChangeEvent",
+        "dispatchUpdate",
+        "dispatched",
+        "dispatcher",
+        "dispatches",
+        "dispatching",
+        "displayedPatchlines",
+        "endPhase",
+        "eventPhase",
+        "eyepatch",
+        "failed_to_delete_patch_jobs",
+        "failed_to_post_refresh_product_patchline_patch_state",
+        "failed_to_put_priority_patch",
+        "failureReason",
+        "fetchFailureReason",
+        "fetchPatchlineManifest",
+        "findPatchline",
+        "findProductPatchline",
+        "findProductPatchline$1",
+        "first_patch",
+        "forcePaused",
+        "gameCardTitlePause",
+        "gameCardTitlePaused",
+        "gameRestrictionReason",
+        "gepatcht",
+        "getAliasPatchlineFromProducts",
+        "getDisabledReasonForTelemetry",
+        "getDisplayPatchErrorCode",
+        "getDisplayedPatchlines",
+        "getIdsFromProductPatchlineKey",
+        "getIsPatchingDisabled",
+        "getLastSelectedPatchlineId",
+        "getLongestRestrictionPerReason",
+        "getPatchJobsURI",
+        "getPatchStateURI",
+        "getPatchingDisabledKey",
+        "getPatchingErrorReason",
+        "getPatchline",
+        "getPatchlineData",
+        "getPatchlineDropdownItems",
+        "getPlayButtonStateFromPatchState",
+        "getPlayButtonStateFromPatchStateV2",
+        "getPriorityPatchJobsURI",
+        "getProductDirectPatchRedirect",
+        "getProductPatchlineKey",
+        "getProgressPercentage",
+        "getProgressState",
+        "getRewardsBonusProgressionMetrics",
+        "getScrollProgress",
+        "getSelectedPatchline",
+        "getSelectedPatchlineId",
+        "getSupportedPatchlines",
+        "getUpdatePhaseForPluginPhase",
+        "handleAndDispatchCustomEvent",
+        "handleClickToPause",
+        "handlePatchOrStateError",
+        "handlePatchlineChange",
+        "hasPatchNotes",
+        "hasSeenPatchNote",
+        "has_installed_patchline",
+        "incomingPatchlineId",
+        "install_direct_invalid_patch_request",
+        "interpretChunkingPatchError",
+        "interpretChunkingPatchProgressBytes",
+        "isClickToPauseDisabled",
+        "isExecutionPatchIncrementalResult",
+        "isExecutionPatchInitialResult",
+        "isExecutionPatchResult",
+        "isKnownPatchError",
+        "isPatchNotesLoading",
+        "isPatchRequestPending",
+        "isPatchingDisabled",
+        "isPatchlineLaunchDisabled",
+        "isPaused",
+        "isProductPatchlineInstalled",
+        "isRegistrationInProgress",
+        "isUsePatchProxyV2",
+        "isUsePatchProxyV2Enabled",
+        "jade_patchline_id",
+        "keepPatchlineUpdated",
+        "lastProgressValue",
+        "lastSelectedPatchlines",
+        "lastViewedProgress",
+        "lc_classic_level_progression",
+        "lifecyclePhase",
+        "lifecycleSubphase",
+        "locPauseMessage",
+        "locPausedMessage",
+        "makeEmptyPatchState",
+        "manifestByPatchline",
+        "maybeGetStateWithInitialSelectedPatchlineId",
+        "menopausal",
+        "menopause",
+        "meshpatch",
+        "mockPatchStatus",
+        "modifierPhases",
+        "newPatchProgressData",
+        "normalizeCtaPatchStatus",
+        "observePatchState",
+        "onPatchlineSelected",
+        "onPatchlineVisibleNameChanged",
+        "onPause",
+        "onProgressModalClose",
+        "onpause",
+        "onprogress",
+        "originalPatchlineId",
+        "overallProgress",
+        "patchProgress",
+        "patchProgressData",
+        "percentPatched",
+        "platformReason",
+        "postRefreshProductPatchlinePatchState",
+        "preventPausingOnBlur",
+        "progression__progress",
+        "putPriorityPatch",
+        "queryPatchlineId",
+        "recoverableAccountReason",
+        "removePatchStateObserver",
+        "renderPatchlineSettings",
+        "repairProgress",
+        "repairReason",
+        "replaceRewardsBonusProgressionTokens",
+        "requestPause",
+        "resetReason",
+        "resolveAnimationThemePatchlineId",
+        "restrictionReason",
+        "resumePausedMutations",
+        "retryReason",
+        "rewardsBonusProgression",
+        "rewardsBonusProgressionSkins",
+        "scrollProgress",
+        "selectedPatchline",
+        "selectedPatchlineAlias",
+        "selectedPatchlineId",
+        "setCategoryProgressFromPhase",
+        "setIsPatchRequestPending",
+        "setPatchNoteArticles",
+        "setPatchingError",
+        "setProgress",
+        "setRecoverableAccountReason",
+        "setSelectedPatchlineId",
+        "setShouldPauseBackgroundVideo",
+        "setupDebugInProgress",
+        "shouldPause",
+        "shouldShowProgress",
+        "showProgressModal",
+        "sortPatchlines",
+        "spotifyRequestPause",
+        "startPatch",
+        "startPatching",
+        "startupPerfCollectMainPhases",
+        "stopPatch",
+        "stopPatching",
+        "structuredPatchNotes",
+        "telemetryErrorReason",
+        "telemetryReason",
+        "togglePause",
+        "totalProgress",
+        "treason",
+        "unreasonable",
+        "unstable_pauseExecution",
+        "unsubscribeFromPatchService",
+        "updateDependenciesProgress",
+        "updateDependencyProgress",
+        "updateInProgress",
+        "updateLastSelectedPatchlines",
+        "updatePatchProgress",
+        "updatePhase",
+        "updateProgress",
+        "updateProgressCategories",
+        "updateProgressCategoriesForChunkingPatcher",
+        "updateSelectedProductAndPatchline",
+        "useAvailablePatchlines",
+        "useCTADisabledReason"
+      ],
+      "patcher_contexts": [
+        {
+          "character_offset": 7374,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 83723,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 132791,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 156623,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 156652,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 607261,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 607498,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 610434,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 610653,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 611457,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 611511,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 613811,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 613852,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 614457,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 614522,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1103830,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1103975,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1104107,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1104279,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1104443,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1104636,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1104824,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1104946,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1105029,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1105188,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1105332,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1105491,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1105634,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1105854,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1105995,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1106134,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1106378,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1106588,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1106822,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1106866,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1191978,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1192157,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1192304,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1192537,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1192708,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1192916,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1193163,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1193306,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1193399,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1193573,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1193744,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1193918,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1194098,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1194326,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1194466,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1194623,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1194901,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1195115,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1195374,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1195429,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1287000,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1287196,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1287362,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1287607,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "character_offset": 1287812,
+          "context": "[third-party source excerpt omitted from public archive]"
+        }
+      ],
+      "public_auth_contract_contexts": [
+        {
+          "public_term": "Authorization",
+          "character_offset": 393185,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "Authorization",
+          "character_offset": 394242,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "Authorization",
+          "character_offset": 784918,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "Authorization",
+          "character_offset": 1104845,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "Authorization",
+          "character_offset": 1193184,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "Basic ",
+          "character_offset": 6007410,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "Basic ",
+          "character_offset": 10694006,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "base64",
+          "character_offset": 391854,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "base64",
+          "character_offset": 392021,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "base64",
+          "character_offset": 392419,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "base64",
+          "character_offset": 392511,
+          "context": "[third-party source excerpt omitted from public archive]"
+        },
+        {
+          "public_term": "base64",
+          "character_offset": 494699,
+          "context": "[third-party source excerpt omitted from public archive]"
+        }
+      ]
+    }
+  }
+}

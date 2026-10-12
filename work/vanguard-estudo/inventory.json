@@ -1,0 +1,140 @@
+{
+  "CollectedAtUTC": "2026-10-11T23:34:20.3167161-03:00",
+  "Board": [
+    {
+      "Manufacturer": "Micro-Star International Co., Ltd.",
+      "Product": "H310M PRO-M2 (MS-7B28)",
+      "Version": "2.0"
+    }
+  ],
+  "CPU": [
+    {
+      "Name": "Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz",
+      "NumberOfCores": 6,
+      "NumberOfLogicalProcessors": 12
+    }
+  ],
+  "GPU": [
+    {
+      "Name": "NVIDIA GeForce GTX 1660",
+      "DriverVersion": "32.0.16.1742"
+    },
+    {
+      "Name": "Intel(R) UHD Graphics 630",
+      "DriverVersion": "31.0.101.2140"
+    }
+  ],
+  "BIOS": [
+    {
+      "SMBIOSBIOSVersion": "A.E0",
+      "ReleaseDate": "2024-11-19T21:00:00-03:00"
+    }
+  ],
+  "OS": [
+    {
+      "Caption": "Microsoft Windows 11 Pro",
+      "Version": "10.0.28000",
+      "BuildNumber": "28000"
+    }
+  ],
+  "RAMGiB": 15.9,
+  "HypervisorPresent": true,
+  "SecureBoot": {
+    "Status": "Unavailable",
+    "Reason": "Não é possível definir privilégios apropriados. Acesso negado."
+  },
+  "TPM": {
+    "Status": "Unavailable",
+    "Reason": "No readable TPM status returned"
+  },
+  "VanguardService": [
+    {
+      "Name": "vgc",
+      "State": "Stopped",
+      "StartMode": "Manual",
+      "PathName": "C:\\Program Files\\Riot Vanguard\\vgc.exe"
+    }
+  ],
+  "VanguardDriver": [
+    {
+      "Name": "vgk",
+      "State": "Stopped",
+      "StartMode": "Manual",
+      "PathName": "\\??\\C:\\Program Files\\Riot Vanguard\\vgk.sys"
+    }
+  ],
+  "UserReport": "League of Legends and Vanguard installed and working on Windows; Arch not yet installed.",
+  "Files": [
+    {
+      "Name": "vgc.exe",
+      "Source": "C:\\Program Files\\Riot Vanguard\\vgc.exe",
+      "Snapshot": "C:\\vanguard-linux-research\\work\\vanguard-estudo\\samples\\vgc.exe",
+      "Bytes": 107505544,
+      "SHA256": "C8F330A77351F36E1112D0B94972A735A7747FC33A4AA4735D95F43F01637C51",
+      "FileVersion": "1.19.1-18+20261001.143443",
+      "ProductVersion": "1.19.1-18+20261001.143443",
+      "Signature": "Valid",
+      "Signer": "CN=\"Riot Games, Inc.\", O=\"Riot Games, Inc.\", L=Los Angeles, S=California, C=US, SERIALNUMBER=4155843, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US"
+    },
+    {
+      "Name": "vgk.sys",
+      "Source": "C:\\Program Files\\Riot Vanguard\\vgk.sys",
+      "Snapshot": "C:\\vanguard-linux-research\\work\\vanguard-estudo\\samples\\vgk.sys",
+      "Bytes": 109721528,
+      "SHA256": "8BA32CFBC4A07FD41A082344E23E312515FFAFEF0E568BA72E7D33E83B558F13",
+      "FileVersion": "1.19.1-18+20261001.143443",
+      "ProductVersion": "1.19.1-18+20261001.143443",
+      "Signature": "Valid",
+      "Signer": "CN=\"Riot Games, Inc.\", O=\"Riot Games, Inc.\", L=Los Angeles, S=California, C=US, SERIALNUMBER=4155843, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US"
+    },
+    {
+      "Name": "vgm.exe",
+      "Source": "C:\\Program Files\\Riot Vanguard\\vgm.exe",
+      "Snapshot": "C:\\vanguard-linux-research\\work\\vanguard-estudo\\samples\\vgm.exe",
+      "Bytes": 33861928,
+      "SHA256": "55E25CCE83C8EC9088B99D1193A7AA750609E69ED8CFC7C758076EC3591DE3D9",
+      "FileVersion": "1.19.1-18+20261001.143443",
+      "ProductVersion": "1.19.1-18+20261001.143443",
+      "Signature": "Valid",
+      "Signer": "CN=\"Riot Games, Inc.\", O=\"Riot Games, Inc.\", L=Los Angeles, S=California, C=US, SERIALNUMBER=4155843, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US"
+    },
+    {
+      "Name": "vgrl.dll",
+      "Source": "C:\\Program Files\\Riot Vanguard\\vgrl.dll",
+      "Snapshot": "C:\\vanguard-linux-research\\work\\vanguard-estudo\\samples\\vgrl.dll",
+      "Bytes": 7930376,
+      "SHA256": "D76344BCDA5ACBA14156B090E037CCC270F15D3571D2C629A83F5F7263BE32C0",
+      "FileVersion": "1.19.1-18+20261001.143443",
+      "ProductVersion": "1.19.1-18+20261001.143443",
+      "Signature": "Valid",
+      "Signer": "CN=\"Riot Games, Inc.\", O=\"Riot Games, Inc.\", L=Los Angeles, S=California, C=US, SERIALNUMBER=4155843, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US"
+    },
+    {
+      "Name": "LeagueClient.exe",
+      "Source": "C:\\Riot Games\\League of Legends\\LeagueClient.exe",
+      "Snapshot": "C:\\vanguard-linux-research\\work\\vanguard-estudo\\samples\\LeagueClient.exe",
+      "Bytes": 30936512,
+      "SHA256": "E1C9FDAE2F29F5F8BD94FDA4B5168850989CB06FD651AEB5739FAAA701F5E09C",
+      "FileVersion": "16.20.827.198",
+      "ProductVersion": "16.20.827.198",
+      "Signature": "Valid",
+      "Signer": "CN=\"Riot Games, Inc.\", O=\"Riot Games, Inc.\", L=Los Angeles, S=California, C=US, SERIALNUMBER=4155843, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US"
+    },
+    {
+      "Name": "League of Legends.exe",
+      "Source": "C:\\Riot Games\\League of Legends\\Game\\League of Legends.exe",
+      "Snapshot": "C:\\vanguard-linux-research\\work\\vanguard-estudo\\samples\\League of Legends.exe",
+      "Bytes": 46635448,
+      "SHA256": "F6FD49D6FB21C6CEC23E329CA8A9A7C0809393CB950DAF29CA62CF60A08455C6",
+      "FileVersion": "16.20.824.8524",
+      "ProductVersion": "16.20.824.8524",
+      "Signature": "Valid",
+      "Signer": "CN=\"Riot Games, Inc.\", O=\"Riot Games, Inc.\", L=Los Angeles, S=California, C=US, SERIALNUMBER=4155843, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US"
+    }
+  ],
+  "SecureBootRegistry": {
+    "Source": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\SecureBoot\\State\\UEFISecureBootEnabled",
+    "Value": 1,
+    "Note": "Registry-reported state; the direct UEFI query is recorded separately."
+  }
+}

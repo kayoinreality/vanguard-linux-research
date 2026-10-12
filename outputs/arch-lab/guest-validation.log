@@ -1,0 +1,9 @@
+Validation: passed on the installed Arch Linux VM.
+C compiler: OK
+Rust compiler: OK
+Python and PE parser: OK
+SSH authentication and required services: OK
+Validation status read from the guest:
+success
+2026-10-12T04:02:08Z
+Kernel: 7.2.9-arch1-1

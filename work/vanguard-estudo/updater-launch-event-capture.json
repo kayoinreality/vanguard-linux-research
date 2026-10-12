@@ -1,0 +1,1998 @@
+{
+  "collected_at_utc": "2026-10-12T14:22:18.541769+00:00",
+  "scope_alias": "owned_rcs_updater_launch",
+  "event_cutoff_utc": "2026-10-12T13:55:00+00:00",
+  "focus_cutoff_utc": "2026-10-12T14:04:00+00:00",
+  "anchors": [
+    {
+      "anchor_utc": "2026-10-12T13:38:10.755000+00:00",
+      "basis": "naive_clock_inferred_with_file_mtime",
+      "difference_seconds": 0.237615
+    },
+    {
+      "anchor_utc": "2026-10-12T14:14:18.365000+00:00",
+      "basis": "naive_clock_inferred_with_file_mtime",
+      "difference_seconds": 0.011615
+    },
+    {
+      "anchor_utc": "2026-10-12T14:14:18.660000+00:00",
+      "basis": "naive_clock_inferred_with_file_mtime",
+      "difference_seconds": 0.005615
+    }
+  ],
+  "read_summary": {
+    "files_read": 3,
+    "lines_examined": 3224,
+    "technical_lines_excluded_for_auth_or_identity_context": 5
+  },
+  "selected_events_total_before_cap": 196,
+  "events_last_200": [
+    {
+      "timestamp_utc": "2026-10-12T13:55:01.144000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:01.145000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:03.147000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:03.148000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:05.149000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:05.150000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:07.157000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:07.164000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:09.159000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:09.160000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:10.537000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] service [redacted] updated [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:11.165000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:11.166000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:13.167000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:13.168000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:15.173000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:15.175000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:17.175000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:17.178000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:19.185000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:19.187000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:21.185000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:21.186000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:23.186000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:23.187000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:25.194000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:25.195000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:27.198000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:27.199000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:29.206000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:29.207000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:31.206000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:31.207000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:33.209000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:33.210000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:35.220000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:35.221000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:37.280000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:37.281000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:39.290000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:39.291000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:41.292000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:41.294000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:43.298000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:43.299000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:45.323000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:45.324000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:47.328000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:47.329000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:49.333000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:49.334000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:51.371000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:51.372000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:53.378000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:53.379000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:55.824000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:55.825000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:57.847000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:57.850000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:59.853000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:55:59.854000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:01.853000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:01.853000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:03.860000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:03.866000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:06.142000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:06.143000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:08.202000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:08.203000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:10.228000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:10.229000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:12.235000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:12.235000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:14.248000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:14.249000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:16.252000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:16.253000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:18.647000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:18.648000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:20.180000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:20.706000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:20.707000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:21.360000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:22.713000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:22.714000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:25.003000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:25.004000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:27.081000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:27.082000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:29.131000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:29.132000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:31.144000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:31.145000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:33.148000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:33.148000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:35.158000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:35.158000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:37.167000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:37.168000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:39.167000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:39.168000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:40.138000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] update of [redacted] riot [redacted] league of [redacted] game to [redacted] completed [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:40.143000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] update completed [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:42.475000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends [redacted] live status updating progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:42.476000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:42.477000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] league_of_legends live [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:56:42.482000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] with [redacted] false [redacted] live [redacted] true [redacted] true [redacted] true [redacted] league_of_legends reason [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:58:20.143000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:58:21.336000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:58:30.535000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] product update [redacted] product [redacted] with [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:58:30.688000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:58:30.688000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] update status of [redacted] live to [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:58:30.689000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T13:58:30.690000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] update status of [redacted] live to [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:00:10.958000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] service [redacted] updated [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:00:20.160000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:00:21.309000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:00:47.719000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] service [redacted] updated service [redacted] timestamp [redacted] reason [redacted] false [redacted] true [redacted] true [redacted] false [redacted] false [redacted] cancelled false [redacted] status [redacted] true [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:00:47.720000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] service [redacted] for [redacted] with [redacted] updated",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:02:20.158000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:02:21.309000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:02:46.802000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] service [redacted] updated service [redacted] timestamp [redacted] reason [redacted] false [redacted] true [redacted] true [redacted] false [redacted] false [redacted] cancelled false [redacted] status [redacted] true [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:02:46.802000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] service [redacted] for [redacted] with [redacted] updated",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:03:30.713000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] product update [redacted] product [redacted] with [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:03:30.841000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:03:30.841000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] update status of [redacted] live to [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:03:30.842000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:03:30.843000+00:00",
+      "period": "before_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] update status of [redacted] live to [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:04:20.144000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:04:21.306000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:05:11.194000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] service [redacted] updated [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:06:20.142000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:06:21.308000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:07:28.532000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] with [redacted] live [redacted] pause [redacted] league_of_legends [redacted] game reason [redacted] game reason [redacted] game reason [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] products league_of_legends [redacted] live",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:07:28.534000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "error [redacted] product league_of_legends [redacted] live could not [redacted] patch states",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:07:28.534000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] with [redacted] product league_of_legends [redacted] live could not [redacted] patch states [redacted] error and [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:08:20.147000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:08:21.302000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:08:30.867000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] product update [redacted] product [redacted] with [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:08:30.975000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:08:30.975000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] update status of [redacted] live to [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:08:30.976000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:08:30.976000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] update status of [redacted] live to [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:09:18.358000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "error [redacted] product league_of_legends [redacted] live could not [redacted] patch states",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:09:18.358000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] with [redacted] product league_of_legends [redacted] live could not [redacted] patch states [redacted] error and [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:09:18.359000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] with [redacted] live [redacted] pause [redacted] league_of_legends [redacted] game reason [redacted] game reason [redacted] game reason [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] products league_of_legends [redacted] live",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:10:11.443000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] service [redacted] updated [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:11:01.470000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] with [redacted] live [redacted] pause [redacted] league_of_legends [redacted] game reason [redacted] game reason [redacted] game reason [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] products league_of_legends [redacted] live",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:11:02.351000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] with [redacted] live [redacted] pause [redacted] league_of_legends [redacted] league_of_legends [redacted] is league of [redacted] by [redacted] game reason [redacted] game reason [redacted] game reason [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] products league_of_legends [redacted] live [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:11:02.354000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] with [redacted] live [redacted] pause [redacted] league_of_legends [redacted] league_of_legends [redacted] game reason [redacted] game reason [redacted] game reason [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] products league_of_legends [redacted] live [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:11:02.361000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] with [redacted] live [redacted] pause [redacted] league_of_legends [redacted] league_of_legends [redacted] game reason [redacted] game reason [redacted] game reason [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] products league_of_legends [redacted] live [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:11:02.363000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] with [redacted] live [redacted] pause [redacted] league_of_legends [redacted] league_of_legends [redacted] from [redacted] game reason [redacted] game reason [redacted] game reason [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] products league_of_legends [redacted] live [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:11:52.600000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] with [redacted] live [redacted] pause [redacted] league_of_legends [redacted] game reason [redacted] game reason [redacted] game reason [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] products league_of_legends [redacted] live",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:11:52.603000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "error [redacted] product league_of_legends [redacted] live could not [redacted] patch states",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:11:52.603000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] with [redacted] product league_of_legends [redacted] live could not [redacted] patch states [redacted] error and [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:11:52.725000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] with [redacted] live [redacted] pause [redacted] league_of_legends [redacted] game reason [redacted] game reason [redacted] game reason [redacted] game [redacted] game [redacted] game [redacted] league_of_legends [redacted] game [redacted] game [redacted] game [redacted] riot [redacted] products league_of_legends [redacted] live",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:11:52.725000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "error [redacted] product league_of_legends [redacted] live could not [redacted] patch states",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:11:52.725000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] with [redacted] product league_of_legends [redacted] live could not [redacted] patch states [redacted] error and [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:13:01.475000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:13:30.988000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] product update [redacted] product [redacted] with [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:13:31.102000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:13:31.103000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] update status of [redacted] live to [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:13:31.105000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:13:31.106000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] update status of [redacted] live to [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:14:18.463000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:14:18.463000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] enabled with [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:14:18.463000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:14:18.556000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] launch [redacted] file at [redacted] riot [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:14:18.557000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] launching [redacted] from [redacted] riot [redacted] riot [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:14:18.947000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] to [redacted] with [redacted] launch product league_of_legends launch [redacted] live [redacted] riot [redacted] riot [redacted] riot [redacted] update [redacted] riot [redacted] riot [redacted] update [redacted] riot [redacted] riot [redacted] riot [redacted] riot [redacted] riot [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:14:20.246000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] product [redacted] riot [redacted] league of [redacted] for league_of_legends live",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:14:20.255000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] to patch [redacted] patch states for league_of_legends live",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:14:20.255000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] state for league_of_legends live [redacted] launchable",
+      "public_enum_fields": [],
+      "public_boolean_fields": [
+        {
+          "field": "launchable",
+          "value": false
+        }
+      ],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:14:20.256000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] patching [redacted] not require [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:14:20.256000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] patching [redacted] not require [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:14:20.287000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] product [redacted] to league_of_legends live [redacted] false",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:14:20.288000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] transition [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:14:20.289000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] received [redacted] update [redacted] request [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:14:21.298000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] for league_of_legends live with [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:14:21.298000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] product [redacted] to league_of_legends live [redacted] false",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:14:21.299000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] product [redacted] riot [redacted] league of [redacted] for league_of_legends live",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:14:21.301000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] patching [redacted] not require [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:14:21.301000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] is [redacted] running [redacted] request [redacted] of launching product is not [redacted] to [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:14:21.302000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] patching [redacted] not require [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:14:21.302000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] product [redacted] to league_of_legends live [redacted] false",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:15:01.472000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:15:11.715000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] service [redacted] updated [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:17:01.460000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:18:31.122000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] product update [redacted] product [redacted] with [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:18:31.617000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:18:31.620000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] update status of [redacted] live to [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:18:31.628000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] live status [redacted] progress",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:18:31.639000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] patch [redacted] update status of [redacted] live to [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:19:01.470000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:20:12.146000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot [redacted] service [redacted] updated [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:21:01.464000+00:00",
+      "period": "since_11_04_local",
+      "timestamp_basis": "relative_elapsed_header_anchor",
+      "closed_vocabulary_message": "[redacted] riot status [redacted]",
+      "public_enum_fields": [],
+      "public_boolean_fields": [],
+      "allowlisted_codes": [],
+      "allowlisted_missing_public_basenames": []
+    }
+  ],
+  "privacy_policy": "Closed vocabulary only: every unknown word or identifier is replaced. No raw lines, numbers from unlisted fields, account data, URLs, emails, tokens, process arguments, auth configuration, lockfiles or file paths are exported. Auth/identity-context lines excluded entirely.",
+  "limits": "Timed recent technical events only. Closed-vocabulary rendering can omit decisive details; no causal or blocking claim follows from absence of a retained error. Timestamps anchored as recorded, with naive-clock inference only when within two seconds of mtime. No UI actions, guest writes or process starts/stops."
+}

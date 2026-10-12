@@ -1,0 +1,36 @@
+{
+  "VMName": "Arch-Lab-Vanguard",
+  "InstanceId": "arch-lab-a6b4ea59-35dc-43db-9428-bed7d1d8f3d5",
+  "CPUCount": 4,
+  "StartupRAMGiB": 2,
+  "MaximumRAMGiB": 4,
+  "DiskGiB": 50,
+  "ArchISO": {
+    "Path": "C:\\vanguard-linux-research\\work\\arch-lab\\media\\archlinux-2026.10.01-x86_64.iso",
+    "SHA256": "684ded26c63240ff4a41e8c25ee84ea6da233f557364821f13d12c2b0a9059a5"
+  },
+  "SeedISO": {
+    "Path": "C:\\vanguard-linux-research\\work\\arch-lab\\media\\arch-lab-cidata.iso",
+    "SHA256": "19e46516b5e3edec53fc9ad8197aeebfc49fdeaf9b435e0e7c06bf5ca9987942"
+  },
+  "SSHKey": "C:\\vanguard-linux-research\\work\\arch-lab\\keys\\arch-lab-ed25519",
+  "SSHUser": "lab",
+  "ISORelease": "2026.10.01",
+  "ISOOrigin": "https://archlinux.c3sl.ufpr.br/iso/2026.10.01/archlinux-2026.10.01-x86_64.iso",
+  "ReleasePage": "https://archlinux.org/releng/releases/2026.10.01/",
+  "PGPVerification": {
+    "Status": "valid",
+    "Fingerprint": "3E80CA1A8B89F69CBA57D98A76A5EF9054449A5C",
+    "KeySource": "WKD for pierre@archlinux.org",
+    "Verifier": "GnuPG bundled with Git for Windows"
+  },
+  "InstallerSHA256": "070e364456685bf13b34385f745ad3c973fb7aefb5a0b114fa59ad5373171224",
+  "GameDataDisk": {
+    "Path": "C:\\vanguard-linux-research\\outputs\\arch-lab\\vm\\lol-data.vhdx",
+    "SizeGiB": 60,
+    "DiskIdentifier": "27C837EF-183D-4D3F-9B12-7C3C9461CCDE",
+    "GuestSerial": "60022480ef37c8273d187c3c9461ccde",
+    "GuestUUID": "aa6311c7-ff75-4b48-b5e4-971836c18ca6",
+    "GuestMount": "/var/lib/lol-lab/game-data"
+  }
+}

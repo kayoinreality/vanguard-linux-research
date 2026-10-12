@@ -1,0 +1,107 @@
+{
+  "prototype": "ArchGuard Lab",
+  "version": "0.1.0",
+  "verified_at_utc": "2026-10-12T04:21:59.713025+00:00",
+  "kernel": "7.2.9-arch1-1",
+  "passed": true,
+  "checks": [
+    {
+      "test": "client_service_handshake",
+      "passed": true
+    },
+    {
+      "test": "daemon_runs_as_dedicated_non_root_user",
+      "passed": true,
+      "pid": 643
+    },
+    {
+      "test": "unchanged_file_and_independent_hash",
+      "passed": true,
+      "observed": "clean",
+      "checked_at": "2026-10-12T04:21:52.312753+00:00"
+    },
+    {
+      "test": "same_size_modification_detected_by_background_monitor",
+      "passed": true,
+      "observed": "modified",
+      "checked_at": "2026-10-12T04:21:53.223651+00:00"
+    },
+    {
+      "test": "modified_file_stays_modified_after_restart",
+      "passed": true,
+      "observed": "modified",
+      "checked_at": "2026-10-12T04:21:53.596120+00:00"
+    },
+    {
+      "test": "trusted_reference_not_reenrolled_on_restart",
+      "passed": true
+    },
+    {
+      "test": "deleted_target_never_reports_clean",
+      "passed": true,
+      "observed": "missing",
+      "checked_at": "2026-10-12T04:21:54.596993+00:00"
+    },
+    {
+      "test": "symlink_with_correct_content_is_rejected",
+      "passed": true,
+      "observed": "unavailable",
+      "checked_at": "2026-10-12T04:21:55.597424+00:00"
+    },
+    {
+      "test": "fifo_is_rejected_without_blocking",
+      "passed": true,
+      "observed": "unsafe",
+      "checked_at": "2026-10-12T04:21:56.597900+00:00"
+    },
+    {
+      "test": "oversized_target_is_unavailable",
+      "passed": true,
+      "observed": "unavailable",
+      "checked_at": "2026-10-12T04:21:57.598255+00:00"
+    },
+    {
+      "test": "exact_restoration_recovers_clean_state",
+      "passed": true,
+      "observed": "clean",
+      "checked_at": "2026-10-12T04:21:58.598769+00:00"
+    },
+    {
+      "test": "malformed_json_rejected",
+      "passed": true,
+      "error": "invalid_request"
+    },
+    {
+      "test": "unknown_operation_rejected",
+      "passed": true,
+      "error": "unknown_operation"
+    },
+    {
+      "test": "client_cannot_supply_arbitrary_file_paths",
+      "passed": true,
+      "error": "invalid_request"
+    },
+    {
+      "test": "oversized_message_rejected",
+      "passed": true,
+      "error": "invalid_frame"
+    },
+    {
+      "test": "silent_client_is_bounded_by_timeout",
+      "passed": true,
+      "seconds": 0.901
+    },
+    {
+      "test": "user_outside_socket_group_is_denied",
+      "passed": true
+    },
+    {
+      "test": "final_service_and_fixture_are_healthy",
+      "passed": true,
+      "observed": "clean",
+      "checked_at": "2026-10-12T04:21:59.599194+00:00"
+    }
+  ],
+  "error": null,
+  "scope": "Original userspace service; own fixture only; no Riot component or kernel driver executed."
+}

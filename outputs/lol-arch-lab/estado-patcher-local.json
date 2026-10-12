@@ -1,0 +1,68 @@
+{
+  "observed_utc": "2026-10-12T14:31:22Z",
+  "method": "GET",
+  "local_tls_ca": "original ASAR dist/main/root.pem",
+  "certificate_validation_enabled": true,
+  "hostname_validation_enabled": true,
+  "x509_verify_flags": 32768,
+  "resources": [
+    {
+      "resource": "/patch-proxy/v2/patch-states/products/league_of_legends/patchlines/live",
+      "http_status": 200,
+      "state": {
+        "state": "Updating",
+        "progress": {
+          "totalBytesDownloaded": 10399426768,
+          "totalBytesToDownload": 17322246951,
+          "overallProgress": 60.524542144728265,
+          "phase": "update"
+        },
+        "public_schema_keys": [
+          "error",
+          "launchable",
+          "matchingShardsData",
+          "previousState",
+          "progress",
+          "repairCode",
+          "repairReason",
+          "state"
+        ]
+      }
+    },
+    {
+      "resource": "/patch-proxy/v1/patch-states/products/league_of_legends/patchlines/live",
+      "http_status": 200,
+      "state": {
+        "combined_patch_state": "not_installed",
+        "patch_status": {
+          "state": "not_installed",
+          "progress": {
+            "progress": 0.0,
+            "phase": "None"
+          },
+          "public_schema_keys": [
+            "error",
+            "launchable_on_update_fail",
+            "progress",
+            "state",
+            "tags",
+            "url"
+          ]
+        },
+        "dependency_status": {
+          "public_schema_keys": []
+        },
+        "public_schema_keys": [
+          "combined_patch_state",
+          "configuration",
+          "dependency_status",
+          "install",
+          "patch_requested",
+          "patch_status",
+          "repair_code",
+          "shards_data"
+        ]
+      }
+    }
+  ]
+}

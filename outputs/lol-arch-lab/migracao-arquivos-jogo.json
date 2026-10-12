@@ -1,0 +1,26 @@
+{
+  "started_utc": "2026-10-12T13:25:57Z",
+  "disk_serial": "60022480ef37c8273d187c3c9461ccde",
+  "games": [
+    {
+      "name": "League of Legends",
+      "entries": 569,
+      "file_count": 518,
+      "bytes": 30104485239,
+      "sha256_manifest": "b942d1ac6fd94569b489d5fec7ecfb881dc725385c3bee1202b86e182e43c2de",
+      "verified": true,
+      "original_backup_retained": "/home/lab/lol-lab/prefix/drive_c/Riot Games/League of Legends.before-game-data",
+      "duplicate_released_after_mount_and_client_verification": true
+    },
+    {
+      "name": "Teamfight Tactics",
+      "entries": 228,
+      "file_count": 172,
+      "bytes": 7610474877,
+      "sha256_manifest": "925265795da8cc0df11e12f71af64ed6eb2db93c39be0c0c1b031fe87120901c",
+      "verified": true,
+      "original_backup_retained": "/home/lab/lol-lab/prefix/drive_c/Riot Games/Teamfight Tactics.before-game-data",
+      "duplicate_released_after_mount_and_client_verification": true
+    }
+  ]
+}

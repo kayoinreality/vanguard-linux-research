@@ -1,0 +1,28 @@
+{
+  "timestamp_format_inventory_only": [
+    {
+      "mtime_utc": "2026-10-12T13:56:42.704615+00:00",
+      "shape_counts": {
+        "relative_elapsed_pipe": 2526,
+        "other": 340
+      },
+      "known_logging_start_timestamp_strings": [
+        "2026-10-12T10:38:10.755"
+      ],
+      "minimum_elapsed_seconds": 0.0,
+      "maximum_elapsed_seconds": 1111.727
+    },
+    {
+      "mtime_utc": "2026-10-12T13:38:10.743287+00:00",
+      "shape_counts": {
+        "relative_elapsed_pipe": 52
+      },
+      "known_logging_start_timestamp_strings": [
+        "2026-10-12T10:38:08.050"
+      ],
+      "minimum_elapsed_seconds": 0.0,
+      "maximum_elapsed_seconds": 2.691
+    }
+  ],
+  "raw_lines_exported": false
+}

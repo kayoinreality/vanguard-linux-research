@@ -1,0 +1,266 @@
+{
+  "inspected_at_utc": "2026-10-12T08:53:00.572420+00:00",
+  "scope": "ASAR header, package.json metadata and native executable format/import metadata only; no app code executed, auth/lockfiles/logs or APIs accessed.",
+  "archive": "/home/lab/lol-lab/prefix/drive_c/Riot Games/Riot Client/RiotClientElectron/resources/app.asar",
+  "archive_bytes": 154483710,
+  "header_bytes": 102096,
+  "header_json_sha256": "33488701546cbfa57a200d3901ac28c73bf9ed9748590f9b3c4046ba8657fc2a",
+  "entries": 374,
+  "extensions": {
+    ".json": 50,
+    ".html": 1,
+    ".txt": 6,
+    ".js": 123,
+    ".css": 17,
+    ".svg": 14,
+    ".png": 20,
+    ".otf": 3,
+    ".woff2": 75,
+    ".ttf": 6,
+    ".mp4": 1,
+    ".webm": 1,
+    ".mp3": 2,
+    ".riv": 3,
+    ".wasm": 1,
+    ".jpg": 2,
+    ".proto": 4,
+    ".pem": 1,
+    "": 16,
+    ".mjs": 13,
+    ".cjs": 6,
+    ".cts": 1,
+    ".mts": 2,
+    ".md": 1,
+    ".map": 4,
+    ".markdown": 1
+  },
+  "root_package": {
+    "name": "riot-client-ux",
+    "version": "140.0.0",
+    "main": "./dist/main/main.js",
+    "dependencies": {
+      "js-yaml": "^4.1.0",
+      "ws": "8.19.0",
+      "yargs": "^17.4.1"
+    }
+  },
+  "package_count": 22,
+  "packages": {
+    "node_modules/ansi-regex/package.json": {
+      "name": "ansi-regex",
+      "version": "5.0.1",
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    "node_modules/ansi-styles/package.json": {
+      "name": "ansi-styles",
+      "version": "4.3.0",
+      "engines": {
+        "node": ">=8"
+      },
+      "dependencies": {
+        "color-convert": "^2.0.1"
+      }
+    },
+    "node_modules/argparse/package.json": {
+      "name": "argparse",
+      "version": "2.0.1",
+      "main": "argparse.js"
+    },
+    "node_modules/cliui/package.json": {
+      "name": "cliui",
+      "version": "8.0.1",
+      "main": "build/index.cjs",
+      "type": "module",
+      "engines": {
+        "node": ">=12"
+      },
+      "dependencies": {
+        "string-width": "^4.2.0",
+        "strip-ansi": "^6.0.1",
+        "wrap-ansi": "^7.0.0"
+      }
+    },
+    "node_modules/color-convert/package.json": {
+      "name": "color-convert",
+      "version": "2.0.1",
+      "engines": {
+        "node": ">=7.0.0"
+      },
+      "dependencies": {
+        "color-name": "~1.1.4"
+      }
+    },
+    "node_modules/color-name/package.json": {
+      "name": "color-name",
+      "version": "1.1.4",
+      "main": "index.js"
+    },
+    "node_modules/emoji-regex/package.json": {
+      "name": "emoji-regex",
+      "version": "8.0.0",
+      "main": "index.js"
+    },
+    "node_modules/escalade/package.json": {
+      "name": "escalade",
+      "version": "3.2.0",
+      "main": "dist/index.js",
+      "engines": {
+        "node": ">=6"
+      }
+    },
+    "node_modules/get-caller-file/package.json": {
+      "name": "get-caller-file",
+      "version": "2.0.5",
+      "main": "index.js",
+      "engines": {
+        "node": "6.* || 8.* || >= 10.*"
+      }
+    },
+    "node_modules/is-fullwidth-code-point/package.json": {
+      "name": "is-fullwidth-code-point",
+      "version": "3.0.0",
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    "node_modules/js-yaml/package.json": {
+      "name": "js-yaml",
+      "version": "4.3.2",
+      "dependencies": {
+        "argparse": "^2.0.1"
+      }
+    },
+    "node_modules/require-directory/package.json": {
+      "name": "require-directory",
+      "version": "2.1.1",
+      "main": "index.js",
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    "node_modules/string-width/node_modules/emoji-regex/package.json": {
+      "name": "emoji-regex",
+      "version": "8.0.0",
+      "main": "index.js"
+    },
+    "node_modules/string-width/package.json": {
+      "name": "string-width",
+      "version": "4.2.3",
+      "engines": {
+        "node": ">=8"
+      },
+      "dependencies": {
+        "emoji-regex": "^8.0.0",
+        "is-fullwidth-code-point": "^3.0.0",
+        "strip-ansi": "^6.0.1"
+      }
+    },
+    "node_modules/strip-ansi/package.json": {
+      "name": "strip-ansi",
+      "version": "6.0.1",
+      "engines": {
+        "node": ">=8"
+      },
+      "dependencies": {
+        "ansi-regex": "^5.0.1"
+      }
+    },
+    "node_modules/wrap-ansi/package.json": {
+      "name": "wrap-ansi",
+      "version": "7.0.0",
+      "engines": {
+        "node": ">=10"
+      },
+      "dependencies": {
+        "ansi-styles": "^4.0.0",
+        "string-width": "^4.1.0",
+        "strip-ansi": "^6.0.0"
+      }
+    },
+    "node_modules/ws/package.json": {
+      "name": "ws",
+      "version": "8.19.0",
+      "main": "index.js",
+      "engines": {
+        "node": ">=10.0.0"
+      },
+      "peerDependencies": {
+        "bufferutil": "^4.0.1",
+        "utf-8-validate": ">=5.0.2"
+      },
+      "peerDependenciesMeta": {
+        "bufferutil": {
+          "optional": true
+        },
+        "utf-8-validate": {
+          "optional": true
+        }
+      }
+    },
+    "node_modules/y18n/package.json": {
+      "name": "y18n",
+      "version": "5.0.8",
+      "main": "./build/index.cjs",
+      "type": "module",
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "node_modules/yargs-parser/package.json": {
+      "name": "yargs-parser",
+      "version": "21.1.1",
+      "main": "build/index.cjs",
+      "type": "module",
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    "node_modules/yargs/helpers/package.json": {
+      "type": "commonjs"
+    },
+    "node_modules/yargs/package.json": {
+      "name": "yargs",
+      "version": "17.7.3",
+      "main": "./index.cjs",
+      "type": "module",
+      "engines": {
+        "node": ">=12"
+      },
+      "dependencies": {
+        "cliui": "^8.0.1",
+        "escalade": "^3.1.1",
+        "get-caller-file": "^2.0.5",
+        "require-directory": "^2.1.1",
+        "string-width": "^4.2.3",
+        "y18n": "^5.0.5",
+        "yargs-parser": "^21.1.1"
+      }
+    },
+    "package.json": {
+      "name": "riot-client-ux",
+      "version": "140.0.0",
+      "main": "./dist/main/main.js",
+      "dependencies": {
+        "js-yaml": "^4.1.0",
+        "ws": "8.19.0",
+        "yargs": "^17.4.1"
+      }
+    }
+  },
+  "native_packages": {},
+  "platform_restricted_packages": {},
+  "binary_entries": [],
+  "unpacked_exists": false,
+  "unpacked_is_directory": false,
+  "unpacked_binary_inventory": [],
+  "root_main_present": true,
+  "root_main_entry": {
+    "path": "dist/main/main.js",
+    "bytes": 2351415,
+    "unpacked": false
+  },
+  "optional_dependency_declarations": {},
+  "errors": []
+}

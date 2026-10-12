@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "version": "0.1.0",
+  "health": "running",
+  "uptime_seconds": 170.062,
+  "check_age_seconds": 0.0,
+  "checked_at": "2026-10-12T04:24:43.657691+00:00",
+  "integrity": "clean",
+  "files": [
+    {
+      "name": "demo.bin",
+      "expected_sha256": "f01db2a56bd50ed559eb382b2cff71f099c26c909f4bfe4428bb0d6ed11bd680",
+      "state": "clean",
+      "observed_sha256": "f01db2a56bd50ed559eb382b2cff71f099c26c909f4bfe4428bb0d6ed11bd680",
+      "bytes": 34
+    }
+  ]
+}

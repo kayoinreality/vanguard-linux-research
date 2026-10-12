@@ -1,0 +1,101 @@
+{
+  "started_at_utc": "2026-10-12T13:59:04.398923+00:00",
+  "completed_at_utc": "2026-10-12T13:59:05.090526+00:00",
+  "cutoff_utc": "2026-10-12T13:38:00+00:00",
+  "cutoff_local_context": "2026-10-12 10:38:00 America/Sao_Paulo",
+  "scope_alias": "owned_lol_updater_after_migration",
+  "mode": "read_only_logs_and_storage_no_ui_no_start_stop",
+  "ui_context_from_task": "Download was reported active at 10:49 local; this log snapshot does not diagnose a current pause",
+  "storage_summary": {
+    "root": {
+      "available_bytes": 39295119360
+    },
+    "game": {
+      "available_bytes": 15105265664
+    }
+  },
+  "sanitized_log_summaries": {
+    "riot_updater_logs": {
+      "files_read": 2,
+      "read_errors_count": 0,
+      "bytes_examined": 399678,
+      "lines_examined": 2934,
+      "lines_with_supported_time_in_window": 2594,
+      "timestamp_basis_line_counts": {
+        "relative_elapsed_header_anchor": 2594
+      },
+      "log_start_anchors_used": [
+        {
+          "anchor_utc": "2026-10-12T13:38:10.755000+00:00",
+          "basis": "naive_log_start_clock_inferred_by_last_elapsed_and_file_mtime",
+          "clock_basis": "America/Sao_Paulo_minus03",
+          "last_elapsed_vs_mtime_difference_seconds": 0.001615
+        },
+        {
+          "anchor_utc": "2026-10-12T13:38:08.050000+00:00",
+          "basis": "naive_log_start_clock_inferred_by_last_elapsed_and_file_mtime",
+          "clock_basis": "America/Sao_Paulo_minus03",
+          "last_elapsed_vs_mtime_difference_seconds": 0.002287
+        }
+      ],
+      "lines_before_cutoff_ignored": 0,
+      "other_timestamp_lines_ignored": {
+        "no_supported_header_timestamp": 340
+      },
+      "first_included_timestamp_utc": "2026-10-12T13:38:08.050000+00:00",
+      "last_included_timestamp_utc": "2026-10-12T13:58:30.710000+00:00",
+      "category_matching_line_counts": {
+        "missing_file_mentions": 7,
+        "network_error_mentions": 22,
+        "patcher_or_update_mentions": 1005,
+        "pause_or_resume_mentions": 10
+      },
+      "allowlisted_numeric_code_line_counts": {},
+      "allowlisted_van_code_line_counts": {},
+      "allowlisted_http_error_status_line_counts": {
+        "503": 7
+      },
+      "allowlisted_missing_public_basename_line_counts": {}
+    },
+    "league_logs": {
+      "files_read": 0,
+      "read_errors_count": 0,
+      "bytes_examined": 0,
+      "lines_examined": 0,
+      "lines_with_supported_time_in_window": 0,
+      "timestamp_basis_line_counts": {},
+      "log_start_anchors_used": [],
+      "lines_before_cutoff_ignored": 0,
+      "other_timestamp_lines_ignored": {},
+      "first_included_timestamp_utc": null,
+      "last_included_timestamp_utc": null,
+      "category_matching_line_counts": {},
+      "allowlisted_numeric_code_line_counts": {},
+      "allowlisted_van_code_line_counts": {},
+      "allowlisted_http_error_status_line_counts": {},
+      "allowlisted_missing_public_basename_line_counts": {}
+    },
+    "launcher_logs": {
+      "files_read": 2,
+      "read_errors_count": 0,
+      "bytes_examined": 115446,
+      "lines_examined": 749,
+      "lines_with_supported_time_in_window": 0,
+      "timestamp_basis_line_counts": {},
+      "log_start_anchors_used": [],
+      "lines_before_cutoff_ignored": 0,
+      "other_timestamp_lines_ignored": {
+        "no_supported_header_timestamp": 749
+      },
+      "first_included_timestamp_utc": null,
+      "last_included_timestamp_utc": null,
+      "category_matching_line_counts": {},
+      "allowlisted_numeric_code_line_counts": {},
+      "allowlisted_van_code_line_counts": {},
+      "allowlisted_http_error_status_line_counts": {},
+      "allowlisted_missing_public_basename_line_counts": {}
+    }
+  },
+  "privacy_filter": "Only fixed categories, fixed public basename/code allowlists, timestamps and numeric counters are emitted. No raw lines, filenames of logs, account identifiers, usernames, tokens, URLs or account paths are exported.",
+  "limits": "Category counts require an explicit-offset header timestamp or relative elapsed time anchored to the known logging-start header. A naive start-header clock is inferred only when local-minus03 or UTC predicts the latest elapsed record within two seconds of file mtime; this assumption is recorded per anchor. Untimed continuations and unsupported timestamps are ignored. Latest up to 24 log files per category modified after cutoff; at most 4MiB tail plus 64KiB start-header per file. Counts are matching lines, not distinct events or causal diagnoses. Historical or negative matches cannot establish a current updater block."
+}

@@ -1,0 +1,131 @@
+{
+  "dist/renderer/renderer.js": [
+    {
+      "term": "buildPatchProxyV2PatchStatesURI",
+      "offset": 1026595,
+      "short_context": "(Ke,Qe,Qe)}catch{log$1.error(`Failed to send telemetry with errorName: ${Ke}, description: ${Qe}`)}},PATCH_PROXY_V2_PATCH_STATES_REFRESH_URI=\"/patch-proxy/v2/patch-states/refresh\",buildPatchProxyV2PatchStatesURI=(Ge,Ke)=>`/patch-proxy/v2/patch-states/products/${Ge}/patchlines/${Ke}`,buildPatchProxyV2PriorityPatchURI=(Ge,Ke)=>`/patch-proxy/v2/priority-patch/products/${Ge}/patchlines/${Ke}`,buildPatchProxyV2PatchJobsURI=(Ge,Ke)=>`/patch-proxy/v2/patch-jobs/products/${Ge}/patchlines/${Ke}`,buildPatchProxyV2PatchStatesRefreshURI=(Ge,Ke)=>`${PATCH_PROXY_V2_PATCH_STATES_REFRESH_URI}/products/${Ge}/patchlines/${Ke}`,postRefreshProductPatchlinePatchState=async(Ge,Ke,Qe)=>{try{const Ze=buildPatchProxyV2PatchSta"
+    },
+    {
+      "term": "buildPatchProxyV2PatchStatesURI",
+      "offset": 6144644,
+      "short_context": " getBinding().addObserver(Je,null,it),()=>{getBinding().removeObserver(Je,null,it)}},[Ge,Ke,Ze]),Qe},usePatchStateV2=({productId:Ge,patchlineId:Ke}={})=>{const Qe=!!Ge&&!!Ke,Ze=Qe?buildPatchProxyV2PatchStatesURI(applyPathParameter(Ge),applyPathParameter(Ke)):buildPatchProxyV2PatchStatesURI(applyPathParameter(\"_\"),applyPathParameter(\"_\"));return useTypedDataBinding(Ze,Qe)},useTerminateRogueProcessEnabled=()=>useDataBinding(\"/client-feature-flags/v1/flags/terminateRogueProcess/enabled\");class RogueProcessModal extends reactExports$1.Component{constructor(Ke){super(Ke)}render(){const Ke={product:this.props.product};return jsxRuntimeExports.jsx(ConfirmationModal,{header:this.props.intl.formatMessage({id:\"r"
+    },
+    {
+      "term": "buildPatchProxyV2PatchStatesURI",
+      "offset": 6144723,
+      "short_context": "it)}},[Ge,Ke,Ze]),Qe},usePatchStateV2=({productId:Ge,patchlineId:Ke}={})=>{const Qe=!!Ge&&!!Ke,Ze=Qe?buildPatchProxyV2PatchStatesURI(applyPathParameter(Ge),applyPathParameter(Ke)):buildPatchProxyV2PatchStatesURI(applyPathParameter(\"_\"),applyPathParameter(\"_\"));return useTypedDataBinding(Ze,Qe)},useTerminateRogueProcessEnabled=()=>useDataBinding(\"/client-feature-flags/v1/flags/terminateRogueProcess/enabled\");class RogueProcessModal extends reactExports$1.Component{constructor(Ke){super(Ke)}render(){const Ke={product:this.props.product};return jsxRuntimeExports.jsx(ConfirmationModal,{header:this.props.intl.formatMessage({id:\"rogueProcessModal.title\"}),onRequestClose:this.props.onClose,primaryButtonText:t"
+    },
+    {
+      "term": "buildPatchProxyV2PatchStatesURI",
+      "offset": 10001466,
+      "short_context": ",patchlineId:rt,gamesLibraryData:lt,hasAlias:st}=Ge,ct=useCommandLineArgs(),ut=useSettingsDisabledPatching(),ht=usePatchState({productId:it,patchlineId:rt}),yt=useTypedDataBinding(buildPatchProxyV2PatchStatesURI(applyPathParameter(it),applyPathParameter(rt))),pt=useGameCardState({hasAlias:st,patchState:ht,commandLineArgs:ct,disabledPatchingSetting:ut}),Et=useGameCardStateV2({hasAlias:st,patchState:yt,commandLineArgs:ct,disabledPatchingSetting:ut}),Rt=tt?Et:pt,Nt=(tt?yt?.progress?.totalBytesDownloaded===yt?.progress?.totalBytesToDownload||yt?.progress?.totalBytesDownloaded===0:ht?.totalBytesToDownload===ht?.bytesDownloaded||ht?.totalBytesToDownload===0)?0:tt?yt?.progress?.overallProgress||0:ht?.percentP"
+    },
+    {
+      "term": "usePatchStateV2=",
+      "offset": 6144565,
+      "short_context": "const{patchProgressData:ct}=nt;rt&&updatePatchProgress(ct,lt,rt),at(lt)};return getBinding().addObserver(Je,null,it),()=>{getBinding().removeObserver(Je,null,it)}},[Ge,Ke,Ze]),Qe},usePatchStateV2=({productId:Ge,patchlineId:Ke}={})=>{const Qe=!!Ge&&!!Ke,Ze=Qe?buildPatchProxyV2PatchStatesURI(applyPathParameter(Ge),applyPathParameter(Ke)):buildPatchProxyV2PatchStatesURI(applyPathParameter(\"_\"),applyPathParameter(\"_\"));return useTypedDataBinding(Ze,Qe)},useTerminateRogueProcessEnabled=()=>useDataBinding(\"/client-feature-flags/v1/flags/terminateRogueProcess/enabled\");class RogueProcessModal extends reactExports$1.Component{constructor(Ke){super(Ke)}render(){const Ke={product:this.props.produc"
+    },
+    {
+      "term": "combined_patch_state",
+      "offset": 614491,
+      "short_context": "urn getBinding().addObserver(tt,Ze,nt=>{if(!nt&&Ze.upToDateStatus===\"Updating\"){Ze.upToDateStatus=\"OutOfDate\",Je.next(Ze);return}const at=ChunkingPatcherStateFromCombinedState[nt?.combined_patch_state]||ChunkingPatcherStateFromCombinedState.default;at!==Ze.upToDateStatus&&at===\"Updating\"&&(Qe.patchProgressData=newPatchProgressData()),Ze.upToDateStatus=at,Ze.repairCode=nt?.repair_code;const{patchProgressData:it}=Qe;updatePatchProgress(it,Ze,nt),Je.next(Ze)}),tt}function removePatchStateObserver(Ge,Ke){const Qe=Ge.get(Ke);if(!Qe)return;const{observable:Ze,stateURI:Je}=Qe;Je!==\"\"&&getBinding().removeObserver(Je,this),Ze.unsubscribe(),Ge.delete(Ke)}function findPatchline(Ge,Ke,Qe){const Ze=Ge.fi"
+    },
+    {
+      "term": "combined_patch_state",
+      "offset": 6144178,
+      "short_context": "Ze({...rt})},it=rt=>{const{patchState:lt}=nt;if(!rt&&lt.upToDateStatus===\"Updating\"){lt.upToDateStatus=\"OutOfDate\",at(lt);return}const st=ChunkingPatcherStateFromCombinedState[rt?.combined_patch_state]||ChunkingPatcherStateFromCombinedState.default;st!==lt.upToDateStatus&&st===\"Updating\"&&(nt.patchProgressData=newPatchProgressData()),lt.upToDateStatus=st,lt.repairCode=rt?.repair_code;const{patchProgressData:ct}=nt;rt&&updatePatchProgress(ct,lt,rt),at(lt)};return getBinding().addObserver(Je,null,it),()=>{getBinding().removeObserver(Je,null,it)}},[Ge,Ke,Ze]),Qe},usePatchStateV2=({productId:Ge,patchlineId:Ke}={})=>{const Qe=!!Ge&&!!Ke,Ze=Qe?buildPatchProxyV2PatchStatesURI(applyPathParameter(Ge)"
+    },
+    {
+      "term": "patch_status.progress",
+      "offset": 613320,
+      "short_context": "_status||{}).map(nt=>Ke.dependency_status[nt]),Ze=Qe.length;if(!Ze)return Ge;let Je=0;if(Qe.forEach(nt=>{Je+=nt.progress/Ze,updateDependencyProgress(Ge,nt)}),Ke?.patch_status&&Ke?.patch_status.progress&&(Ke?.patch_status.state!==\"up_to_date\"||Ke?.patch_status.progress.progress!==0)){const nt=Ze*DEPENDENCY_PROGRESS_AMOUNT/100;Ge.percentPatched*=1-nt,Ge.percentPatched+=nt*Je}else Ge.percentPatched=Je;return Ke?.patch_status&&Ke?.patch_status.progress&&Ke?.patch_status.state===\"up_to_date\"&&(Ge.updatePhase=\"Dependencies\"),Ge}function updatePatchProgress(Ge,Ke,Qe){const Ze=Qe?.patch_status&&Qe?.patch_status.progress;if(Ze){const Je=updateProgressCategoriesForChunkingPatcher(Ze,Ge);Ke.error=interp"
+    },
+    {
+      "term": "patch_status.progress",
+      "offset": 613387,
+      "short_context": "return Ge;let Je=0;if(Qe.forEach(nt=>{Je+=nt.progress/Ze,updateDependencyProgress(Ge,nt)}),Ke?.patch_status&&Ke?.patch_status.progress&&(Ke?.patch_status.state!==\"up_to_date\"||Ke?.patch_status.progress.progress!==0)){const nt=Ze*DEPENDENCY_PROGRESS_AMOUNT/100;Ge.percentPatched*=1-nt,Ge.percentPatched+=nt*Je}else Ge.percentPatched=Je;return Ke?.patch_status&&Ke?.patch_status.progress&&Ke?.patch_status.state===\"up_to_date\"&&(Ge.updatePhase=\"Dependencies\"),Ge}function updatePatchProgress(Ge,Ke,Qe){const Ze=Qe?.patch_status&&Qe?.patch_status.progress;if(Ze){const Je=updateProgressCategoriesForChunkingPatcher(Ze,Ge);Ke.error=interpretChunkingPatchError(Qe),Ke.launchableOnUpdateFail=Qe?.patch_statu"
+    },
+    {
+      "term": "patch_status.progress",
+      "offset": 613571,
+      "short_context": "h_status.progress.progress!==0)){const nt=Ze*DEPENDENCY_PROGRESS_AMOUNT/100;Ge.percentPatched*=1-nt,Ge.percentPatched+=nt*Je}else Ge.percentPatched=Je;return Ke?.patch_status&&Ke?.patch_status.progress&&Ke?.patch_status.state===\"up_to_date\"&&(Ge.updatePhase=\"Dependencies\"),Ge}function updatePatchProgress(Ge,Ke,Qe){const Ze=Qe?.patch_status&&Qe?.patch_status.progress;if(Ze){const Je=updateProgressCategoriesForChunkingPatcher(Ze,Ge);Ke.error=interpretChunkingPatchError(Qe),Ke.launchableOnUpdateFail=Qe?.patch_status&&Qe?.patch_status.launchable_on_update_fail,Ke.updatePhase=getUpdatePhaseForPluginPhase(Ze.phase),Ke.percentPatched=Ge.totalProgress,Ke.totalBytesToDownload=Je.bytesRequired,Ke.bytes"
+    },
+    {
+      "term": "patch_status.progress",
+      "offset": 613738,
+      "short_context": "_status&&Ke?.patch_status.progress&&Ke?.patch_status.state===\"up_to_date\"&&(Ge.updatePhase=\"Dependencies\"),Ge}function updatePatchProgress(Ge,Ke,Qe){const Ze=Qe?.patch_status&&Qe?.patch_status.progress;if(Ze){const Je=updateProgressCategoriesForChunkingPatcher(Ze,Ge);Ke.error=interpretChunkingPatchError(Qe),Ke.launchableOnUpdateFail=Qe?.patch_status&&Qe?.patch_status.launchable_on_update_fail,Ke.updatePhase=getUpdatePhaseForPluginPhase(Ze.phase),Ke.percentPatched=Ge.totalProgress,Ke.totalBytesToDownload=Je.bytesRequired,Ke.bytesDownloaded=Je.bytesComplete}return updateDependenciesProgress(Ke,Qe),Ke}function observePatchState(Ge,Ke,Qe){const{patchState:Ze,observable:Je}=Qe,tt=`/patch-proxy/v1/"
+    },
+    {
+      "term": "paused",
+      "offset": 1142630,
+      "short_context": "يل\",\"installButton.installing\":\"يتم التثبيت\",\"installButton.updating\":\"يتم التحديث\",\"installButton.repairing\":\"يتم الإصلاح\",\"installButton.loading\":\"يتم التحميل...\",\"installButton.paused\":\"متوقف مؤقتًا\",\"installButton.watch\":\"مشاهدة\",\"installButton.patchlineSelector.group.INSTALLED\":\"مثبّت\",\"installButton.patchlineSelector.group.NOT_INSTALLED\":\"غير مثبّت\",\"libraryButton.updating\":\"يتم التحديث {progress}%\",\"libraryButton.updated\":\"جاهزة للعب\",\"floatingSelect.noOptionsFoundForFilter\":\"لم يتم العثور على خيارات لـ {filter}\",\"gameRunningModal.title\":\"اللعبة قيد التشغيل\",\"gameRunningModal.settings\":\"سيتم تفعيل هذا الإعداد في المرة القادمة التي تقوم فيها بتشغيل {gameName}. وإن لم يتمّ"
+    },
+    {
+      "term": "paused",
+      "offset": 1234906,
+      "short_context": "\":\"Stahování\",\"installButton.installing\":\"Instalace\",\"installButton.updating\":\"Aktualizace\",\"installButton.repairing\":\"Oprava\",\"installButton.loading\":\"Načítání...\",\"installButton.paused\":\"Pozastaveno\",\"installButton.watch\":\"Zhlédnout\",\"installButton.patchlineSelector.group.INSTALLED\":\"NAINSTALOVÁNO\",\"installButton.patchlineSelector.group.NOT_INSTALLED\":\"NENAINSTALOVÁNO\",\"libraryButton.updating\":\"AKTUALIZACE: {progress} %\",\"libraryButton.updated\":\"PŘIPRAVEN(A) HRÁT\",\"floatingSelect.noOptionsFoundForFilter\":\"pro {filter} nebyly nalezeny žádné možnosti\",\"gameRunningModal.title\":\"Hra je spuštěna\",\"gameRunningModal.settings\":\"Toto nastavení se projeví, až příště spustíš {gameName}."
+    },
+    {
+      "term": "paused",
+      "offset": 1334235,
+      "short_context": ",\"installButton.installing\":\"Installiere …\",\"installButton.updating\":\"Aktualisiere …\",\"installButton.repairing\":\"Repariere\",\"installButton.loading\":\"Wird geladen …\",\"installButton.paused\":\"Pausiert\",\"installButton.watch\":\"Ansehen\",\"installButton.patchlineSelector.group.INSTALLED\":\"INSTALLIERT\",\"installButton.patchlineSelector.group.NOT_INSTALLED\":\"NICHT INSTALLIERT\",\"libraryButton.updating\":\"AKTUALISIEREN {progress} %\",\"libraryButton.updated\":\"BEREIT ZU SPIELEN\",\"floatingSelect.noOptionsFoundForFilter\":\"Keine Optionen gefunden für {filter}\",\"gameRunningModal.title\":\"Spiel wird ausgeführt\",\"gameRunningModal.settings\":\"Diese Einstellungen werden wirksam, wenn du {gameName} das nä"
+    },
+    {
+      "term": "paused",
+      "offset": 1437429,
+      "short_context": "llButton.installing\":\"Γίνεται εγκατάσταση\",\"installButton.updating\":\"Γίνεται ενημέρωση\",\"installButton.repairing\":\"Επιδιόρθωση\",\"installButton.loading\":\"Φόρτωση...\",\"installButton.paused\":\"Παύση\",\"installButton.watch\":\"Παρακολουθήστε\",\"installButton.patchlineSelector.group.INSTALLED\":\"ΕΓΚΑΤΑΣΤΑΘΗΚΕ\",\"installButton.patchlineSelector.group.NOT_INSTALLED\":\"ΔΕΝ ΕΓΚΑΤΑΣΤΑΘΗΚΕ\",\"libraryButton.updating\":\"ΓΙΝΕΤΑΙ ΕΝΗΜΕΡΩΣΗ {progress}%\",\"libraryButton.updated\":\"ΕΤΟΙΜΟΙ ΓΙΑ ΠΑΙΧΝΙΔΙ\",\"floatingSelect.noOptionsFoundForFilter\":\"δεν βρέθηκαν επιλογές για {filter}\",\"gameRunningModal.title\":\"Το παιχνίδι εκτελείται\",\"gameRunningModal.settings\":\"Αυτή η ρύθμιση θα εφαρμοστεί την επόμενη φορά που "
+    },
+    {
+      "term": "useDataBinding=",
+      "offset": 390408,
+      "short_context": "erver(Ge,null,Ze)}}catch{Ze(void 0)}},[Ge,Ze,Ke]),!(isRPCError(Qe)||Qe===null))return Qe},usePlayerSessionLifecycle=()=>useTypedDataBinding(\"/player-session-lifecycle/v1/session\"),useDataBinding=(Ge,Ke=[])=>{const[Qe,Ze]=reactExports$1.useState(void 0),Je=Ke?.join(\"|\");if(reactExports$1.useEffect(()=>{Ze(void 0);try{const tt=Ge&&typeof Ge!=\"string\"?Ge(...Ke):Ge;if(!tt)throw new Error(\"[conditional fetching]: falsy endpoint uri\");return getBinding().addObserver(tt,null,Ze),()=>{getBinding().removeObserver(tt,null,Ze)}}catch{Ze(void 0)}},[Ge,Je,Ze]),!isRPCError(Qe))return Qe},useAccessToken=()=>useDataBinding(\"/rso-auth/v1/authorization/access-token\"),useAffinityUrl=()=>useDataBinding(\"/c"
+    }
+  ],
+  "dist/main/main.js": [
+    {
+      "term": "remotingAuthToken",
+      "offset": 837908,
+      "short_context": ";for(const n of Object.keys(t))if(n.toLowerCase()===i){t[n]=r;return}t[e]=r},requestFilter={urls:[\"wss://127.0.0.1/\"]},onBeforeSendHeaders=t=>(e,r)=>{const i=Buffer.from(`riot:${t.remotingAuthToken}`).toString(\"base64\");e.requestHeaders.Authorization=`Basic ${i}`,e.requestHeaders.Origin=`https://127.0.0.1:${t.appPort}`,r({requestHeaders:e.requestHeaders})},onHeadersReceived=(t,e)=>(r,i)=>{const n=new URL(r.url);if(n.host.endsWith(\"riotgames.com\")||n.host.endsWith(\"rcluster.io\")){const u=r.responseHeaders||{};return upsertKeyValue(u,\"Access-Control-Allow-Origin\",[\"*\"]),upsertKeyValue(u,\"Access-Control-Allow-Headers\",[\"*\"]),i({...r,responseHeaders:u})}const s=(n.hostname===\"127.0.0.1\"||n.ho"
+    },
+    {
+      "term": "remotingAuthToken",
+      "offset": 1117352,
+      "short_context": "ocess.argv);return Array.isArray(t)?t:[]},getCommandLineLaunchArguments=()=>{if(cliArgs$1)return cliArgs$1;const t=getCommandLineArgs(),e=yargs(t).options({appPort:{type:\"number\"},remotingAuthToken:{type:\"string\"},logDir:{type:\"string\"},userDataRoot:{type:\"string\"},crashpadEnvironment:{type:\"string\"},appPid:{type:\"number\"},machineId:{type:\"string\"},allowChromeDevTools:{type:\"boolean\"},enableHardwareAcceleration:{type:\"boolean\"},launchProduct:{type:\"string\"},sessionId:{type:\"string\"}}).argv;return cliArgs$1={appPort:e.appPort||9091,remotingAuthToken:e.remotingAuthToken||\"developer\",logDir:e.logDir||defaultLogDir,userDataRoot:e.userDataRoot||defaultUserAppDataDir,crashpadEnvironment:e.crash"
+    },
+    {
+      "term": "remotingAuthToken",
+      "offset": 1117709,
+      "short_context": "hromeDevTools:{type:\"boolean\"},enableHardwareAcceleration:{type:\"boolean\"},launchProduct:{type:\"string\"},sessionId:{type:\"string\"}}).argv;return cliArgs$1={appPort:e.appPort||9091,remotingAuthToken:e.remotingAuthToken||\"developer\",logDir:e.logDir||defaultLogDir,userDataRoot:e.userDataRoot||defaultUserAppDataDir,crashpadEnvironment:e.crashpadEnvironment||\"development\",appPid:e.appPid||-1,machineId:e.machineId||\"developer\",allowChromeDevTools:e.allowChromeDevTools||!1,enableHardwareAcceleration:e.enableHardwareAcceleration||!1,launchProduct:e.launchProduct||\"\",sessionId:e.sessionId||\"developer\"},cliArgs$1},log$3=log$d.scope(\"InstallSettings\");let installSettings$1=null;const getInstallSetti"
+    },
+    {
+      "term": "remotingAuthToken",
+      "offset": 1117729,
+      "short_context": "\"boolean\"},enableHardwareAcceleration:{type:\"boolean\"},launchProduct:{type:\"string\"},sessionId:{type:\"string\"}}).argv;return cliArgs$1={appPort:e.appPort||9091,remotingAuthToken:e.remotingAuthToken||\"developer\",logDir:e.logDir||defaultLogDir,userDataRoot:e.userDataRoot||defaultUserAppDataDir,crashpadEnvironment:e.crashpadEnvironment||\"development\",appPid:e.appPid||-1,machineId:e.machineId||\"developer\",allowChromeDevTools:e.allowChromeDevTools||!1,enableHardwareAcceleration:e.enableHardwareAcceleration||!1,launchProduct:e.launchProduct||\"\",sessionId:e.sessionId||\"developer\"},cliArgs$1},log$3=log$d.scope(\"InstallSettings\");let installSettings$1=null;const getInstallSettings=(t=!0)=>{if(inst"
+    },
+    {
+      "term": "appPort",
+      "offset": 838039,
+      "short_context": "Headers=t=>(e,r)=>{const i=Buffer.from(`riot:${t.remotingAuthToken}`).toString(\"base64\");e.requestHeaders.Authorization=`Basic ${i}`,e.requestHeaders.Origin=`https://127.0.0.1:${t.appPort}`,r({requestHeaders:e.requestHeaders})},onHeadersReceived=(t,e)=>(r,i)=>{const n=new URL(r.url);if(n.host.endsWith(\"riotgames.com\")||n.host.endsWith(\"rcluster.io\")){const u=r.responseHeaders||{};return upsertKeyValue(u,\"Access-Control-Allow-Origin\",[\"*\"]),upsertKeyValue(u,\"Access-Control-Allow-Headers\",[\"*\"]),i({...r,responseHeaders:u})}const s=(n.hostname===\"127.0.0.1\"||n.hostname===\"localhost\")&&n.port===t.appPort.toString();if(n.host.endsWith(\"riotcdn.net\")||s){const u=ACCESS_CONTROL_ALLOW_O"
+    },
+    {
+      "term": "appPort",
+      "offset": 838459,
+      "short_context": "ol-Allow-Origin\",[\"*\"]),upsertKeyValue(u,\"Access-Control-Allow-Headers\",[\"*\"]),i({...r,responseHeaders:u})}const s=(n.hostname===\"127.0.0.1\"||n.hostname===\"localhost\")&&n.port===t.appPort.toString();if(n.host.endsWith(\"riotcdn.net\")||s){const u=ACCESS_CONTROL_ALLOW_ORIGIN_KEYS.find(o=>r.responseHeaders!=null&&!!r.responseHeaders[o])||ACCESS_CONTROL_ALLOW_ORIGIN,l=ACCESS_CONTROL_ALLOW_CREDENTIALS_KEYS.find(o=>r.responseHeaders!=null&&!!r.responseHeaders[o])||ACCESS_CONTROL_ALLOW_CREDENTIALS;{const o={...r.responseHeaders,[u]:`http://127.0.0.1:${e}`,[l]:\"true\"};return i({responseHeaders:o})}}i(r)},log$9=srcExports$1.scope(\"RCSWatchdog\"),defaultRCSWatchdogOptions={timeout:1e3};clas"
+    },
+    {
+      "term": "appPort",
+      "offset": 1117328,
+      "short_context": "=()=>{const t=hideBin(process.argv);return Array.isArray(t)?t:[]},getCommandLineLaunchArguments=()=>{if(cliArgs$1)return cliArgs$1;const t=getCommandLineArgs(),e=yargs(t).options({appPort:{type:\"number\"},remotingAuthToken:{type:\"string\"},logDir:{type:\"string\"},userDataRoot:{type:\"string\"},crashpadEnvironment:{type:\"string\"},appPid:{type:\"number\"},machineId:{type:\"string\"},allowChromeDevTools:{type:\"boolean\"},enableHardwareAcceleration:{type:\"boolean\"},launchProduct:{type:\"string\"},sessionId:{type:\"string\"}}).argv;return cliArgs$1={appPort:e.appPort||9091,remotingAuthToken:e.remotingAuthToken||\"developer\",logDir:e.logDir||defaultLogDir,userDataRoot:e.userDataRoot||defaultUserAppD"
+    },
+    {
+      "term": "appPort",
+      "offset": 1117685,
+      "short_context": "d:{type:\"string\"},allowChromeDevTools:{type:\"boolean\"},enableHardwareAcceleration:{type:\"boolean\"},launchProduct:{type:\"string\"},sessionId:{type:\"string\"}}).argv;return cliArgs$1={appPort:e.appPort||9091,remotingAuthToken:e.remotingAuthToken||\"developer\",logDir:e.logDir||defaultLogDir,userDataRoot:e.userDataRoot||defaultUserAppDataDir,crashpadEnvironment:e.crashpadEnvironment||\"development\",appPid:e.appPid||-1,machineId:e.machineId||\"developer\",allowChromeDevTools:e.allowChromeDevTools||!1,enableHardwareAcceleration:e.enableHardwareAcceleration||!1,launchProduct:e.launchProduct||\"\",sessionId:e.sessionId||\"developer\"},cliArgs$1},log$3=log$d.scope(\"InstallSettings\");let installSet"
+    },
+    {
+      "term": "BASE_URI=",
+      "offset": 823924,
+      "short_context": "ion requireAxios(){return hasRequiredAxios||(hasRequiredAxios=1,axios$1=requireAxios$1()),axios$1}var axiosExports=requireAxios();const axios=getDefaultExportFromCjs(axiosExports),BASE_URI=\"https://127.0.0.1\";let httpClient;const initHttpClient=(t,e,r)=>{const i=Buffer.from(`riot:${r}`).toString(\"base64\"),n={baseURL:`${BASE_URI}:${e}`,headers:{authorization:`Basic ${i}`},httpsAgent:new https.Agent({ca:t})};httpClient=axios.create(n)},getHttpClient=()=>{if(httpClient)return httpClient;throw new Error(\"Http client has not been initialized.\")},log$c=log$d.scope(\"CookieJarService\"),getCookieOrigin=(t,e)=>{if(typeof t.url==\"string\")try{return new URL(t.url).origin}catch(r){log$c.debug("
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "Stage": "ready",
+  "Message": "Arch instalado e inicializado; SSH, C, Rust e Python validados; checkpoint criado.",
+  "UpdatedAtUTC": "2026-10-12T04:04:23.8015790+00:00",
+  "VMName": "Arch-Lab-Vanguard",
+  "InstanceId": "arch-lab-a6b4ea59-35dc-43db-9428-bed7d1d8f3d5",
+  "Details": {
+    "Checkpoint": "Arch instalado e laboratorio validado",
+    "Validation": "guest-validation.log",
+    "MacAddress": "00155D010300",
+    "MaximumRAMGiB": 4,
+    "User": "lab",
+    "DiskGiB": 50,
+    "Manifest": "guest-packages.txt",
+    "StartupRAMGiB": 2,
+    "CPUCount": 4,
+    "Kernel": "7.2.9-arch1-1",
+    "Address": "192.0.2.10"
+  }
+}

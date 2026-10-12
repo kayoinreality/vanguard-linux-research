@@ -1,0 +1,729 @@
+{
+  "publication_date": "2026-10-12",
+  "source_material_dates": [
+    "2026-10-11",
+    "2026-10-12"
+  ],
+  "included_files": [
+    {
+      "path": "outputs/analise-driver-vgk.md",
+      "source_sha256": "58e3f6c784b39225e254148b3c202c4563b201300c9adfb0db5b0e8a12121148",
+      "published_sha256": "685a87eb210fc60f1251cdf852829c4437d9c153b8519b72cbae37dfbcd4b7d2",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/estudo-vanguard-arch.md",
+      "source_sha256": "030469ef20fa54216b330691d08a94ab15d86d8ac8983e537be57c96687352f0",
+      "published_sha256": "787e824d592df33d1b14a1130b6354eaa6f8609ba00aed3d51023bdde44ba840",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/inventario-vanguard-arch.json",
+      "source_sha256": "ca17bfd0f533b34e9525de6712e43f182a304d92322cb2c0997f7a98a718a903",
+      "published_sha256": "d1817cf6bcf3c1b88cc13b47ad38bf461eca9fabe8be33ce9d2a8bb8f1a04677",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/matriz-inicial-vanguard.md",
+      "source_sha256": "ba68b62b18e2dfef793e03dbcc0e70f1b77056ec9cd7b6e736be6fa64998d5e0",
+      "published_sha256": "ba68b62b18e2dfef793e03dbcc0e70f1b77056ec9cd7b6e736be6fa64998d5e0",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "outputs/patcher-get-contrato-estatico.json",
+      "source_sha256": "30cc1f0fc7e7c0788979b567593883e635485d5a8f9d2fc80b8767811c7f9b30",
+      "published_sha256": "6bf616f3e2b91174b761a571ad702eaeac5c2fb00e6d0c318be4c90e0f0de15f",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/patcher-get-contrato-estatico.md",
+      "source_sha256": "299485594885e469a1f141704894144c124e2ed3c088fe8dac1a7ff0dae4a903",
+      "published_sha256": "d56f80201f38f93e35def1a1dd5d3058a9b7b84e73a2b3438026797c4ce804de",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/vgk-callee-estatico.json",
+      "source_sha256": "e7406b4333a624ab225ca3d3dc100f2ccb0afc71d252360a594a8ec0b1e4c03e",
+      "published_sha256": "1f618e5fa3dad5ec3d9dde48c9f802199ac1f05dfc01157b8a5862ec090a7181",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/vgk-callee-estatico.md",
+      "source_sha256": "8c8e4b6ed7def264f4215f97f7cc6e4b47bed13cce714a2b9c5b8c62ec2f4baa",
+      "published_sha256": "3c6c5452fa2b19b6240ca0d4343ae0ac8bab9c32c127bcf74401cfc979896931",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/vgk-callee-estatico.txt",
+      "source_sha256": "8f5ba2b72464c541e0a7a2395a76b7452807c2c7fa76884557dadfd4393592eb",
+      "published_sha256": "d6aa6f0213337d2bf43ad1cf28e8a906c241c44bf96385f7899dc221357444b2",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/vgk-entry-disassembly.txt",
+      "source_sha256": "9e3acc484f5af4463e76a8fc4a37cdb588cb5aee58b8464588fd1d79f118f632",
+      "published_sha256": "694cfb542759e2791683e77b6b6209da8a00a1208907572c4f445c696a762e8b",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/viabilidade-ui-nativa.json",
+      "source_sha256": "be5b47020883f642b9ccfed10380de96b8248c783132fe0cc53e3ce854eaca76",
+      "published_sha256": "760e24d513000404569d6331f510c691d0577da27a4d0fe17c8a982320e6e4f1",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/viabilidade-ui-nativa.md",
+      "source_sha256": "786d2286dfaebffc79b4d505a6d9148212aaf38351386d13682b2da299fa6df5",
+      "published_sha256": "76808a865cedb09004f37f5c6634157fd90da035b1c17837b96eb47ba405ed4a",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/arch-lab/LEIA-ME.md",
+      "source_sha256": "f5f7e2492ed934233f8decdcb8039a17fd8d746225a2f6597435544cd7b53eff",
+      "published_sha256": "f5f7e2492ed934233f8decdcb8039a17fd8d746225a2f6597435544cd7b53eff",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "outputs/arch-lab/abrir-laboratorio.ps1",
+      "source_sha256": "1e5578ee7ecd3347761bc4445eed5b42debd0990cf163a953a1bbecbae08d902",
+      "published_sha256": "1e5578ee7ecd3347761bc4445eed5b42debd0990cf163a953a1bbecbae08d902",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "outputs/arch-lab/config.json",
+      "source_sha256": "cc0804f8b57681b97df7cab05b8c8b2eb30a08d5fe40c116b083afbf3974af97",
+      "published_sha256": "ea5885ca9c1d75bb2a7a97df8c84fd5a5e40e86b1f60ee88733f590cc7b3a4d4",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/arch-lab/console-recovery.json",
+      "source_sha256": "f844cecb79d60d2e3c5af213002147d1edb60fbf7937503494bbaabb5a0e0e0c",
+      "published_sha256": "f772aa4fa04ca0fb3a52dd6beb36c18aa1263198bfc02791012593164e5e26a9",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/arch-lab/guest-packages.txt",
+      "source_sha256": "afefcf50d778ceb15c5a5cabd9f4986b33d26d9878d99efa64fec71c1316a821",
+      "published_sha256": "e6738e79bcb5fd6da7e9e4cb711f7ead4bd1ebda2482e2f642f3dbc32d670d7f",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/arch-lab/guest-validation.log",
+      "source_sha256": "3a0a66defaf8121396be178bbd6b387f137d67f211c32a0a49fe5882f0c2ed45",
+      "published_sha256": "9bd88702600564222c8d630e64bf050717ed9409803b13db2f4a70ba5831aff7",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/arch-lab/iniciar-laboratorio.ps1",
+      "source_sha256": "f5d7c80b92313b58375b459b7c4789578a4ae011c95ab91377a03202c719ccd8",
+      "published_sha256": "3037fe99f4c8267285fec741de0eccdf9fb9ebfd35b5c83dd69fdac7b2ac54bb",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/arch-lab/preparar-vm.ps1",
+      "source_sha256": "1d7605b486e6a884d36a8733b53501382c9f74e6778303ba33093d492819f153",
+      "published_sha256": "1d7605b486e6a884d36a8733b53501382c9f74e6778303ba33093d492819f153",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "outputs/arch-lab/status.json",
+      "source_sha256": "0c41ae46ee6a6fae6fd79005fb4f7a30b6dc709572b91d8c2b58033c82659c0b",
+      "published_sha256": "5001e32c31ee78b564f6fc2038685529b6f24f7e3f140933c7b26c9802d910cc",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/archguard-lab/README.md",
+      "source_sha256": "ebb3b4ac194752c7f7e2101cc4b21702447fd86898741220f918c96e35b77fee",
+      "published_sha256": "ebb3b4ac194752c7f7e2101cc4b21702447fd86898741220f918c96e35b77fee",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "outputs/archguard-lab/archguard-lab.service",
+      "source_sha256": "c1815f9a38383e262479691dce04024c55158dc063783b7e63b8c42394dd5388",
+      "published_sha256": "c1815f9a38383e262479691dce04024c55158dc063783b7e63b8c42394dd5388",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "outputs/archguard-lab/archguard.py",
+      "source_sha256": "75823fcdd1b4b56a822169d46b435582bac7b3a7179fc1edd161b442f4b53fd5",
+      "published_sha256": "75823fcdd1b4b56a822169d46b435582bac7b3a7179fc1edd161b442f4b53fd5",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "outputs/archguard-lab/consultar-prototipo.ps1",
+      "source_sha256": "ebbac2f4b3a5b4d3bcf1e2bc180ebb3b062cc5fe1c566b4576d9364de17cb931",
+      "published_sha256": "ebbac2f4b3a5b4d3bcf1e2bc180ebb3b062cc5fe1c566b4576d9364de17cb931",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "outputs/archguard-lab/install.sh",
+      "source_sha256": "6533ccaf2eb796e519be16eb5aa84f02dbfbac55984f18387d3d42d7da553bb0",
+      "published_sha256": "6533ccaf2eb796e519be16eb5aa84f02dbfbac55984f18387d3d42d7da553bb0",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "outputs/archguard-lab/runtime-state.json",
+      "source_sha256": "53a8fdfa11f1da180edd536ba08f2b9729dda569f8489c8ece856b0e3cf99679",
+      "published_sha256": "c79735a82c77756e5b71610b6c4e84c05a22e06a617ea51cef2817a1b002de2b",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/archguard-lab/service-properties.txt",
+      "source_sha256": "2253ef99e14afeeac4ced1db7b116541f91859cb34472dc0423a468a7e4e7dff",
+      "published_sha256": "ca92e108ec60eaa3754858560e11b9b25a47cc695a0978c5baa1f9d5bd392aa4",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/archguard-lab/validation.json",
+      "source_sha256": "5d8f28e6d897fbaa4b900b614c56296ac40b761bc9f332edc04de1c32b952040",
+      "published_sha256": "5d8f28e6d897fbaa4b900b614c56296ac40b761bc9f332edc04de1c32b952040",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "outputs/archguard-lab/verify.py",
+      "source_sha256": "522c48c563380cb4cabbac38c80f03060bb2577bd75a7d59b2628b7ed0592e2d",
+      "published_sha256": "522c48c563380cb4cabbac38c80f03060bb2577bd75a7d59b2628b7ed0592e2d",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "outputs/lol-arch-lab/README.md",
+      "source_sha256": "aa99724ed2fc803c78e498be1bf766384df4ecc9814a73619a5c9165abf7f04a",
+      "published_sha256": "3b356079b6c00679302bc1417a14368386b60c02110885c599793b3acee7270e",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/atualizacao-pos-migracao.json",
+      "source_sha256": "44d8b17a337c7e9b4afc954038d48df48dbed8a13b1a572e3aaacbb19f0425de",
+      "published_sha256": "2ca6c6a8e3139d17a762443f163da7d95ad36719a236a473e600faa6aac71991",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/conexao-interface.log",
+      "source_sha256": "01b15acc6ff418448f3f19ea44aabaf345a19d7c7941366eac1a391d3bb97af7",
+      "published_sha256": "2c419feffd69514af83b886a323855b7dd92cd618424db0d22de0342f76bc53c",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/consulta-tls-inicial.json",
+      "source_sha256": "047b3154db44c6bb5d4b67c4a49f453a9def3c101053f6cb94cac0b867783e1b",
+      "published_sha256": "5b98889aa685c285fb2dd5d04904cb83dc788f25c44849da3255c1a04f71f45c",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/contratos-league-client.json",
+      "source_sha256": "7182cd09014b8e9dd46d5234a1dbeb9aa703781153cd07c4396afea7dd3d730d",
+      "published_sha256": "f93fad0bdce72f24c96416d13c0728d70967824d7356aae712bde3f6222c37e5",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/contratos-league-client.md",
+      "source_sha256": "063d4b46c22cca56578158204defbc2fc3102de59def705084375c3845ea6975",
+      "published_sha256": "063d4b46c22cca56578158204defbc2fc3102de59def705084375c3845ea6975",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "outputs/lol-arch-lab/diagnostico-atualizacao-launch.json",
+      "source_sha256": "13a9f6cb1d644ebdfd0c554be9466c5a5e721019f88bca62c0342d3195ad7853",
+      "published_sha256": "4d1fa600ca13d7b6e488e6434cb0066faeb93a79b8c4a50f765f953a30999362",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/diagnostico-atualizacao-launch.md",
+      "source_sha256": "d935f75b316a981ba06d3c5aa8128a00934c042991fff4620f84c8a7d2e488e3",
+      "published_sha256": "d935f75b316a981ba06d3c5aa8128a00934c042991fff4620f84c8a7d2e488e3",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "outputs/lol-arch-lab/espaco-apos-atualizacao.json",
+      "source_sha256": "c56d815f03c74b5f148a5badc14544bb76046709461e657e2736cf930eeedbba",
+      "published_sha256": "6d841854a2159a7baf9350ff4fc7362b75a13dd02121bf4970e2c349630fdafc",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/estado-patcher-local.json",
+      "source_sha256": "b54d2ca9e918cc6578eb4153f876c391c58d05c60c08d94d7877b23234966138",
+      "published_sha256": "56f3424615c93245b17d4ce44e1f3d776901b10c80cf27dfb1a76c2412436b58",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/eventos-tecnicos.json",
+      "source_sha256": "63e4bdd93f5f5039902bde159c42fac1a87dec7d377bed5b551287492e1607e9",
+      "published_sha256": "193d79347bdee7d85b8515868dad1710627a35c6b9baea0532e1211423befefb",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/identidade-arquivos.json",
+      "source_sha256": "eb95714d9d649ee7935eaba76c0d81004191975c1b329ecbb36db64c3c1c15a9",
+      "published_sha256": "233065cb93a68585f2b9de7a3910f18dc19f3b5d6e7123c40f540051d2da8ac6",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/identidade-executavel-partida.json",
+      "source_sha256": "b33ae77b002fc1d8ed2d3f21ee90a8d5c0c10fb72c1d3bab9439469543350cb8",
+      "published_sha256": "1260e63413bbcaed8268c5788b0cf00110f3fcd9522b66299942c2f404e8160b",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/migracao-arquivos-jogo.json",
+      "source_sha256": "0f34a634d804949e89048773bcdf306a4997466cb3d04c95b9203e86fc9f37aa",
+      "published_sha256": "6dd84cb777952b880f7ba43cb885e41f9e3d1c1ebcbc0babea34629380f3992c",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/native-runtime-state.json",
+      "source_sha256": "746e32fb4bc37c87b9c3e3b1b154d8ae298e0ac516b7381b26c88689ad4b2c66",
+      "published_sha256": "f7214913bdd07ede37a56fd7dd7ceed51783c9cb08e5fee00d5d4ca23083dbc0",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/novo-disco-vm.json",
+      "source_sha256": "6d52dfb10a1fe60dde5fc31d9421b08e09c3d8c64bf0055f1b08d803411a3c1f",
+      "published_sha256": "6ac345b1fec2b759b30ff64b4e5112f3b59b975abd46d76cd21b188aad36f079",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/primeiro-lancamento.json",
+      "source_sha256": "1748bb4357b8d4a2de3826b4a6ca4e7b65973b90d3e93e982b8518734e8380c9",
+      "published_sha256": "e041df9e8efb1bc8b4919aa1a8ac40a60da7138e9b213797e46195f2823f4300",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/reabrir-interface.ps1",
+      "source_sha256": "ba0bbef1f7cff288a56c5de0ff0f531522c387f379ccc3cb544e7d2fef5610ae",
+      "published_sha256": "4c5ecb4c4720b5be36ffb3d1ecaf6a1dac307d60d72b14b916a97caf7d871d58",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/start-client.sh",
+      "source_sha256": "a67cbb125e579f53beb0affc12bd45505dac1bba03cac9ded3551c0e0e7910f5",
+      "published_sha256": "a67cbb125e579f53beb0affc12bd45505dac1bba03cac9ded3551c0e0e7910f5",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "outputs/lol-arch-lab/start-native-lab.sh",
+      "source_sha256": "1d34b1caf2db7cd4b3e73bb1f1beb1627296770f6fca0a22a52aa5c66454ed44",
+      "published_sha256": "1d34b1caf2db7cd4b3e73bb1f1beb1627296770f6fca0a22a52aa5c66454ed44",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "outputs/lol-arch-lab/start-native-ui.py",
+      "source_sha256": "e4bbf3a345c566d58c066cf4d1a3f3d2ef33de7dc3646c5bcbff37d34028a690",
+      "published_sha256": "e4bbf3a345c566d58c066cf4d1a3f3d2ef33de7dc3646c5bcbff37d34028a690",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "outputs/lol-arch-lab/vanguard-pos-instalacao.json",
+      "source_sha256": "4f0036e3fccb3c4b58974031489d2fcd290803c99c9a3052d07b6902cac1cff1",
+      "published_sha256": "3125f937f9bf45b3f9e193e660f47394c442e4eeaf918f8ea645a1c93f4c3859",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "outputs/lol-arch-lab/vanguard-pos-instalacao.md",
+      "source_sha256": "5da18d064f3ed1f409ccccfb10dc0d3af30040207afc8a90d890c4623fa2026b",
+      "published_sha256": "37b55c3d3f7d5b74d565793d0d6cf2a43fef73176de143723c165e378a7e3f6b",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "work/arch-lab/add-game-disk-result.json",
+      "source_sha256": "6d52dfb10a1fe60dde5fc31d9421b08e09c3d8c64bf0055f1b08d803411a3c1f",
+      "published_sha256": "6ac345b1fec2b759b30ff64b4e5112f3b59b975abd46d76cd21b188aad36f079",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "work/arch-lab/add-game-disk.ps1",
+      "source_sha256": "a666c0c58028fa29af571ac8b4270ff7f77a1330a8089df2bb83838188151150",
+      "published_sha256": "a666c0c58028fa29af571ac8b4270ff7f77a1330a8089df2bb83838188151150",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/arch-lab/admin-helper.ps1",
+      "source_sha256": "4ef12dc3fc2a50b1297b217cafaecb04abade83fe92f353b1d11c686cee6a7cb",
+      "published_sha256": "4ef12dc3fc2a50b1297b217cafaecb04abade83fe92f353b1d11c686cee6a7cb",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/arch-lab/admin-request.json",
+      "source_sha256": "cec31b0452b7c5c3f38e88f650ecb7014189c21bc004a9c5ef080db54db839b6",
+      "published_sha256": "4bfe0d22ca71c847c4ef7d3d5d3dfb8f0bfe410e0fcedad091dd630196096839",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "work/arch-lab/admin-response.json",
+      "source_sha256": "b246db759caf6510c94d1c083af71415fb54784ac9adc5d0ed717ca98dd08c16",
+      "published_sha256": "ec0a8c3954adafbb20a786882c0a31d226ad6cd6380d61323b4b3f406a732e50",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "work/arch-lab/build_seed.py",
+      "source_sha256": "fdc2f9ca665da55fbcab473933debea1ac58ee8c3dc3d5838dbf3c1c0dbe528a",
+      "published_sha256": "fdc2f9ca665da55fbcab473933debea1ac58ee8c3dc3d5838dbf3c1c0dbe528a",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/arch-lab/decode_frame.py",
+      "source_sha256": "df37ff8e3905cc4dd378560db7f0b0973f36a6855a475d86f134c69b3e3228b1",
+      "published_sha256": "df37ff8e3905cc4dd378560db7f0b0973f36a6855a475d86f134c69b3e3228b1",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/arch-lab/diagnose.ps1",
+      "source_sha256": "2bf192d869b79c9174857f42c18d0fe5187a5370829141a1977e5133bacf0283",
+      "published_sha256": "2bf192d869b79c9174857f42c18d0fe5187a5370829141a1977e5133bacf0283",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/arch-lab/install-arch.sh",
+      "source_sha256": "070e364456685bf13b34385f745ad3c973fb7aefb5a0b114fa59ad5373171224",
+      "published_sha256": "070e364456685bf13b34385f745ad3c973fb7aefb5a0b114fa59ad5373171224",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/arch-lab/recover-console.ps1",
+      "source_sha256": "577769168a643a1c4e0f91d4a72ddc30e11a7114a67e857d715767d5e1e441a4",
+      "published_sha256": "577769168a643a1c4e0f91d4a72ddc30e11a7114a67e857d715767d5e1e441a4",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/arch-lab/remote.ps1",
+      "source_sha256": "dac966819e2a2a6ebee8a480b4ae0ef7959a32661771aa7a71e90b11a40bc02f",
+      "published_sha256": "4cdf0b056ed74f538a6d61298ea59ee3b9f2c6928c6d597f12bf8e6675758196",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "work/lol-client/collect-lab-state.py",
+      "source_sha256": "3057e8ef62578a4d751c56eda3d26834547243e0b83129089409f1e56a786e73",
+      "published_sha256": "3057e8ef62578a4d751c56eda3d26834547243e0b83129089409f1e56a786e73",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/lol-client/collect-league-contracts.py",
+      "source_sha256": "5d768af8977925e0067fba1cd336a311de2ed204ba99f05d4bdc2ff124dd2c08",
+      "published_sha256": "5d768af8977925e0067fba1cd336a311de2ed204ba99f05d4bdc2ff124dd2c08",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/lol-client/diagnose-ui.py",
+      "source_sha256": "8e20e5f2c3679126e3fdfe86ccb1280a6cfcb1e00e1f0e04e53237a9f4538d28",
+      "published_sha256": "8e20e5f2c3679126e3fdfe86ccb1280a6cfcb1e00e1f0e04e53237a9f4538d28",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/lol-client/enrich-league-contracts.ps1",
+      "source_sha256": "2c4819fe678168faf219752dd190832636cc21eb7e7753e99941ba608bd0ffd5",
+      "published_sha256": "d135c55092e6eaa27b903ace6146a431717284e383d8b5e0b3fb1612eb2092df",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "work/lol-client/inspect-asar-structure.py",
+      "source_sha256": "d8f4317f000147ff610e860465912f02dcb154acf306fbeda016616486c85e08",
+      "published_sha256": "d8f4317f000147ff610e860465912f02dcb154acf306fbeda016616486c85e08",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/lol-client/inspect-client.py",
+      "source_sha256": "fab721f2ebf8b46356a59cd816797f4e328ff8e46f5a79181423a53343d1c37b",
+      "published_sha256": "fab721f2ebf8b46356a59cd816797f4e328ff8e46f5a79181423a53343d1c37b",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/lol-client/inspect-owned-ui-flags.py",
+      "source_sha256": "b3472a6cd3d2048edfa39080c4041cb0ff40e74d9cd81c6c2718c030eebb6a89",
+      "published_sha256": "b3472a6cd3d2048edfa39080c4041cb0ff40e74d9cd81c6c2718c030eebb6a89",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/lol-client/inspect-patcher-endpoints.py",
+      "source_sha256": "5f9abc731b99160ae7ad8977008624308703e17cfbaa68d2dd62f379df8e5de7",
+      "published_sha256": "5f9abc731b99160ae7ad8977008624308703e17cfbaa68d2dd62f379df8e5de7",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/lol-client/inspect-ui-flags.py",
+      "source_sha256": "4b9a13673380aca097b2d81d0b21948d6ced924130e581c78a687a3539aca5cf",
+      "published_sha256": "4b9a13673380aca097b2d81d0b21948d6ced924130e581c78a687a3539aca5cf",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/lol-client/migrate-game-data.py",
+      "source_sha256": "3b4c969decb8c0660a67e5863c9f90345cc5eac551c6a62f60a31a49c66e7588",
+      "published_sha256": "3b4c969decb8c0660a67e5863c9f90345cc5eac551c6a62f60a31a49c66e7588",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/lol-client/patcher-static-candidates.json",
+      "source_sha256": "9aaf0341570222460f5438270c0e21783dd704d582e8e5664a9a7b6438f0260a",
+      "published_sha256": "ab35c36b967a96cebd39ac7a82096eff0c7050a7348710ad51f5dbd5236b910d",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "work/lol-client/patcher-static-state-fields.json",
+      "source_sha256": "423ef0f18c0a8cc3cade1e504d8da4470a4cf8375e24b69245a27ebd9be7e767",
+      "published_sha256": "ce8d0c09db3fa3f695ce7e38f969345a4c293a490078ee7e0e3eb05753786858",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "work/lol-client/patcher-static-targeted.json",
+      "source_sha256": "62441dd5e658ffbcab10cf8affffd6412dd37c33a57d12ed1eaac5249b182499",
+      "published_sha256": "9072f4247f1515f29cbd95d26901b2893c38c0b64f640510e36fdd09ad476e1e",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "work/lol-client/persist-game-mounts.py",
+      "source_sha256": "654dabbe042723e85cd6814aae9bf43effcad9577b0966c55ef1cf390f75944e",
+      "published_sha256": "654dabbe042723e85cd6814aae9bf43effcad9577b0966c55ef1cf390f75944e",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/lol-client/prepare-client.sh",
+      "source_sha256": "a9f39bf99dd32cba1e7e02f6ab9ec89b7fde7d29dbbf4b0d45fec5d07fe88f58",
+      "published_sha256": "a9f39bf99dd32cba1e7e02f6ab9ec89b7fde7d29dbbf4b0d45fec5d07fe88f58",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/lol-client/prepare-game-disk.sh",
+      "source_sha256": "def01f4d86d1f2ee2549f2192ddd9d05b76b6b970b80846fb903722a89e9f944",
+      "published_sha256": "def01f4d86d1f2ee2549f2192ddd9d05b76b6b970b80846fb903722a89e9f944",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/lol-client/read-patcher-state.py",
+      "source_sha256": "f9d188ab4b71528e6eb585e81ab4ea677623c5d5d81e568ca74a0329926e563b",
+      "published_sha256": "f9d188ab4b71528e6eb585e81ab4ea677623c5d5d81e568ca74a0329926e563b",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/lol-client/release-original-game-copies.py",
+      "source_sha256": "357dc9c723b90c1aebf82257a18cc0792b1cce08d3986751c383ef3069c7218b",
+      "published_sha256": "357dc9c723b90c1aebf82257a18cc0792b1cce08d3986751c383ef3069c7218b",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/lol-client/request-league-launch.sh",
+      "source_sha256": "a2404f7b31b429c72ce7f5751bafe32ea815ce106d15d12cb5a227c1206b7221",
+      "published_sha256": "a2404f7b31b429c72ce7f5751bafe32ea815ce106d15d12cb5a227c1206b7221",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/lol-client/set-software-rendering.py",
+      "source_sha256": "7052c2206488419293e122a429b9583d38fd96ab0f7ca0cf0a69a80946281cbd",
+      "published_sha256": "7052c2206488419293e122a429b9583d38fd96ab0f7ca0cf0a69a80946281cbd",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/lol-client/start-client.sh",
+      "source_sha256": "a67cbb125e579f53beb0affc12bd45505dac1bba03cac9ded3551c0e0e7910f5",
+      "published_sha256": "a67cbb125e579f53beb0affc12bd45505dac1bba03cac9ded3551c0e0e7910f5",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/lol-client/start-native-lab.sh",
+      "source_sha256": "1d34b1caf2db7cd4b3e73bb1f1beb1627296770f6fca0a22a52aa5c66454ed44",
+      "published_sha256": "1d34b1caf2db7cd4b3e73bb1f1beb1627296770f6fca0a22a52aa5c66454ed44",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/lol-client/start-native-ui.py",
+      "source_sha256": "e4bbf3a345c566d58c066cf4d1a3f3d2ef33de7dc3646c5bcbff37d34028a690",
+      "published_sha256": "e4bbf3a345c566d58c066cf4d1a3f3d2ef33de7dc3646c5bcbff37d34028a690",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/lol-client/summarize-ui-connection.py",
+      "source_sha256": "003dd7c9098c09b3e6cdfc880f401df76a0da6b5e7b083d4ddb55d3d24393a7e",
+      "published_sha256": "003dd7c9098c09b3e6cdfc880f401df76a0da6b5e7b083d4ddb55d3d24393a7e",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/vanguard-estudo/annotate_vgk_callee_disassembly.py",
+      "source_sha256": "fcb8cc5e08b3ddc13098e78251ce02ababf1277cd48d5fc3afc89557f5925d23",
+      "published_sha256": "fcb8cc5e08b3ddc13098e78251ce02ababf1277cd48d5fc3afc89557f5925d23",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/vanguard-estudo/build_report.py",
+      "source_sha256": "e7f198d2ea96fb2128e16011ce468b6b82ef9e06f55d7629fea422ba0e8bfbd2",
+      "published_sha256": "e7f198d2ea96fb2128e16011ce468b6b82ef9e06f55d7629fea422ba0e8bfbd2",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/vanguard-estudo/collect_first_launch_sanitized.py",
+      "source_sha256": "cf5716947f5c3f617047c65139828126d8f16a3e1a2bd24c3b3a10eb33ded1c9",
+      "published_sha256": "cf5716947f5c3f617047c65139828126d8f16a3e1a2bd24c3b3a10eb33ded1c9",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/vanguard-estudo/collect_guest_vanguard_readonly.py",
+      "source_sha256": "4e05b782fecf8fa091bd84a964a8015274be029fe32bd5da4de3eddb3a5fcbf8",
+      "published_sha256": "4e05b782fecf8fa091bd84a964a8015274be029fe32bd5da4de3eddb3a5fcbf8",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/vanguard-estudo/collect_inventory.ps1",
+      "source_sha256": "fa33b25b2b2671a22cb1fdbb5cb05c18dd3c466a779bf0c43b4dffd987f1a9f7",
+      "published_sha256": "fa33b25b2b2671a22cb1fdbb5cb05c18dd3c466a779bf0c43b4dffd987f1a9f7",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/vanguard-estudo/collect_update_post_migration.py",
+      "source_sha256": "14b62f6e042e23ac752672e5eb24ccf36c573da0ce149a3688e76d0a9e801f8a",
+      "published_sha256": "14b62f6e042e23ac752672e5eb24ccf36c573da0ce149a3688e76d0a9e801f8a",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/vanguard-estudo/collect_updater_launch_events_body.py",
+      "source_sha256": "79e9ba0567b38fe8ad9c654b5132d0c1498feedb78b3d7450c1abf79bcff73e4",
+      "published_sha256": "79e9ba0567b38fe8ad9c654b5132d0c1498feedb78b3d7450c1abf79bcff73e4",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/vanguard-estudo/first-launch-sanitized-capture.json",
+      "source_sha256": "2c198768b7b2fdecefe3b8e8def77dddca9ae1895b80bcf165f7b2e153c1a2cc",
+      "published_sha256": "e041df9e8efb1bc8b4919aa1a8ac40a60da7138e9b213797e46195f2823f4300",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "work/vanguard-estudo/guest-vanguard-readonly-capture.json",
+      "source_sha256": "6d6855dc41ee678e3bc081534bf866ebcf1b7041272a7ddaea48a1fec51650f9",
+      "published_sha256": "d11602ebc4ca2fca480540f0e3ff55371e2bd26cdccd04219fa7dc8a115ad4a0",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "work/vanguard-estudo/inspect_driver_details.py",
+      "source_sha256": "2677b44127cc46ab1364e7e57cfe782948c6984ce9a98d852fb549563a13e3bf",
+      "published_sha256": "2677b44127cc46ab1364e7e57cfe782948c6984ce9a98d852fb549563a13e3bf",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/vanguard-estudo/inspect_pe.py",
+      "source_sha256": "2e132638555cf0a35ef161f5040ff2df71b3a39281cd6091ed180a8475b16f5e",
+      "published_sha256": "2e132638555cf0a35ef161f5040ff2df71b3a39281cd6091ed180a8475b16f5e",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/vanguard-estudo/inspect_update_time_shapes.py",
+      "source_sha256": "8a40d79ea6f3799ec38226a097ec4e39c8c8f5981f003728ac33752d80adc11c",
+      "published_sha256": "8a40d79ea6f3799ec38226a097ec4e39c8c8f5981f003728ac33752d80adc11c",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/vanguard-estudo/inspect_vgk_callee.py",
+      "source_sha256": "0a21c987eb0273ffd3233cdcbfc6fa6394d4479cd0e46c75d3667608fd156aab",
+      "published_sha256": "0a21c987eb0273ffd3233cdcbfc6fa6394d4479cd0e46c75d3667608fd156aab",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/vanguard-estudo/inventory.json",
+      "source_sha256": "dc9761bc6a2ab1fa3704fd5c63513024d84e26ff0941ab607a46805d268639c5",
+      "published_sha256": "7433e4382f5607270b641466885f63c91d106f08209037bbd40a799396523206",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "work/vanguard-estudo/pe-inventory.json",
+      "source_sha256": "9720f832a1e5a67857224bcaba18a73935277ff3b799d0d410e6cbdf6841d0d8",
+      "published_sha256": "9470e11ba3351da27e4bd924121983fefeabc16caef7a4265a5a913f3d030273",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "work/vanguard-estudo/save_guest_vanguard_evidence.py",
+      "source_sha256": "e64a7cd3dbbc88e24cff153edb3b05eb2ccb1393cf962dcef1fb86cef1ee3773",
+      "published_sha256": "e64a7cd3dbbc88e24cff153edb3b05eb2ccb1393cf962dcef1fb86cef1ee3773",
+      "sanitized_or_normalized": false
+    },
+    {
+      "path": "work/vanguard-estudo/update-post-migration-capture.json",
+      "source_sha256": "22b4e93e944cca97b3c83b4ba59c917f8b089b1314f63fd643c053f16b135e31",
+      "published_sha256": "2ca6c6a8e3139d17a762443f163da7d95ad36719a236a473e600faa6aac71991",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "work/vanguard-estudo/update-time-shapes.json",
+      "source_sha256": "79dcd60b0cbf0a16fb974cda57d3cdb1098c32e242f5653e59eafbfd02b3a100",
+      "published_sha256": "ca54f802cff1d0341191e0e06add2ffdd8a5cdd52354bf9e67b54e62941ea92c",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "work/vanguard-estudo/updater-launch-event-capture.json",
+      "source_sha256": "46f915da82a2bc746c1e29c6736ddb60455e320e86e31166138416e1c39e5313",
+      "published_sha256": "75c20e519e00ed55ed04d3b4c8a33f108c3b623f0413a48950edd73ce3d5fe60",
+      "sanitized_or_normalized": true
+    },
+    {
+      "path": "work/vanguard-estudo/vgk-static-details.json",
+      "source_sha256": "4636f65d2f003e8b93f20a6283f89db0f5cd5148d161960229e1f4f278549da4",
+      "published_sha256": "afbb2daf85a2cd5417c273bdf8c5c52bdd07bf167b0a676b5a68df0507479ba2",
+      "sanitized_or_normalized": true
+    }
+  ],
+  "excluded_individual_files": [
+    {
+      "path": "outputs/archguard-lab-v0.1.zip",
+      "reason": "binary, screenshot, packaged copy or local runtime artifact"
+    },
+    {
+      "path": "outputs/arch-lab/diagnostico.json",
+      "reason": "operational SSH diagnostic output"
+    },
+    {
+      "path": "outputs/arch-lab/guest-install.log",
+      "reason": "raw installation log"
+    },
+    {
+      "path": "outputs/arch-lab/host-setup.log",
+      "reason": "raw host setup log"
+    },
+    {
+      "path": "outputs/arch-lab/known_hosts",
+      "reason": "binary, screenshot, packaged copy or local runtime artifact"
+    },
+    {
+      "path": "outputs/arch-lab/probe_known_hosts",
+      "reason": "binary, screenshot, packaged copy or local runtime artifact"
+    },
+    {
+      "path": "outputs/lol-arch-lab/interface-atual.jpg",
+      "reason": "binary, screenshot, packaged copy or local runtime artifact"
+    },
+    {
+      "path": "outputs/lol-arch-lab/riot-id-confirmado.jpg",
+      "reason": "binary, screenshot, packaged copy or local runtime artifact"
+    },
+    {
+      "path": "work/arch-lab/console.png",
+      "reason": "binary, screenshot, packaged copy or local runtime artifact"
+    },
+    {
+      "path": "work/arch-lab/console.rgb565",
+      "reason": "binary, screenshot, packaged copy or local runtime artifact"
+    },
+    {
+      "path": "work/lol-client/LeagueInstaller-BR.exe",
+      "reason": "binary, screenshot, packaged copy or local runtime artifact"
+    },
+    {
+      "path": "work/lol-client/tunnel-error.log",
+      "reason": "local tunnel output"
+    },
+    {
+      "path": "work/lol-client/tunnel.pid",
+      "reason": "binary, screenshot, packaged copy or local runtime artifact"
+    },
+    {
+      "path": "work/vanguard-estudo/vgk-callee-context.bin",
+      "reason": "binary, screenshot, packaged copy or local runtime artifact"
+    },
+    {
+      "path": "work/vanguard-estudo/vgk-jump-context.bin",
+      "reason": "binary, screenshot, packaged copy or local runtime artifact"
+    }
+  ],
+  "excluded_directories": [
+    "__pycache__",
+    "gnupg",
+    "keys",
+    "media",
+    "samples",
+    "vendor",
+    "vm"
+  ],
+  "original_source_unchanged": true
+}

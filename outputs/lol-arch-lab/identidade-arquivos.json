@@ -1,0 +1,31 @@
+{
+  "CollectedAtUTC": "2026-10-12T08:50:54.6045568Z",
+  "InstallerSource": "https://lol.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.br.exe",
+  "WindowsSignatureChecks": [
+    {
+      "Name": "LeagueInstaller-BR.exe",
+      "Bytes": 75831040,
+      "Version": "138.0.0.4786",
+      "SHA256": "f848d40438d9e52819aa890b382aadd43b49f86151a2ad320cc0befd265841bc",
+      "Signature": "Valid",
+      "Signer": "CN=\"Riot Games, Inc.\", O=\"Riot Games, Inc.\", L=Los Angeles, S=California, C=US, SERIALNUMBER=4155843, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US"
+    },
+    {
+      "Name": "RiotClientServices.exe",
+      "Bytes": 75685448,
+      "Version": "140.0.8.5062",
+      "SHA256": "19b06efe0339b1f75ae4f241a5a40483c0766577a26480dcbb3275e7444c139d",
+      "Signature": "Valid",
+      "Signer": "CN=\"Riot Games, Inc.\", O=\"Riot Games, Inc.\", L=Los Angeles, S=California, C=US, SERIALNUMBER=4155843, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US"
+    },
+    {
+      "Name": "Riot Client.exe",
+      "Bytes": 159249184,
+      "Version": "140.0.0",
+      "SHA256": "70049d5dc7301ed94e739680480e4f52999a41d1eb3cd0023ac1b37c36800f99",
+      "Signature": "Valid",
+      "Signer": "CN=\"Riot Games, Inc.\", O=\"Riot Games, Inc.\", L=Los Angeles, S=California, C=US, SERIALNUMBER=4155843, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US"
+    }
+  ],
+  "GuestClientHashesMatchWindows": true
+}

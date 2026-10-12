@@ -1,0 +1,157 @@
+{
+  "started_at_utc": "2026-10-12T13:12:40.561433+00:00",
+  "completed_at_utc": "2026-10-12T13:12:48.036083+00:00",
+  "uid": 1000,
+  "user": "lab",
+  "prefix": "/home/lab/lol-lab/prefix",
+  "method": "Two read-only SHA256 passes and PE version-resource parsing of fixed public Vanguard file paths; only SCM query commands were requested",
+  "files": [
+    {
+      "name": "vgk.sys",
+      "path": "/home/lab/lol-lab/prefix/drive_c/Program Files/Riot Vanguard/vgk.sys",
+      "baseline": {
+        "bytes": 109721528,
+        "version": "1.19.1-18+20261001.143443",
+        "sha256": "8ba32cfbc4a07fd41a082344e23e312515ffafef0e568ba72e7d33e83b558f13"
+      },
+      "present": true,
+      "bytes_first": 109721528,
+      "mtime_ns_first": 1790842582000000000,
+      "sha256_first": "8ba32cfbc4a07fd41a082344e23e312515ffafef0e568ba72e7d33e83b558f13",
+      "first_collected_at_utc": "2026-10-12T13:12:41.167555+00:00",
+      "version_resources": [
+        {
+          "file_version": "1.19.1-18+20261001.143443",
+          "product_version": "1.19.1-18+20261001.143443"
+        }
+      ],
+      "machine": "0x8664",
+      "optional_magic": "0x020b",
+      "subsystem": 1,
+      "pe_parser_warnings": [],
+      "bytes_second": 109721528,
+      "mtime_ns_second": 1790842582000000000,
+      "sha256_second": "8ba32cfbc4a07fd41a082344e23e312515ffafef0e568ba72e7d33e83b558f13",
+      "second_collected_at_utc": "2026-10-12T13:12:47.644179+00:00",
+      "stable_between_two_reads": true,
+      "matches_baseline_sha256": true,
+      "matches_baseline_bytes": true,
+      "matches_baseline_version": true
+    },
+    {
+      "name": "vgc.exe",
+      "path": "/home/lab/lol-lab/prefix/drive_c/Program Files/Riot Vanguard/vgc.exe",
+      "baseline": {
+        "bytes": 107505544,
+        "version": "1.19.1-18+20261001.143443",
+        "sha256": "c8f330a77351f36e1112d0b94972a735a7747fc33a4aa4735d95f43f01637c51"
+      },
+      "present": true,
+      "bytes_first": 107505544,
+      "mtime_ns_first": 1790866920052915500,
+      "sha256_first": "c8f330a77351f36e1112d0b94972a735a7747fc33a4aa4735d95f43f01637c51",
+      "first_collected_at_utc": "2026-10-12T13:12:42.490819+00:00",
+      "version_resources": [
+        {
+          "file_version": "1.19.1-18+20261001.143443",
+          "product_version": "1.19.1-18+20261001.143443"
+        }
+      ],
+      "machine": "0x8664",
+      "optional_magic": "0x020b",
+      "subsystem": 2,
+      "pe_parser_warnings": [],
+      "bytes_second": 107505544,
+      "mtime_ns_second": 1790866920052915500,
+      "sha256_second": "c8f330a77351f36e1112d0b94972a735a7747fc33a4aa4735d95f43f01637c51",
+      "second_collected_at_utc": "2026-10-12T13:12:47.934064+00:00",
+      "stable_between_two_reads": true,
+      "matches_baseline_sha256": true,
+      "matches_baseline_bytes": true,
+      "matches_baseline_version": true
+    },
+    {
+      "name": "vgm.exe",
+      "path": "/home/lab/lol-lab/prefix/drive_c/Program Files/Riot Vanguard/vgm.exe",
+      "baseline": {
+        "bytes": 33861928,
+        "version": "1.19.1-18+20261001.143443",
+        "sha256": "55e25cce83c8ec9088b99d1193a7aa750609e69ed8cfc7c758076ec3591de3d9"
+      },
+      "present": true,
+      "bytes_first": 33861928,
+      "mtime_ns_first": 1790866954588739700,
+      "sha256_first": "55e25cce83c8ec9088b99d1193a7aa750609e69ed8cfc7c758076ec3591de3d9",
+      "first_collected_at_utc": "2026-10-12T13:12:43.404283+00:00",
+      "version_resources": [
+        {
+          "file_version": "1.19.1-18+20261001.143443",
+          "product_version": "1.19.1-18+20261001.143443"
+        }
+      ],
+      "machine": "0x8664",
+      "optional_magic": "0x020b",
+      "subsystem": 2,
+      "pe_parser_warnings": [],
+      "bytes_second": 33861928,
+      "mtime_ns_second": 1790866954588739700,
+      "sha256_second": "55e25cce83c8ec9088b99d1193a7aa750609e69ed8cfc7c758076ec3591de3d9",
+      "second_collected_at_utc": "2026-10-12T13:12:48.015144+00:00",
+      "stable_between_two_reads": true,
+      "matches_baseline_sha256": true,
+      "matches_baseline_bytes": true,
+      "matches_baseline_version": true
+    },
+    {
+      "name": "vgrl.dll",
+      "path": "/home/lab/lol-lab/prefix/drive_c/Program Files/Riot Vanguard/vgrl.dll",
+      "baseline": {
+        "bytes": 7930376,
+        "version": "1.19.1-18+20261001.143443",
+        "sha256": "d76344bcda5acba14156b090e037ccc270f15d3571d2c629a83f5f7263be32c0"
+      },
+      "present": true,
+      "bytes_first": 7930376,
+      "mtime_ns_first": 1790867028228708000,
+      "sha256_first": "d76344bcda5acba14156b090e037ccc270f15d3571d2c629a83f5f7263be32c0",
+      "first_collected_at_utc": "2026-10-12T13:12:43.565034+00:00",
+      "version_resources": [
+        {
+          "file_version": "1.19.1-18+20261001.143443",
+          "product_version": "1.19.1-18+20261001.143443"
+        }
+      ],
+      "machine": "0x8664",
+      "optional_magic": "0x020b",
+      "subsystem": 3,
+      "pe_parser_warnings": [],
+      "bytes_second": 7930376,
+      "mtime_ns_second": 1790867028228708000,
+      "sha256_second": "d76344bcda5acba14156b090e037ccc270f15d3571d2c629a83f5f7263be32c0",
+      "second_collected_at_utc": "2026-10-12T13:12:48.036034+00:00",
+      "stable_between_two_reads": true,
+      "matches_baseline_sha256": true,
+      "matches_baseline_bytes": true,
+      "matches_baseline_version": true
+    }
+  ],
+  "service_queries": [
+    {
+      "service": "vgk",
+      "collected_at_utc": "2026-10-12T13:12:43.570249+00:00",
+      "command": "wine sc.exe query vgk",
+      "exit_code": 0,
+      "stdout": "SERVICE_NAME: vgk\n        TYPE               : 1  \n        STATE              : 1  STOPPED\n        WIN32_EXIT_CODE    : 1077  (0x435)\n        SERVICE_EXIT_CODE  : 0  (0x0)\n        CHECKPOINT         : 0x0\n        WAIT_HINT          : 0x0\n",
+      "stderr": ""
+    },
+    {
+      "service": "vgc",
+      "collected_at_utc": "2026-10-12T13:12:44.869224+00:00",
+      "command": "wine sc.exe query vgc",
+      "exit_code": 0,
+      "stdout": "SERVICE_NAME: vgc\n        TYPE               : 10  WIN32_OWN_PROCESS\n        STATE              : 1  STOPPED\n        WIN32_EXIT_CODE    : 1077  (0x435)\n        SERVICE_EXIT_CODE  : 0  (0x0)\n        CHECKPOINT         : 0x0\n        WAIT_HINT          : 0x0\n",
+      "stderr": ""
+    }
+  ],
+  "limitations": "SCM status is reported by the Wine prefix. File presence/hash/service status does not establish execution in the Linux kernel or anticheat acceptance. No authentication data, lockfiles, client configuration or logs were read."
+}

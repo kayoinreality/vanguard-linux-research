@@ -1,0 +1,100 @@
+{
+  "observed_utc": "2026-10-12T13:58:10Z",
+  "kernel": "7.2.9-arch1-1",
+  "services": {
+    "lol-lab-client": {
+      "ActiveState": "active",
+      "SubState": "running",
+      "MainPID": "461"
+    },
+    "lol-lab-ui-native-v2": {
+      "ActiveState": "active",
+      "SubState": "running",
+      "MainPID": "455"
+    },
+    "archguard-lab": {
+      "ActiveState": "active",
+      "SubState": "running",
+      "MainPID": "336"
+    }
+  },
+  "storage": [
+    {
+      "path": "/",
+      "total_bytes": 51462569984,
+      "used_bytes": 11624554496,
+      "free_bytes": 39295127552,
+      "mount": "e24d14b9-09bf-4928-ad85-8dc1b3dd16a2 /dev/sda2 /"
+    },
+    {
+      "path": "/var/lib/lol-lab/game-data",
+      "total_bytes": 63090503680,
+      "used_bytes": 47324217344,
+      "free_bytes": 15105265664,
+      "mount": "aa6311c7-ff75-4b48-b5e4-971836c18ca6 /dev/sdb /var/lib/lol-lab/game-data"
+    },
+    {
+      "path": "/home/lab/lol-lab/prefix/drive_c/Riot Games/League of Legends",
+      "total_bytes": 63090503680,
+      "used_bytes": 47324217344,
+      "free_bytes": 15105265664,
+      "mount": "aa6311c7-ff75-4b48-b5e4-971836c18ca6 /dev/sdb[/League of Legends] /home/lab/lol-lab/prefix/drive_c/Riot Games/League of Legends"
+    },
+    {
+      "path": "/home/lab/lol-lab/prefix/drive_c/Riot Games/Teamfight Tactics",
+      "total_bytes": 63090503680,
+      "used_bytes": 47324217344,
+      "free_bytes": 15105265664,
+      "mount": "aa6311c7-ff75-4b48-b5e4-971836c18ca6 /dev/sdb[/Teamfight Tactics] /home/lab/lol-lab/prefix/drive_c/Riot Games/Teamfight Tactics"
+    }
+  ],
+  "public_binaries": [
+    {
+      "path": "Riot Games/League of Legends/LeagueClient.exe",
+      "present": true,
+      "bytes": 30936512,
+      "sha256": "e1c9fdae2f29f5f8bd94fda4b5168850989cb06fd651aeb5739faaa701f5e09c",
+      "version": "16.20.827.198"
+    },
+    {
+      "path": "Riot Games/League of Legends/LeagueClientUx.exe",
+      "present": true,
+      "bytes": 4731320,
+      "sha256": "bb49893101079d3eb7bd4bc90a5ba22d69be451fc560174461d5b043ee7b5d0d",
+      "version": "16.20.827.198"
+    },
+    {
+      "path": "Riot Games/League of Legends/Game/League of Legends.exe",
+      "present": true,
+      "bytes": 46635448,
+      "sha256": "f6fd49d6fb21c6cec23e329ca8a9a7c0809393cb950daf29ca62cf60a08455c6",
+      "version": "16.20.824.8524"
+    }
+  ],
+  "game_migration": {
+    "started_utc": "2026-10-12T13:25:57Z",
+    "disk_serial": "60022480ef37c8273d187c3c9461ccde",
+    "games": [
+      {
+        "name": "League of Legends",
+        "entries": 569,
+        "file_count": 518,
+        "bytes": 30104485239,
+        "sha256_manifest": "b942d1ac6fd94569b489d5fec7ecfb881dc725385c3bee1202b86e182e43c2de",
+        "verified": true,
+        "original_backup_retained": "/home/lab/lol-lab/prefix/drive_c/Riot Games/League of Legends.before-game-data",
+        "duplicate_released_after_mount_and_client_verification": true
+      },
+      {
+        "name": "Teamfight Tactics",
+        "entries": 228,
+        "file_count": 172,
+        "bytes": 7610474877,
+        "sha256_manifest": "925265795da8cc0df11e12f71af64ed6eb2db93c39be0c0c1b031fe87120901c",
+        "verified": true,
+        "original_backup_retained": "/home/lab/lol-lab/prefix/drive_c/Riot Games/Teamfight Tactics.before-game-data",
+        "duplicate_released_after_mount_and_client_verification": true
+      }
+    ]
+  }
+}

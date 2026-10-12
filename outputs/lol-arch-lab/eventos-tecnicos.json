@@ -1,0 +1,61 @@
+{
+  "binaries": [
+    {
+      "path": "Riot Games/Riot Client/RiotClientServices.exe",
+      "bytes": 75685448,
+      "version": "140.0.8.5062"
+    },
+    {
+      "path": "Riot Games/Riot Client/RiotClientElectron/Riot Client.exe",
+      "bytes": 159249184,
+      "version": "140.0.0.0"
+    }
+  ],
+  "technical_events": [
+    {
+      "file": "Riot Client Electron Logs/2026-9-12T5-42-27_119_RiotClientElectron.log",
+      "events": [
+        "[2026-10-12 05:42:32.063] [error] (TelemetryCollector)  Failed to POST/rc-info-radiator/v1/time-sample/ux_launch_to_electron_loaded/end Request failed with status code 404",
+        "[2026-10-12 05:42:32.065] [error] (TelemetryCollector)  Failed to POST/rc-info-radiator/v1/time-sample/ux_electron_loaded_to_interactive/start Request failed with status code 400",
+        "[2026-10-12 05:42:32.408] [error]                       Firebase credentials are missing or empty",
+        "[2026-10-12 05:42:32.467] [info]                        [main] Link tagging domain denylist updated: {\"errorCode\":\"RPC_ERROR\",\"httpStatus\":202,\"implementationDetails\":{},\"message\":\"Accepted: Subscribe to endpoint to be notified when config is available\"}",
+        "[2026-10-12 05:42:35.136] [info]  (ipcRenderer)         get-args {",
+        "[2026-10-12 05:42:38.187] [error]                       Renderer process has unexpectedly crashed or was killed: crashed (-2147483645) { reason: 'crashed', exitCode: -2147483645 }",
+        "[2026-10-12 05:42:39.410] [info]  (TelemetryCollector)  Sending event riotclient__Error__v12 with errorName: electron_renderer_process_crashed",
+        "[2026-10-12 05:42:39.886] [info]  (ipcRenderer)         get-args {",
+        "[2026-10-12 05:42:42.399] [error]                       Renderer process has unexpectedly crashed or was killed: crashed (-2147483645) { reason: 'crashed', exitCode: -2147483645 }",
+        "[2026-10-12 05:42:42.733] [info]  (TelemetryCollector)  Sending event riotclient__Error__v12 with errorName: electron_renderer_process_crashed",
+        "[2026-10-12 05:42:43.924] [info]  (ipcRenderer)         get-args {",
+        "[2026-10-12 05:42:46.520] [error]                       Renderer process has unexpectedly crashed or was killed: crashed (-2147483645) { reason: 'crashed', exitCode: -2147483645 }",
+        "[2026-10-12 05:42:46.523] [error]                       Maximum attempts reached (3) for window 2. Quitting Riot Client."
+      ]
+    },
+    {
+      "file": "Riot Client Logs/2026-10-12T05-41-59_32_Riot Client.log",
+      "events": [
+        "000012.319|   WARN| SDK: patch: Error code 2 for path C:/ProgramData/Riot Games/Metadata/teamfighttactics.live/teamfighttactics.live.preview.manifest: File not found.",
+        "000017.413|   OKAY| telemetry: Sending telemetry to schema riotclient__Error__v12 with: {\"errorCode\":\"-2147483645\",\"errorDescription\":\"Renderer process has unexpectedly crashed or was killed: crashed (-2147483645)\",\"errorName\":\"electron_renderer_process_crashed\",\"module\":\"RiotClientElectron - Main\",\"severity\":\"Error\"}",
+        "000021.634|   OKAY| telemetry: Sending telemetry to schema riotclient__Error__v12 with: {\"errorCode\":\"-2147483645\",\"errorDescription\":\"Renderer process has unexpectedly crashed or was killed: crashed (-2147483645)\",\"errorName\":\"electron_renderer_process_crashed\",\"module\":\"RiotClientElectron - Main\",\"severity\":\"Error\"}",
+        "000025.784|   OKAY| telemetry: Sending telemetry to schema riotclient__Error__v12 with: {\"errorCode\":\"-2147483645\",\"errorDescription\":\"Renderer process has unexpectedly crashed or was killed: crashed (-2147483645)\",\"errorName\":\"electron_renderer_process_crashed\",\"module\":\"RiotClientElectron - Main\",\"severity\":\"Error\"}",
+        "000032.536|  ERROR| Remoting: HTTP Response 400 to POST '/rc-info-radiator/v1/time-sample/ux_electron_loaded_to_interactive/start'",
+        "000039.337|   OKAY| telemetry: Sending telemetry to schema riotclient__Error__v12 with: {\"errorCode\":\"-2147483645\",\"errorDescription\":\"Renderer process has unexpectedly crashed or was killed: crashed (-2147483645)\",\"errorName\":\"electron_renderer_process_crashed\",\"module\":\"RiotClientElectron - Main\",\"severity\":\"Error\"}",
+        "000041.014|  ERROR| RemotingServer: Failed to read from socket 127.0.0.1:51288, recv() returned: -1, errno: 10054 Connection reset by peer.",
+        "000041.014|  ERROR| RemotingServer: Closing socket due to previous error.",
+        "000043.403|   OKAY| telemetry: Sending telemetry to schema riotclient__Error__v12 with: {\"errorCode\":\"-2147483645\",\"errorDescription\":\"Renderer process has unexpectedly crashed or was killed: crashed (-2147483645)\",\"errorName\":\"electron_renderer_process_crashed\",\"module\":\"RiotClientElectron - Main\",\"severity\":\"Error\"}",
+        "000047.506|   OKAY| telemetry: Sending telemetry to schema riotclient__Error__v12 with: {\"errorCode\":\"-2147483645\",\"errorDescription\":\"Renderer process has unexpectedly crashed or was killed: crashed (-2147483645)\",\"errorName\":\"electron_renderer_process_crashed\",\"module\":\"RiotClientElectron - Main\",\"severity\":\"Error\"}",
+        "000054.658|  ERROR| AppBackground: ProductPatchline not found: arcane.pcpromolive",
+        "000054.662|  ERROR| AppBackground: ProductPatchline not found: league_of_legends_game.pcpromolive",
+        "000054.663|  ERROR| AppBackground: ProductPatchline not found: riot_client.live",
+        "000054.663|  ERROR| AppBackground: ProductPatchline not found: ritoplus.live",
+        "000054.666|  ERROR| AppBackground: ProductPatchline not found: wildrift.live"
+      ]
+    },
+    {
+      "file": "Agent/2026-10-12T01-37-36_352_Agent.log",
+      "events": [
+        "000000.006|  ERROR| Reading self-update install settings: Error opening file: Error code 2: File not found."
+      ]
+    }
+  ],
+  "processes": []
+}

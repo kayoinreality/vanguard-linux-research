@@ -1,0 +1,39 @@
+objdump: /home/lab/vanguard-study/vgk.sys: warning: ignoring section flag IMAGE_SCN_MEM_NOT_PAGED in section .text
+objdump: /home/lab/vanguard-study/vgk.sys: warning: ignoring section flag IMAGE_SCN_MEM_NOT_PAGED in section
+objdump: /home/lab/vanguard-study/vgk.sys: warning: ignoring section flag IMAGE_SCN_MEM_NOT_PAGED in section _ENTROPY
+objdump: /home/lab/vanguard-study/vgk.sys: warning: ignoring section flag IMAGE_SCN_MEM_NOT_PAGED in section .rdata
+objdump: /home/lab/vanguard-study/vgk.sys: warning: ignoring section flag IMAGE_SCN_MEM_NOT_PAGED in section .data
+
+/home/lab/vanguard-study/vgk.sys:     file format pei-x86-64
+
+
+Disassembly of section .riot1:
+
+00000001461c213c <.riot1+0x3313c>:
+   1461c213c:	53                   	push   rbx
+   1461c213d:	51                   	push   rcx
+   1461c213e:	52                   	push   rdx
+   1461c213f:	41 50                	push   r8
+   1461c2141:	41 51                	push   r9
+   1461c2143:	48 83 ec 20          	sub    rsp,0x20
+   1461c2147:	48 8d 1d 72 ff ff ff 	lea    rbx,[rip+0xffffffffffffff72]        # 0x1461c20c0
+   1461c214e:	4c 8b c3             	mov    r8,rbx
+   1461c2151:	e8 d1 7c ff ff       	call   0x1461b9e27
+   1461c2156:	48 83 c4 20          	add    rsp,0x20
+   1461c215a:	41 59                	pop    r9
+   1461c215c:	41 58                	pop    r8
+   1461c215e:	5a                   	pop    rdx
+   1461c215f:	59                   	pop    rcx
+   1461c2160:	85 c0                	test   eax,eax
+   1461c2162:	74 1c                	je     0x1461c2180
+   1461c2164:	3d 49 4e 49 d4       	cmp    eax,0xd4494e49
+   1461c2169:	74 15                	je     0x1461c2180
+   1461c216b:	48 63 43 28          	movsxd rax,DWORD PTR [rbx+0x28]
+   1461c216f:	48 8d 04 18          	lea    rax,[rax+rbx*1]
+   1461c2173:	48 8b 40 10          	mov    rax,QWORD PTR [rax+0x10]
+   1461c2177:	8b 5b 5c             	mov    ebx,DWORD PTR [rbx+0x5c]
+   1461c217a:	48 03 c3             	add    rax,rbx
+   1461c217d:	5b                   	pop    rbx
+   1461c217e:	ff e0                	jmp    rax
+   1461c2180:	5b                   	pop    rbx
+   1461c2181:	c3                   	ret

@@ -1,0 +1,287 @@
+# Tool: GNU objdump (GNU Binutils) 2.47
+# Static data only. Preferred-base addresses, not runtime addresses.
+# Original context: exactly 512 bytes at preferred VA 0x1461b9e27; bytes after initial JMP are linear decoding, not established control flow.
+
+/home/lab/vanguard-study/vgk-callee-context.bin:     file format binary
+
+
+Disassembly of section .data:
+
+00000001461b9e27 <.data>:
+   1461b9e27:	e9 45 d6 08 00       	jmp    0x146247471
+   1461b9e2c:	37                   	(bad)
+   1461b9e2d:	fd                   	std
+   1461b9e2e:	59                   	pop    rcx
+   1461b9e2f:	a3 de 9e 20 94 52 28 	movabs ds:0x90c9285294209ede,eax
+   1461b9e36:	c9 90
+   1461b9e38:	90                   	nop
+   1461b9e39:	90                   	nop
+   1461b9e3a:	90                   	nop
+   1461b9e3b:	90                   	nop
+   1461b9e3c:	90                   	nop
+   1461b9e3d:	90                   	nop
+   1461b9e3e:	90                   	nop
+   1461b9e3f:	90                   	nop
+   1461b9e40:	90                   	nop
+   1461b9e41:	90                   	nop
+   1461b9e42:	90                   	nop
+   1461b9e43:	90                   	nop
+   1461b9e44:	90                   	nop
+   1461b9e45:	a7                   	cmps   DWORD PTR [rsi],DWORD PTR [rdi]
+   1461b9e46:	a8 6a                	test   al,0x6a
+   1461b9e48:	76 28                	jbe    0x1461b9e72
+   1461b9e4a:	e5 3b                	in     eax,0x3b
+   1461b9e4c:	cd b0                	int    0xb0
+   1461b9e4e:	02 9c e8 69 98 70 d7 	add    bl,BYTE PTR [rax+rbp*8-0x288f6797]
+   1461b9e55:	18 dd                	sbb    ch,bl
+   1461b9e57:	20 db                	and    bl,bl
+   1461b9e59:	28 61 25             	sub    BYTE PTR [rcx+0x25],ah
+   1461b9e5c:	45 f9                	rex.RB stc
+   1461b9e5e:	09 07                	or     DWORD PTR [rdi],eax
+   1461b9e60:	10 6f 29             	adc    BYTE PTR [rdi+0x29],ch
+   1461b9e63:	d7                   	xlat   BYTE PTR [rbx]
+   1461b9e64:	00 3d 7d 05 53 bd    	add    BYTE PTR [rip+0xffffffffbd53057d],bh        # 0x1036ea3e7
+   1461b9e6a:	38 c8                	cmp    al,cl
+   1461b9e6c:	fc                   	cld
+   1461b9e6d:	a1 53 67 42 33 3f fe 	movabs eax,ds:0xbbabfe3f33426753
+   1461b9e74:	ab bb
+   1461b9e76:	c3                   	ret
+   1461b9e77:	2d 9f 9f a6 1d       	sub    eax,0x1da69f9f
+   1461b9e7c:	18 8c fe 76 6f e7 53 	sbb    BYTE PTR [rsi+rdi*8+0x53e76f76],cl
+   1461b9e83:	a5                   	movs   DWORD PTR [rdi],DWORD PTR [rsi]
+   1461b9e84:	c9                   	leave
+   1461b9e85:	1c 8c                	sbb    al,0x8c
+   1461b9e87:	20 17                	and    BYTE PTR [rdi],dl
+   1461b9e89:	6e                   	outs   dx,BYTE PTR [rsi]
+   1461b9e8a:	c3                   	ret
+   1461b9e8b:	90                   	nop
+   1461b9e8c:	5d                   	pop    rbp
+   1461b9e8d:	c6                   	(bad)
+   1461b9e8e:	64 e8 8e eb 87 85    	fs call 0xcba38a22
+   1461b9e94:	09 ed                	or     ebp,ebp
+   1461b9e96:	0d 3f fa a3 04       	or     eax,0x4a3fa3f
+   1461b9e9b:	8c 4e 70             	mov    WORD PTR [rsi+0x70],cs
+   1461b9e9e:	11 6d 71             	adc    DWORD PTR [rbp+0x71],ebp
+   1461b9ea1:	6d                   	ins    DWORD PTR [rdi],dx
+   1461b9ea2:	cc                   	int3
+   1461b9ea3:	73 7d                	jae    0x1461b9f22
+   1461b9ea5:	61                   	(bad)
+   1461b9ea6:	07                   	(bad)
+   1461b9ea7:	c3                   	ret
+   1461b9ea8:	f7 48 a7 28 cf ba de 	test   DWORD PTR [rax-0x59],0xdebacf28
+   1461b9eaf:	d1 53 44             	rcl    DWORD PTR [rbx+0x44],1
+   1461b9eb2:	2b 8b 90 de 80 0d    	sub    ecx,DWORD PTR [rbx+0xd80de90]
+   1461b9eb8:	5d                   	pop    rbp
+   1461b9eb9:	62 6d b7 0e 80       	(bad)
+   1461b9ebe:	ea                   	(bad)
+   1461b9ebf:	09 f1                	or     ecx,esi
+   1461b9ec1:	ee                   	out    dx,al
+   1461b9ec2:	24 98                	and    al,0x98
+   1461b9ec4:	52                   	push   rdx
+   1461b9ec5:	1a 5b 43             	sbb    bl,BYTE PTR [rbx+0x43]
+   1461b9ec8:	bb 8c df 52 11       	mov    ebx,0x1152df8c
+   1461b9ecd:	e5 5d                	in     eax,0x5d
+   1461b9ecf:	26 c6                	es (bad)
+   1461b9ed1:	b3 15                	mov    bl,0x15
+   1461b9ed3:	a3 df 6d fb bd 29 50 	movabs ds:0x9c5c5029bdfb6ddf,eax
+   1461b9eda:	5c 9c
+   1461b9edc:	8d                   	lea    edi,(bad)
+   1461b9edd:	fc                   	cld
+   1461b9ede:	4b                   	rex.WXB
+   1461b9edf:	47 e7 16             	rex.RXB out 0x16,eax
+   1461b9ee2:	b9 e8 1b 32 47       	mov    ecx,0x47321be8
+   1461b9ee7:	fc                   	cld
+   1461b9ee8:	79 64                	jns    0x1461b9f4e
+   1461b9eea:	a4                   	movs   BYTE PTR [rdi],BYTE PTR [rsi]
+   1461b9eeb:	1c 4e                	sbb    al,0x4e
+   1461b9eed:	24 a7                	and    al,0xa7
+   1461b9eef:	44 07                	rex.R (bad)
+   1461b9ef1:	54                   	push   rsp
+   1461b9ef2:	1b d2                	sbb    edx,edx
+   1461b9ef4:	e9 3a 34 0f 3a       	jmp    0x1802ad333
+   1461b9ef9:	05 30 f0 ef 22       	add    eax,0x22eff030
+   1461b9efe:	43                   	rex.XB
+   1461b9eff:	4a 78 61             	rex.WX js 0x1461b9f63
+   1461b9f02:	77 69                	ja     0x1461b9f6d
+   1461b9f04:	dd b9 0a cc e9 7c    	fnstsw WORD PTR [rcx+0x7ce9cc0a]
+   1461b9f0a:	bb f7 5b 6d 9b       	mov    ebx,0x9b6d5bf7
+   1461b9f0f:	c4                   	(bad)
+   1461b9f10:	51                   	push   rcx
+   1461b9f11:	0a 98 ef 09 d0 3d    	or     bl,BYTE PTR [rax+0x3dd009ef]
+   1461b9f17:	d4                   	(bad)
+   1461b9f18:	8c 3e                	mov    WORD PTR [rsi],?
+   1461b9f1a:	af                   	scas   eax,DWORD PTR [rdi]
+   1461b9f1b:	fc                   	cld
+   1461b9f1c:	6d                   	ins    DWORD PTR [rdi],dx
+   1461b9f1d:	68 e8 84 6d 50       	push   0x506d84e8
+   1461b9f22:	f1                   	int1
+   1461b9f23:	38 13                	cmp    BYTE PTR [rbx],dl
+   1461b9f25:	cd c6                	int    0xc6
+   1461b9f27:	1c ca                	sbb    al,0xca
+   1461b9f29:	08 3a                	or     BYTE PTR [rdx],bh
+   1461b9f2b:	f1                   	int1
+   1461b9f2c:	04 96                	add    al,0x96
+   1461b9f2e:	a2 1d 07 24 f7 af 81 	movabs ds:0x390381aff724071d,al
+   1461b9f35:	03 39
+   1461b9f37:	d9 6b 55             	fldcw  WORD PTR [rbx+0x55]
+   1461b9f3a:	31 fb                	xor    ebx,edi
+   1461b9f3c:	af                   	scas   eax,DWORD PTR [rdi]
+   1461b9f3d:	8d                   	lea    esp,(bad)
+   1461b9f3e:	e3 8f                	jrcxz  0x1461b9ecf
+   1461b9f40:	44 08 7c 18 5b       	or     BYTE PTR [rax+rbx*1+0x5b],r15b
+   1461b9f45:	09 05 2b aa 7a 95    	or     DWORD PTR [rip+0xffffffff957aaa2b],eax        # 0xdb964976
+   1461b9f4b:	cb                   	retf
+   1461b9f4c:	6e                   	outs   dx,BYTE PTR [rsi]
+   1461b9f4d:	93                   	xchg   ebx,eax
+   1461b9f4e:	ef                   	out    dx,eax
+   1461b9f4f:	7c 98                	jl     0x1461b9ee9
+   1461b9f51:	20 42 37             	and    BYTE PTR [rdx+0x37],al
+   1461b9f54:	6f                   	outs   dx,DWORD PTR [rsi]
+   1461b9f55:	b5 61                	mov    ch,0x61
+   1461b9f57:	89 9d 5d e5 c2 85    	mov    DWORD PTR [rbp-0x7a3d1aa3],ebx
+   1461b9f5d:	c2 93 5e             	ret    0x5e93
+   1461b9f60:	68 fa 06 fd 32       	push   0x32fd06fa
+   1461b9f65:	df 60 b2             	fbld   TBYTE PTR [rax-0x4e]
+   1461b9f68:	c2 a3 17             	ret    0x17a3
+   1461b9f6b:	e3 36                	jrcxz  0x1461b9fa3
+   1461b9f6d:	8f                   	(bad)
+   1461b9f6e:	34 42                	xor    al,0x42
+   1461b9f70:	18 8a b9 f7 1e e9    	sbb    BYTE PTR [rdx-0x16e10847],cl
+   1461b9f76:	e8 07 01 d3 be       	call   0x104eea082
+   1461b9f7b:	8a b5 8c 6d 37 89    	mov    dh,BYTE PTR [rbp-0x76c89274]
+   1461b9f81:	1e                   	(bad)
+   1461b9f82:	8a fe                	mov    bh,dh
+   1461b9f84:	20 36                	and    BYTE PTR [rsi],dh
+   1461b9f86:	d8 cf                	fmul   st,st(7)
+   1461b9f88:	1b ec                	sbb    ebp,esp
+   1461b9f8a:	67 c2 89 2b          	addr32 ret 0x2b89
+   1461b9f8e:	cc                   	int3
+   1461b9f8f:	8a 35 f2 a6 ac 36    	mov    dh,BYTE PTR [rip+0x36aca6f2]        # 0x17cc84687
+   1461b9f95:	6f                   	outs   dx,DWORD PTR [rsi]
+   1461b9f96:	b3 f3                	mov    bl,0xf3
+   1461b9f98:	95                   	xchg   ebp,eax
+   1461b9f99:	26 4d 52             	es rex.WRB push r10
+   1461b9f9c:	50                   	push   rax
+   1461b9f9d:	13 ff                	adc    edi,edi
+   1461b9f9f:	56                   	push   rsi
+   1461b9fa0:	2e 05 8b c9 c6 81    	cs add eax,0x81c6c98b
+   1461b9fa6:	ca 84 47             	retf   0x4784
+   1461b9fa9:	2a dc                	sub    bl,ah
+   1461b9fab:	aa                   	stos   BYTE PTR [rdi],al
+   1461b9fac:	0d c0 3b e9 f7       	or     eax,0xf7e93bc0
+   1461b9fb1:	37                   	(bad)
+   1461b9fb2:	04 00                	add    al,0x0
+   1461b9fb4:	5c                   	pop    rsp
+   1461b9fb5:	68 6a 63 2d a6       	push   0xffffffffa62d636a
+   1461b9fba:	4f ed                	rex.WRXB in eax,dx
+   1461b9fbc:	6d                   	ins    DWORD PTR [rdi],dx
+   1461b9fbd:	14 90                	adc    al,0x90
+   1461b9fbf:	90                   	nop
+   1461b9fc0:	90                   	nop
+   1461b9fc1:	90                   	nop
+   1461b9fc2:	90                   	nop
+   1461b9fc3:	90                   	nop
+   1461b9fc4:	90                   	nop
+   1461b9fc5:	90                   	nop
+   1461b9fc6:	90                   	nop
+   1461b9fc7:	90                   	nop
+   1461b9fc8:	90                   	nop
+   1461b9fc9:	90                   	nop
+   1461b9fca:	90                   	nop
+   1461b9fcb:	90                   	nop
+   1461b9fcc:	b6 4a                	mov    dh,0x4a
+   1461b9fce:	e0 4c                	loopne 0x1461ba01c
+   1461b9fd0:	29 fc                	sub    esp,edi
+   1461b9fd2:	21 81 57 a9 20 1c    	and    DWORD PTR [rcx+0x1c20a957],eax
+   1461b9fd8:	53                   	push   rbx
+   1461b9fd9:	0c 08                	or     al,0x8
+   1461b9fdb:	0f ef c9             	pxor   mm1,mm1
+   1461b9fde:	f9                   	stc
+   1461b9fdf:	ee                   	out    dx,al
+   1461b9fe0:	78 67                	js     0x1461ba049
+   1461b9fe2:	ff                   	(bad)
+   1461b9fe3:	fd                   	std
+   1461b9fe4:	03 59 3d             	add    ebx,DWORD PTR [rcx+0x3d]
+   1461b9fe7:	1a ca                	sbb    cl,dl
+   1461b9fe9:	d8 50 df             	fcom   DWORD PTR [rax-0x21]
+   1461b9fec:	60                   	(bad)
+   1461b9fed:	0f 6f e9             	movq   mm5,mm1
+   1461b9ff0:	7a af                	jp     0x1461b9fa1
+   1461b9ff2:	b7 61                	mov    bh,0x61
+   1461b9ff4:	d0 cf                	ror    bh,1
+   1461b9ff6:	cd e2                	int    0xe2
+   1461b9ff8:	dd 85 e2 89 d3 f3    	fld    QWORD PTR [rbp-0xc2c761e]
+   1461b9ffe:	7f 47                	jg     0x1461ba047
+   1461ba000:	5e                   	pop    rsi
+   1461ba001:	ad                   	lods   eax,DWORD PTR [rsi]
+   1461ba002:	0f a4 8f c0 be 50 7d 	shld   DWORD PTR [rdi+0x7d50bec0],ecx,0xa7
+   1461ba009:	a7
+   1461ba00a:	f9                   	stc
+   1461ba00b:	58                   	pop    rax
+   1461ba00c:	d7                   	xlat   BYTE PTR [rbx]
+   1461ba00d:	ec                   	in     al,dx
+   1461ba00e:	5a                   	pop    rdx
+   1461ba00f:	05 24 ed af 4a       	add    eax,0x4aafed24
+   1461ba014:	86 71 eb             	xchg   BYTE PTR [rcx-0x15],dh
+   1461ba017:	8c 81 39 74 9b 99    	mov    WORD PTR [rcx-0x66648bc7],es
+   1461ba01d:	de 94 84 e0 b0 d7 b7 	ficom  WORD PTR [rsp+rax*4-0x48284f20]
+   1461ba024:	5d                   	pop    rbp
+   1461ba025:	e1 6d                	loope  0x1461ba094
+# Direct JMP target context: exactly 128 bytes at preferred VA 0x146247471; no subsequent destination followed.
+
+/home/lab/vanguard-study/vgk-jump-context.bin:     file format binary
+
+
+Disassembly of section .data:
+
+0000000146247471 <.data>:
+   146247471:	41 57                	push   r15
+   146247473:	41 56                	push   r14
+   146247475:	41 55                	push   r13
+   146247477:	41 54                	push   r12
+   146247479:	56                   	push   rsi
+   14624747a:	57                   	push   rdi
+   14624747b:	55                   	push   rbp
+   14624747c:	53                   	push   rbx
+   14624747d:	48 83 ec 28          	sub    rsp,0x28
+   146247481:	e8 bb e8 f8 ff       	call   0x1461d5d41
+   146247486:	ff e0                	jmp    rax
+   146247488:	e8 fb cb f7 ff       	call   0x1461c4088
+   14624748d:	7f ed                	jg     0x14624747c
+   14624748f:	41 53                	push   r11
+   146247491:	70 e8                	jo     0x14624747b
+   146247493:	e8 68 e0 f7 ff       	call   0x1461c5500
+   146247498:	e8 eb ff ff ff       	call   0x146247488
+   14624749d:	7b f0                	jnp    0x14624748f
+   14624749f:	41 50                	push   r8
+   1462474a1:	7d d7                	jge    0x14624747a
+   1462474a3:	41 52                	push   r10
+   1462474a5:	7a d6                	jp     0x14624747d
+   1462474a7:	41 57                	push   r15
+   1462474a9:	7a dd                	jp     0x146247488
+   1462474ab:	70 cf                	jo     0x14624747c
+   1462474ad:	e8 5e c4 f7 ff       	call   0x1461c3910
+   1462474b2:	7e c6                	jle    0x14624747a
+   1462474b4:	eb bd                	jmp    0x146247473
+   1462474b6:	48 03 e3             	add    rsp,rbx
+   1462474b9:	74 00                	je     0x1462474bb
+   1462474bb:	48 83 c4 28          	add    rsp,0x28
+   1462474bf:	eb 70                	jmp    0x146247531
+   1462474c1:	e8 3a e0 f7 ff       	call   0x1461c5500
+   1462474c6:	e8 dc ff ff ff       	call   0x1462474a7
+   1462474cb:	7c c2                	jl     0x14624748f
+   1462474cd:	1d 58 d4 7e 91       	sbb    eax,0x917ed458
+   1462474d2:	c3                   	ret
+   1462474d3:	9d                   	popf
+   1462474d4:	bf b7 5b 71 8d       	mov    edi,0x8d715bb7
+   1462474d9:	76 75                	jbe    0x146247550
+   1462474db:	de ff                	fdivp  st(7),st
+   1462474dd:	4c 19 5e 75          	sbb    QWORD PTR [rsi+0x75],r11
+   1462474e1:	a2 78 5e 62 59 48 ac 	movabs ds:0xd148ac4859625e78,al
+   1462474e8:	48 d1
+   1462474ea:	5a                   	pop    rdx
+   1462474eb:	57                   	push   rdi
+   1462474ec:	22                   	.byte 0x22
+   1462474ed:	86                   	.byte 0x86
+   1462474ee:	87 dc                	xchg   esp,ebx
+   1462474f0:	50                   	push   rax

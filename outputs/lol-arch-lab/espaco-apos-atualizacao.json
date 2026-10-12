@@ -1,0 +1,67 @@
+{
+  "generated_at_utc": "2026-10-12T14:05:20Z",
+  "started_at_utc": "2026-10-12T14:00:16Z",
+  "measurements": [
+    {
+      "timestamp_utc": "2026-10-12T14:00:21.799440Z",
+      "root_free_bytes": 39295102976,
+      "game_free_bytes": 15105265664,
+      "game_exe_exists": true,
+      "game_exe_size_bytes": 46635448,
+      "host_free_bytes": 38354944000
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:01:05.280471Z",
+      "root_free_bytes": 39295094784,
+      "game_free_bytes": 15105265664,
+      "game_exe_exists": true,
+      "game_exe_size_bytes": 46635448,
+      "host_free_bytes": 38333734912
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:01:48.290395Z",
+      "root_free_bytes": 39295094784,
+      "game_free_bytes": 15105265664,
+      "game_exe_exists": true,
+      "game_exe_size_bytes": 46635448,
+      "host_free_bytes": 38310023168
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:02:31.462076Z",
+      "root_free_bytes": 39295090688,
+      "game_free_bytes": 15105265664,
+      "game_exe_exists": true,
+      "game_exe_size_bytes": 46635448,
+      "host_free_bytes": 38287310848
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:03:14.380060Z",
+      "root_free_bytes": 39295082496,
+      "game_free_bytes": 15105265664,
+      "game_exe_exists": true,
+      "game_exe_size_bytes": 46635448,
+      "host_free_bytes": 38265344000
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:03:57.245378Z",
+      "root_free_bytes": 39295078400,
+      "game_free_bytes": 15105265664,
+      "game_exe_exists": true,
+      "game_exe_size_bytes": 46635448,
+      "host_free_bytes": 38241443840
+    },
+    {
+      "timestamp_utc": "2026-10-12T14:04:40.319863Z",
+      "root_free_bytes": 39295078400,
+      "game_free_bytes": 15105265664,
+      "game_exe_exists": true,
+      "game_exe_size_bytes": 46635448,
+      "host_free_bytes": 38222970880
+    }
+  ],
+  "evolution": {
+    "root_free_change_bytes": -24576,
+    "game_free_change_bytes": 0,
+    "host_free_change_bytes": -131973120
+  }
+}

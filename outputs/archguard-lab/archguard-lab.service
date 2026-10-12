@@ -1,0 +1,32 @@
+[Unit]
+Description=ArchGuard laboratory integrity monitor
+After=local-fs.target
+StartLimitIntervalSec=30
+StartLimitBurst=3
+
+[Service]
+Type=simple
+User=archguard-lab
+Group=archguard-lab
+ExecStart=/usr/bin/python /opt/archguard-lab/archguard.py serve
+RuntimeDirectory=archguard-lab
+RuntimeDirectoryMode=0750
+UMask=0027
+Restart=on-failure
+RestartSec=1
+TimeoutStopSec=5
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictAddressFamilies=AF_UNIX
+RestrictNamespaces=true
+CapabilityBoundingSet=
+MemoryMax=64M
+TasksMax=16
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,22 @@
+{
+  "Success": true,
+  "VMName": "Arch-Lab-Vanguard",
+  "VMId": "d5cb138f-0ae2-4a8c-8cc9-ac75e040f938",
+  "DiskPath": "C:\\vanguard-linux-research\\outputs\\arch-lab\\vm\\lol-data.vhdx",
+  "SizeBytes": 64424509440,
+  "DiskIdentifier": "27C837EF-183D-4D3F-9B12-7C3C9461CCDE",
+  "ControllerLocation": 3,
+  "PreservedSnapshots": [
+    {
+      "Name": "Ponto de Verificação Automática - Arch-Lab-Vanguard - (12/10/2026 - 00:33:37)",
+      "Id": "e9c5172f-d7a3-447e-9bf2-6af3beb0eed5"
+    },
+    {
+      "Name": "Arch instalado e laboratorio validado",
+      "Id": "6de6d3d0-7996-4fca-9dec-702ea71ffad4"
+    }
+  ],
+  "ExistingDisksUntouched": [
+    "C:\\vanguard-linux-research\\outputs\\arch-lab\\vm\\arch-lab_92CE525E-BF68-40E7-A530-DBF84360E863.avhdx"
+  ]
+}

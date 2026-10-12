@@ -1,0 +1,118 @@
+{
+  "source": {
+    "archive": "/home/lab/lol-lab/prefix/drive_c/Riot Games/Riot Client/RiotClientElectron/resources/app.asar",
+    "sha256": "5d346edfd1c69648643b2633ac75430db4722ad974b80521ff909759f26b88a6",
+    "scope": "Static public bundled main/renderer JavaScript only. No API, process arguments, auth configuration, lockfile or private log accessed."
+  },
+  "read_endpoints": [
+    {
+      "method": "GET",
+      "path_template": "/patch-proxy/v2/patch-states/products/{productId}/patchlines/{patchlineId}",
+      "builder": "buildPatchProxyV2PatchStatesURI",
+      "consumer": "usePatchStateV2 -> useTypedDataBinding -> addObserver",
+      "observed_field_paths": [
+        "state",
+        "progress.totalBytesDownloaded",
+        "progress.totalBytesToDownload",
+        "progress.overallProgress"
+      ],
+      "observed_state_labels": [
+        "NotInstalled",
+        "OutOfDate",
+        "NeedsRepair",
+        "Paused",
+        "Updating",
+        "Repairing",
+        "DependencyUpdate",
+        "UpToDate"
+      ],
+      "evidence_character_offsets_in_renderer": {
+        "builder": 1026595,
+        "consumer": 6144565,
+        "state_usage": 9993434,
+        "progress_usage": 10001466
+      }
+    },
+    {
+      "method": "GET",
+      "path_template": "/patch-proxy/v1/patch-states/products/{productId}/patchlines/{patchlineId}",
+      "consumer": "observePatchState -> addObserver",
+      "observed_field_paths": [
+        "combined_patch_state",
+        "patch_status.state",
+        "patch_status.progress.phase",
+        "patch_status.progress.update.downloaded_bytes",
+        "patch_status.progress.update.bytes_to_download",
+        "patch_status.error",
+        "patch_status.error.code",
+        "dependency_status",
+        "repair_code"
+      ],
+      "progress_phase_sources": {
+        "Update": {
+          "source": "update",
+          "complete": "downloaded_bytes",
+          "required": "bytes_to_download"
+        },
+        "Manifest": {
+          "source": "manifest",
+          "complete": "downloaded_bytes",
+          "required": "bytes_to_download"
+        },
+        "Repair": {
+          "source": "repair",
+          "complete": "repaired_bytes",
+          "required": "bytes_to_repair"
+        },
+        "Rechunk": {
+          "source": "rechunk",
+          "complete": "chunked_bytes",
+          "required": "bytes_to_chunk"
+        }
+      },
+      "evidence_character_offsets_in_renderer": {
+        "uri": 608452,
+        "observer": 614242,
+        "progress_sources": 607490,
+        "error_read": 610653,
+        "progress_phase_read": 613738
+      }
+    }
+  ],
+  "get_method_evidence": {
+    "chain": "addObserver fetches through get when cache is absent; ScopedBinding.get/resourceRead invoke jsonRequest('get', URI)",
+    "renderer_character_offsets": [
+      350723,
+      354525
+    ]
+  },
+  "local_transport_and_auth": {
+    "base_url_template": "https://127.0.0.1:{appPort}",
+    "parser_public_option_names": {
+      "appPort": "number",
+      "remotingAuthToken": "string"
+    },
+    "dash_flag_limitation": "Dashed spellings do not occur literally in the examined main bundle; camelCase option names are the directly observed parser contract.",
+    "authorization_template": "Basic base64('riot:' + remotingAuthToken)",
+    "websocket_filter": "wss://127.0.0.1/",
+    "origin_template": "https://127.0.0.1:{appPort}",
+    "ca_resource_in_asar": "dist/main/root.pem",
+    "ca_read": "fs.readFileSync(path.join(__dirname, 'root.pem'))",
+    "http_initialization": "initHttpClient(ca, cliArgs.appPort, cliArgs.remotingAuthToken)",
+    "tls_agent": "https.Agent({ca: certificateBytes})",
+    "evidence_character_offsets_in_main": {
+      "http_client": 823974,
+      "ws_headers": 837908,
+      "parser": 1117328,
+      "ca_loading_and_init_call": 2059623
+    },
+    "session_values_accessed": false,
+    "pem_contents_accessed": false
+  },
+  "limitations": [
+    "These are endpoint definitions and field uses observed in public source, not a response schema validated against the running backend.",
+    "No specific pause-reason field was identified. Paused does not establish why downloads stopped.",
+    "No API was called; no live state, certificate handshake, productId or patchlineId was verified.",
+    "The error presenter accepts a message argument, but a nested error.message response field was not fully traced in this inspection."
+  ]
+}

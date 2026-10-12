@@ -1,0 +1,113 @@
+{
+  "started_at_utc": "2026-10-12T13:31:13.487960+00:00",
+  "completed_at_utc": "2026-10-12T13:31:15.393300+00:00",
+  "scope_alias": "owned_lol_lab_prefix",
+  "collection_mode": "read_only_files_and_proc_comm_no_ui_no_process_start_stop",
+  "required_public_executable_presence": {
+    "league_client": true,
+    "league_game": false,
+    "riot_services": true
+  },
+  "public_executable_metadata": [
+    {
+      "name": "LeagueClient.exe",
+      "bytes": 30936512,
+      "mtime_utc": "2026-10-12T12:59:21.330202+00:00",
+      "file_versions": [
+        "16.20.827.198"
+      ],
+      "machine": 34404,
+      "pe_version_resource_read": true
+    },
+    {
+      "name": "LeagueClientUx.exe",
+      "bytes": 4731320,
+      "mtime_utc": "2026-10-12T12:59:21.313202+00:00",
+      "file_versions": [
+        "16.20.827.198"
+      ],
+      "machine": 34404,
+      "pe_version_resource_read": true
+    },
+    {
+      "name": "LeagueClientUxRender.exe",
+      "bytes": 3783616,
+      "mtime_utc": "2026-10-12T12:59:21.346202+00:00",
+      "file_versions": [
+        "16.20.827.198"
+      ],
+      "machine": 34404,
+      "pe_version_resource_read": true
+    },
+    {
+      "name": "LeagueCrashHandler64.exe",
+      "bytes": 882624,
+      "mtime_utc": "2026-10-12T12:59:21.333202+00:00",
+      "file_versions": [],
+      "machine": 34404,
+      "pe_version_resource_read": true
+    },
+    {
+      "name": "RiotClientCrashHandler.exe",
+      "bytes": 890880,
+      "mtime_utc": "2026-10-12T04:36:18.029236+00:00",
+      "file_versions": [],
+      "machine": 34404,
+      "pe_version_resource_read": true
+    },
+    {
+      "name": "RiotClientServices.exe",
+      "bytes": 75685448,
+      "mtime_utc": "2026-10-12T04:36:31.801202+00:00",
+      "file_versions": [
+        "140.0.8.5062"
+      ],
+      "machine": 34404,
+      "pe_version_resource_read": true
+    }
+  ],
+  "metadata_errors_count": 0,
+  "public_process_comm_counts": {},
+  "prefix_storage": {
+    "available_bytes_for_prefix_filesystem": 2129227776
+  },
+  "sanitized_log_category_summaries": {
+    "league_logs": {
+      "files_read": 0,
+      "read_errors_count": 0,
+      "bytes_examined": 0,
+      "lines_examined": 0,
+      "category_matching_line_counts": {},
+      "allowlisted_numeric_code_line_counts": {},
+      "allowlisted_van_code_counts": {},
+      "allowlisted_missing_dll_line_counts": {}
+    },
+    "riot_logs": {
+      "files_read": 24,
+      "read_errors_count": 0,
+      "bytes_examined": 2975261,
+      "lines_examined": 30099,
+      "category_matching_line_counts": {
+        "missing_file_mentions": 12
+      },
+      "allowlisted_numeric_code_line_counts": {},
+      "allowlisted_van_code_counts": {},
+      "allowlisted_missing_dll_line_counts": {}
+    },
+    "lab_launcher_logs": {
+      "files_read": 5,
+      "read_errors_count": 0,
+      "bytes_examined": 214323,
+      "lines_examined": 1407,
+      "category_matching_line_counts": {
+        "loader_failure_mentions": 1,
+        "missing_file_mentions": 32
+      },
+      "allowlisted_numeric_code_line_counts": {},
+      "allowlisted_van_code_counts": {},
+      "allowlisted_missing_dll_line_counts": {}
+    }
+  },
+  "privacy_filter": "Only fixed public executable/process/DLL names, numeric codes from fixed allowlists, timestamps and aggregate counters are exported. No raw lines, log filenames, account identifiers, usernames, URLs, command lines, environment or authentication data are exported.",
+  "limits": "Latest up to 24 files per fixed log category, at most 2MiB tail per file. Counters count matching lines, not distinct failures. Process comm names are filtered to fixed public names and the collector UID, without proving association with this Wine prefix. Historical entries and negative matches cannot prove this launch succeeded or failed; files/processes may change during installation or migration."
+}

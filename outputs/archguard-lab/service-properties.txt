@@ -1,0 +1,24 @@
+ActiveState=active
+SubState=running
+UnitFileState=enabled
+MainPID=673
+MemoryCurrent=11145216
+CapabilityBoundingSet=
+User=archguard-lab
+NoNewPrivileges=yes
+Started ArchGuard laboratory integrity monitor.
+{"time": "2026-10-12T04:21:37.217182+00:00", "event": "integrity_transition", "integrity": "clean", "files": [{"name": "demo.bin", "state": "clean"}]}
+{"time": "2026-10-12T04:21:37.217708+00:00", "event": "started", "version": "0.1.0", "uid": 968, "socket": "/run/archguard-lab/control.sock", "targets": 1}
+{"time": "2026-10-12T04:21:53.223668+00:00", "event": "integrity_transition", "integrity": "alert", "files": [{"name": "demo.bin", "state": "modified"}]}
+Stopping ArchGuard laboratory integrity monitor...
+{"time": "2026-10-12T04:21:53.500027+00:00", "event": "stopped"}
+archguard-lab.service: Deactivated successfully.
+Stopped ArchGuard laboratory integrity monitor.
+Started ArchGuard laboratory integrity monitor.
+{"time": "2026-10-12T04:21:53.596139+00:00", "event": "integrity_transition", "integrity": "alert", "files": [{"name": "demo.bin", "state": "modified"}]}
+{"time": "2026-10-12T04:21:53.596753+00:00", "event": "started", "version": "0.1.0", "uid": 968, "socket": "/run/archguard-lab/control.sock", "targets": 1}
+{"time": "2026-10-12T04:21:54.597011+00:00", "event": "integrity_transition", "integrity": "alert", "files": [{"name": "demo.bin", "state": "missing"}]}
+{"time": "2026-10-12T04:21:55.597447+00:00", "event": "integrity_transition", "integrity": "alert", "files": [{"name": "demo.bin", "state": "unavailable"}]}
+{"time": "2026-10-12T04:21:56.597917+00:00", "event": "integrity_transition", "integrity": "alert", "files": [{"name": "demo.bin", "state": "unsafe"}]}
+{"time": "2026-10-12T04:21:57.598272+00:00", "event": "integrity_transition", "integrity": "alert", "files": [{"name": "demo.bin", "state": "unavailable"}]}
+{"time": "2026-10-12T04:21:58.598854+00:00", "event": "integrity_transition", "integrity": "clean", "files": [{"name": "demo.bin", "state": "clean"}]}

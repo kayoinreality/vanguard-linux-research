@@ -1,0 +1,307 @@
+{
+  "collected_at_utc": "2026-10-12T04:35:56.488595+00:00",
+  "path": "C:\\vanguard-linux-research\\work\\vanguard-estudo\\samples\\vgk.sys",
+  "bytes": 109721528,
+  "sha256": "8ba32cfbc4a07fd41a082344e23e312515ffafef0e568ba72e7d33e83b558f13",
+  "image_base_preferred": 5368709120,
+  "image_size_declared": 108994560,
+  "coff_timestamp_raw": 1790866011,
+  "coff_characteristics": "0x0022",
+  "dll_characteristics": "0x01e0",
+  "entrypoint": {
+    "rva": 102506812,
+    "file_offset": 102262588,
+    "section": ".riot1"
+  },
+  "sections": [
+    {
+      "name": ".text",
+      "rva": 4096,
+      "virtual_size": 1400421,
+      "raw_offset": 1536,
+      "raw_size": 1400832,
+      "characteristics": "0x68000060"
+    },
+    {
+      "name": "",
+      "rva": 1404928,
+      "virtual_size": 4096,
+      "raw_offset": 1402368,
+      "raw_size": 4096,
+      "characteristics": "0x68000060"
+    },
+    {
+      "name": "_ENTROPY",
+      "rva": 1409024,
+      "virtual_size": 64,
+      "raw_offset": 1406464,
+      "raw_size": 512,
+      "characteristics": "0x68000060"
+    },
+    {
+      "name": ".rdata",
+      "rva": 1413120,
+      "virtual_size": 58376,
+      "raw_offset": 1406976,
+      "raw_size": 58880,
+      "characteristics": "0x48000040"
+    },
+    {
+      "name": ".data",
+      "rva": 1474560,
+      "virtual_size": 232184,
+      "raw_offset": 1465856,
+      "raw_size": 17408,
+      "characteristics": "0xc8000040"
+    },
+    {
+      "name": ".pdata",
+      "rva": 1708032,
+      "virtual_size": 12636,
+      "raw_offset": 1483264,
+      "raw_size": 12800,
+      "characteristics": "0x48000040"
+    },
+    {
+      "name": ".NT",
+      "rva": 1724416,
+      "virtual_size": 24576,
+      "raw_offset": 1496064,
+      "raw_size": 24576,
+      "characteristics": "0xc8000040"
+    },
+    {
+      "name": ".edata",
+      "rva": 1748992,
+      "virtual_size": 77,
+      "raw_offset": 1520640,
+      "raw_size": 512,
+      "characteristics": "0x40000040"
+    },
+    {
+      "name": "INIT",
+      "rva": 1753088,
+      "virtual_size": 4170,
+      "raw_offset": 1521152,
+      "raw_size": 4608,
+      "characteristics": "0xc8000040"
+    },
+    {
+      "name": ".stub0",
+      "rva": 1761280,
+      "virtual_size": 262160,
+      "raw_offset": 1525760,
+      "raw_size": 262656,
+      "characteristics": "0x68000060"
+    },
+    {
+      "name": ".riot2",
+      "rva": 2027520,
+      "virtual_size": 1264,
+      "raw_offset": 1788416,
+      "raw_size": 1536,
+      "characteristics": "0x42000040"
+    },
+    {
+      "name": ".rsrc",
+      "rva": 2031616,
+      "virtual_size": 23980,
+      "raw_offset": 1789952,
+      "raw_size": 24064,
+      "characteristics": "0x42000040"
+    },
+    {
+      "name": ".grfn1",
+      "rva": 2056192,
+      "virtual_size": 99673969,
+      "raw_offset": 1814016,
+      "raw_size": 99674112,
+      "characteristics": "0x60000060"
+    },
+    {
+      "name": ".riot0",
+      "rva": 101732352,
+      "virtual_size": 565248,
+      "raw_offset": 101488128,
+      "raw_size": 565248,
+      "characteristics": "0xc0000040"
+    },
+    {
+      "name": ".riot1",
+      "rva": 102297600,
+      "virtual_size": 6692864,
+      "raw_offset": 102053376,
+      "raw_size": 6689280,
+      "characteristics": "0x60000060"
+    },
+    {
+      "name": ".reloc",
+      "rva": 108990464,
+      "virtual_size": 4096,
+      "raw_offset": 108742656,
+      "raw_size": 1536,
+      "characteristics": "0x42000040"
+    }
+  ],
+  "data_directories": [
+    {
+      "index": 0,
+      "name": "export",
+      "value": 102167120,
+      "size": 77,
+      "address_kind": "rva",
+      "file_offset": 101922896
+    },
+    {
+      "index": 1,
+      "name": "import",
+      "value": 1753088,
+      "size": 100,
+      "address_kind": "rva",
+      "file_offset": 1521152
+    },
+    {
+      "index": 2,
+      "name": "resource",
+      "value": 2031616,
+      "size": 23980,
+      "address_kind": "rva",
+      "file_offset": 1789952
+    },
+    {
+      "index": 3,
+      "name": "exception",
+      "value": 101732648,
+      "size": 434472,
+      "address_kind": "rva",
+      "file_offset": 101488424
+    },
+    {
+      "index": 4,
+      "name": "security",
+      "value": 108744192,
+      "size": 977336,
+      "address_kind": "file_offset",
+      "file_offset": 108744192
+    },
+    {
+      "index": 5,
+      "name": "base_relocation",
+      "value": 108990464,
+      "size": 1276,
+      "address_kind": "rva",
+      "file_offset": 108742656
+    },
+    {
+      "index": 6,
+      "name": "debug",
+      "value": 1455880,
+      "size": 84,
+      "address_kind": "rva",
+      "file_offset": 1449736
+    },
+    {
+      "index": 7,
+      "name": "architecture",
+      "value": 0,
+      "size": 0,
+      "address_kind": "rva"
+    },
+    {
+      "index": 8,
+      "name": "global_ptr",
+      "value": 0,
+      "size": 0,
+      "address_kind": "rva"
+    },
+    {
+      "index": 9,
+      "name": "tls",
+      "value": 0,
+      "size": 0,
+      "address_kind": "rva"
+    },
+    {
+      "index": 10,
+      "name": "load_config",
+      "value": 1455552,
+      "size": 328,
+      "address_kind": "rva",
+      "file_offset": 1449408
+    },
+    {
+      "index": 11,
+      "name": "bound_import",
+      "value": 0,
+      "size": 0,
+      "address_kind": "rva"
+    },
+    {
+      "index": 12,
+      "name": "iat",
+      "value": 1413120,
+      "size": 1088,
+      "address_kind": "rva",
+      "file_offset": 1406976
+    },
+    {
+      "index": 13,
+      "name": "delay_import",
+      "value": 0,
+      "size": 0,
+      "address_kind": "rva"
+    },
+    {
+      "index": 14,
+      "name": "clr",
+      "value": 0,
+      "size": 0,
+      "address_kind": "rva"
+    },
+    {
+      "index": 15,
+      "name": "reserved",
+      "value": 0,
+      "size": 0,
+      "address_kind": "rva"
+    }
+  ],
+  "exports": [
+    {
+      "ordinal": 1,
+      "names": [
+        "Egg"
+      ],
+      "rva": 108818128,
+      "file_offset": 108573904,
+      "section": ".riot1"
+    },
+    {
+      "ordinal": 2,
+      "names": [
+        "Egg2"
+      ],
+      "rva": 108818144,
+      "file_offset": 108573920,
+      "section": ".riot1"
+    }
+  ],
+  "tls_callbacks": [],
+  "exception_summary": {
+    "declared_bytes": 434472,
+    "size_multiple_of_12": true,
+    "candidate_records": 36206,
+    "records_passing_minimal_range_mapping_check": 36206,
+    "nondecreasing_begin_rva": true,
+    "records_covering_pe_entrypoint": [
+      {
+        "begin_rva": 102506812,
+        "end_rva": 102506882,
+        "unwind_rva": 102523152
+      }
+    ],
+    "limitation": "Heuristic byte-range check only. No unwind instruction/code validation or runtime interpretation."
+  },
+  "warnings": [],
+  "limitations": "Static PE bytes only, no disassembly, loading, execution or protocol analysis. Header flags/names do not establish runtime behavior. No certificate verification in this parser."
+}

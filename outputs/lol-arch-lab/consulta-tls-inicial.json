@@ -1,0 +1,18 @@
+{
+  "observed_utc": "2026-10-12T14:29:21Z",
+  "method": "GET",
+  "local_tls_ca": "original ASAR dist/main/root.pem",
+  "certificate_validation_enabled": true,
+  "resources": [
+    {
+      "resource": "/patch-proxy/v2/patch-states/products/league_of_legends/patchlines/live",
+      "error_type": "URLError",
+      "tls_verify_code": 85
+    },
+    {
+      "resource": "/patch-proxy/v1/patch-states/products/league_of_legends/patchlines/live",
+      "error_type": "URLError",
+      "tls_verify_code": 85
+    }
+  ]
+}
