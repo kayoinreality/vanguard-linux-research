@@ -1,0 +1,31 @@
+{
+  "archive_sha256": "c59631b545fb11ccde204c901cb73bd9a7ba273e51e95cbf5f7ac51e606a7e60",
+  "archive_bytes": 154535634,
+  "files": {
+    "dist/main/main.js": {
+      "patch_route_literals": [],
+      "public_identifiers_present": [
+        "initHttpClient"
+      ]
+    },
+    "dist/renderer/renderer.js": {
+      "patch_route_literals": [
+        "/patch-proxy/v1/patch-states/products/${Ge}/patchlines/${Ke.id}",
+        "/patch-proxy/v1/patch-states/products/${Ke}/patchlines/${Qe}",
+        "/patch-proxy/v1/priority-patch-jobs/products/${Ke}/patchlines/${Qe}",
+        "/patch-proxy/v2/patch-jobs/products/${Ge}/patchlines/${Ke}",
+        "/patch-proxy/v2/patch-states/products/${Ge}/patchlines/${Ke}",
+        "/patch-proxy/v2/patch-states/refresh",
+        "/patch-proxy/v2/priority-patch/products/${Ge}/patchlines/${Ke}"
+      ],
+      "public_identifiers_present": [
+        "buildPatchProxyV2PatchStatesURI",
+        "usePatchStateV2",
+        "combined_patch_state",
+        "totalBytesDownloaded",
+        "totalBytesToDownload",
+        "overallProgress"
+      ]
+    }
+  }
+}

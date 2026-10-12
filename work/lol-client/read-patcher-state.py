@@ -19,7 +19,12 @@ if os.getuid() != 1000:
     raise SystemExit('Invalid lab invocation')
 archive = Path('/home/lab/lol-lab/prefix/drive_c/Riot Games/Riot Client/RiotClientElectron/resources/app.asar')
 with archive.open('rb') as handle:
-    if hashlib.file_digest(handle, 'sha256').hexdigest() != '5d346edfd1c69648643b2633ac75430db4722ad974b80521ff909759f26b88a6':
+    archive_hash = hashlib.file_digest(handle, 'sha256').hexdigest()
+    # Original collection and the official BR installer repair observed locally.
+    if archive_hash not in {
+        '5d346edfd1c69648643b2633ac75430db4722ad974b80521ff909759f26b88a6',
+        'c59631b545fb11ccde204c901cb73bd9a7ba273e51e95cbf5f7ac51e606a7e60',
+    }:
         raise SystemExit('Original ASAR identity mismatch')
 with archive.open('rb') as handle:
     size_payload, header_size = struct.unpack('<II', handle.read(8))
@@ -81,10 +86,13 @@ def status(value):
     if not isinstance(value, dict):
         return {'type': type(value).__name__}
     result = {}
-    for key in ('state', 'combined_patch_state', 'repair_code'):
+    for key in ('launchable',):
+        if type(value.get(key)) is bool:
+            result[key] = value[key]
+    for key in ('state', 'combined_patch_state', 'repair_code', 'repairCode', 'repairReason', 'previousState'):
         if enum(value.get(key)) is not None:
             result[key] = enum(value[key])
-        elif key == 'repair_code' and type(value.get(key)) is int:
+        elif key in ('repair_code', 'repairCode') and type(value.get(key)) is int:
             result[key] = value[key]
     if isinstance(value.get('progress'), dict):
         result['progress'] = progress(value['progress'])
@@ -107,7 +115,7 @@ def status(value):
     result['public_schema_keys'] = [key for key in value if isinstance(key, str) and re.fullmatch(r'[a-zA-Z][a-zA-Z_]{0,39}', key) and not re.search(r'auth|token|secret|session|account|user|player|credential|email|password', key, re.I)]
     return result
 
-report = {'observed_utc': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'method': 'GET', 'local_tls_ca': 'original ASAR dist/main/root.pem', 'certificate_validation_enabled': context.verify_mode == ssl.CERT_REQUIRED, 'hostname_validation_enabled': context.check_hostname, 'x509_verify_flags': int(context.verify_flags), 'resources': []}
+report = {'observed_utc': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'method': 'GET', 'archive_sha256': archive_hash, 'local_tls_ca': 'original ASAR dist/main/root.pem', 'certificate_validation_enabled': context.verify_mode == ssl.CERT_REQUIRED, 'hostname_validation_enabled': context.check_hostname, 'x509_verify_flags': int(context.verify_flags), 'resources': []}
 for version in ('v2', 'v1'):
     path = f'/patch-proxy/{version}/patch-states/products/league_of_legends/patchlines/live'
     item = {'resource': path}
